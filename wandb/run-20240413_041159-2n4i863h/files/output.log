@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 104, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 34, in main
+    agent = DQNAgent(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 37, in __init__
+    self.buffer.populate(env, max_steps)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/replay_memory.py", line 103, in populate
+    next_state, reward, done, _ = env.step(action)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/utils.py", line 82, in step
+    return (self.buffer.copy(), reward, done, info)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 104, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 34, in main
+    agent = DQNAgent(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 37, in __init__
+    self.buffer.populate(env, max_steps)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/replay_memory.py", line 103, in populate
+    next_state, reward, done, _ = env.step(action)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/utils.py", line 82, in step
+    return (self.buffer.copy(), reward, done, info)
+KeyboardInterrupt

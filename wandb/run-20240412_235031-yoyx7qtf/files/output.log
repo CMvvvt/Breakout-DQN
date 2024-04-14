@@ -1,0 +1,108 @@
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 34, in main
+    agent = DQNAgent(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 36, in __init__
+    self.model = ConvDQN(input_dims, n_actions, lr)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/ConvDQN.py", line 35, in __init__
+    self.optimizer = optim.Adam(self.parameters(), lr=lr)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/optim/adam.py", line 45, in __init__
+    super().__init__(params, defaults)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/optim/optimizer.py", line 278, in __init__
+    self.add_param_group(cast(dict, param_group))
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/_compile.py", line 22, in inner
+    import torch._dynamo
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 2, in <module>
+    from . import allowed_functions, convert_frame, eval_frame, resume_execution
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/_dynamo/allowed_functions.py", line 30, in <module>
+    from .utils import hashable, is_safe_constant, NP_SUPPORTED_MODULES
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/_dynamo/utils.py", line 89, in <module>
+    import torch.fx.experimental.symbolic_shapes
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/fx/experimental/symbolic_shapes.py", line 38, in <module>
+    from torch.utils._sympy.functions import FloorDiv, Mod, IsNonOverlappingAndDenseIndicator
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/utils/_sympy/functions.py", line 1, in <module>
+    import sympy
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/__init__.py", line 74, in <module>
+    from .polys import (Poly, PurePoly, poly_from_expr, parallel_poly_from_expr,
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/polys/__init__.py", line 78, in <module>
+    from .polyfuncs import (symmetrize, horner, interpolate,
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/polys/polyfuncs.py", line 10, in <module>
+    from sympy.polys.specialpolys import (
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/polys/specialpolys.py", line 298, in <module>
+    from sympy.polys.rings import ring
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/polys/rings.py", line 30, in <module>
+    from sympy.printing.defaults import DefaultPrinting
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/printing/__init__.py", line 5, in <module>
+    from .latex import latex, print_latex, multiline_latex
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/printing/latex.py", line 18, in <module>
+    from sympy.tensor.array import NDimArray
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/tensor/__init__.py", line 4, in <module>
+    from .indexed import IndexedBase, Idx, Indexed
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/tensor/indexed.py", line 114, in <module>
+    from sympy.functions.special.tensor_functions import KroneckerDelta
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/functions/__init__.py", line 17, in <module>
+    from sympy.functions.elementary.trigonometric import (sin, cos, tan,
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/functions/elementary/trigonometric.py", line 20, in <module>
+    from sympy.functions.elementary._trigonometric_special import (
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1012, in get_code
+  File "<frozen importlib._bootstrap_external>", line 672, in _compile_bytecode
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 34, in main
+    agent = DQNAgent(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 36, in __init__
+    self.model = ConvDQN(input_dims, n_actions, lr)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/ConvDQN.py", line 35, in __init__
+    self.optimizer = optim.Adam(self.parameters(), lr=lr)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/optim/adam.py", line 45, in __init__
+    super().__init__(params, defaults)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/optim/optimizer.py", line 278, in __init__
+    self.add_param_group(cast(dict, param_group))
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/_compile.py", line 22, in inner
+    import torch._dynamo
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 2, in <module>
+    from . import allowed_functions, convert_frame, eval_frame, resume_execution
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/_dynamo/allowed_functions.py", line 30, in <module>
+    from .utils import hashable, is_safe_constant, NP_SUPPORTED_MODULES
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/_dynamo/utils.py", line 89, in <module>
+    import torch.fx.experimental.symbolic_shapes
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/fx/experimental/symbolic_shapes.py", line 38, in <module>
+    from torch.utils._sympy.functions import FloorDiv, Mod, IsNonOverlappingAndDenseIndicator
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/utils/_sympy/functions.py", line 1, in <module>
+    import sympy
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/__init__.py", line 74, in <module>
+    from .polys import (Poly, PurePoly, poly_from_expr, parallel_poly_from_expr,
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/polys/__init__.py", line 78, in <module>
+    from .polyfuncs import (symmetrize, horner, interpolate,
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/polys/polyfuncs.py", line 10, in <module>
+    from sympy.polys.specialpolys import (
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/polys/specialpolys.py", line 298, in <module>
+    from sympy.polys.rings import ring
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/polys/rings.py", line 30, in <module>
+    from sympy.printing.defaults import DefaultPrinting
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/printing/__init__.py", line 5, in <module>
+    from .latex import latex, print_latex, multiline_latex
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/printing/latex.py", line 18, in <module>
+    from sympy.tensor.array import NDimArray
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/tensor/__init__.py", line 4, in <module>
+    from .indexed import IndexedBase, Idx, Indexed
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/tensor/indexed.py", line 114, in <module>
+    from sympy.functions.special.tensor_functions import KroneckerDelta
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/functions/__init__.py", line 17, in <module>
+    from sympy.functions.elementary.trigonometric import (sin, cos, tan,
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/sympy/functions/elementary/trigonometric.py", line 20, in <module>
+    from sympy.functions.elementary._trigonometric_special import (
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1012, in get_code
+  File "<frozen importlib._bootstrap_external>", line 672, in _compile_bytecode
+KeyboardInterrupt

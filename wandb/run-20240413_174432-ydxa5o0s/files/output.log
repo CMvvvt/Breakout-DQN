@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 119, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 50, in main
+    env = Environment(ENV_NAME)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/utils.py", line 100, in __init__
+    self.action_space = self.env.action_space
+AttributeError: can't set attribute 'action_space'
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 119, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 50, in main
+    env = Environment(ENV_NAME)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/utils.py", line 100, in __init__
+    self.action_space = self.env.action_space
+AttributeError: can't set attribute 'action_space'

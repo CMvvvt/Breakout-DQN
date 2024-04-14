@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 34, in main
+    agent = DQNAgent(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 36, in __init__
+    self.model = ConvDQN(input_dims, n_actions, lr)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/ConvDQN.py", line 24, in __init__
+    raise ValueError("Invalid state_dim, must be (height, width, channels)")
+ValueError: Invalid state_dim, must be (height, width, channels)
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 34, in main
+    agent = DQNAgent(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 36, in __init__
+    self.model = ConvDQN(input_dims, n_actions, lr)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/ConvDQN.py", line 24, in __init__
+    raise ValueError("Invalid state_dim, must be (height, width, channels)")
+ValueError: Invalid state_dim, must be (height, width, channels)
+shape in model:(4, 84, 84)

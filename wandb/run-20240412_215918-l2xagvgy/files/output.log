@@ -1,0 +1,25 @@
+shape in model:(4, 84, 84)
+shape in model:(4, 84, 84)
+Shape of im (210, 160, 3)
+shape of observation (4, 84, 84)
+shape of next observation (4, 84, 84)
+0it [00:00, ?it/s]Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 72, in main
+    agent.insert_buffer(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 40, in insert_buffer
+    self.buffer.add(state, action, reward, next_state, done)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/replay_memory.py", line 48, in add
+    self.states[self.idx] = torch.tensor(state).permute(1, 2, 0)
+RuntimeError: The expanded size of the tensor (84) must match the existing size (4) at non-singleton dimension 2.  Target sizes: [4, 84, 84].  Tensor sizes: [84, 84, 4]
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 72, in main
+    agent.insert_buffer(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 40, in insert_buffer
+    self.buffer.add(state, action, reward, next_state, done)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/replay_memory.py", line 48, in add
+    self.states[self.idx] = torch.tensor(state).permute(1, 2, 0)
+RuntimeError: The expanded size of the tensor (84) must match the existing size (4) at non-singleton dimension 2.  Target sizes: [4, 84, 84].  Tensor sizes: [84, 84, 4]

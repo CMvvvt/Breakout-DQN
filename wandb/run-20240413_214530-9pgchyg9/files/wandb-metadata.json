@@ -1,0 +1,37 @@
+{
+    "os": "macOS-14.4-arm64-arm-64bit",
+    "python": "3.10.13",
+    "heartbeatAt": "2024-04-14T01:45:30.501149",
+    "startedAt": "2024-04-14T01:45:30.171534",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/ming/Courses/5180/project/dqn-breakout/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "project/dqn-breakout/main.py",
+    "git": {
+        "remote": "git@github.com:CMvvvt/CS5180-RL.git",
+        "commit": "0fc933208f21ddc09a7dc0bf048ea34eff5d693d"
+    },
+    "email": "452000761@qq.com",
+    "root": "/Users/ming/Courses/5180",
+    "host": "Mings-MacBook-Pro.local",
+    "username": "ming",
+    "executable": "/Users/ming/.pyenv/versions/3.10.13/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 10.113151550292969
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 32.0
+    }
+}

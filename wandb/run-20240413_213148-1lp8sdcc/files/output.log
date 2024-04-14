@@ -1,0 +1,291 @@
+/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/gymnasium/envs/registration.py:513: DeprecationWarning: [33mWARN: The environment Breakout-v0 is out of date. You should consider upgrading to version `v4`.
+  logger.deprecation(
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+27000
+28000
+29000
+30000
+31000
+32000
+33000
+34000
+35000
+36000
+37000
+38000
+39000
+40000
+41000
+42000
+43000
+44000
+45000
+46000
+47000
+48000
+49000
+50000
+51000
+52000
+53000
+54000
+55000
+56000
+57000
+58000
+59000
+60000
+61000
+62000
+63000
+64000
+65000
+66000
+67000
+68000
+69000
+70000
+71000
+72000
+73000
+74000
+75000
+76000
+77000
+78000
+79000
+80000
+81000
+82000
+83000
+84000
+85000
+86000
+87000
+88000
+89000
+90000
+91000
+92000
+93000
+94000
+95000
+96000
+97000
+0it [00:00, ?it/s]
+98000
+99000
+100000
+
+
+207it [00:03, 84.57it/s]
+
+
+
+404it [00:36, 61.76it/s]
+
+
+681it [00:40, 69.91it/s]
+
+
+
+1075it [00:46, 70.04it/s]
+
+1187it [00:47, 73.37it/s]
+
+1321it [00:49, 56.06it/s]
+
+
+
+1772it [00:56, 78.96it/s]
+
+1925it [00:58, 75.84it/s]
+
+
+2192it [01:02, 77.75it/s]
+
+
+2453it [01:06, 71.21it/s]
+
+
+2752it [01:10, 68.51it/s]
+
+2896it [01:12, 76.68it/s]
+
+
+3191it [01:16, 66.71it/s]
+
+
+3486it [01:20, 69.56it/s]
+
+3634it [01:22, 74.55it/s]
+
+
+3939it [01:26, 76.40it/s]
+
+4091it [01:28, 77.31it/s]
+
+4250it [01:30, 74.10it/s]
+
+
+4545it [01:34, 79.22it/s]
+
+4688it [01:36, 67.39it/s]
+
+
+4963it [01:40, 55.05it/s]
+
+
+
+5387it [01:46, 75.45it/s]
+
+5542it [01:48, 77.79it/s]
+
+5699it [01:50, 79.41it/s]
+
+
+5998it [01:54, 75.10it/s]
+
+6149it [01:56, 76.35it/s]
+
+
+
+6577it [02:02, 75.62it/s]
+
+
+6870it [02:06, 73.82it/s]
+
+7023it [02:08, 75.85it/s]
+
+7173it [02:10, 75.19it/s]
+
+
+7454it [02:14, 70.85it/s]
+
+7583it [02:16, 72.29it/s]
+
+7721it [02:18, 58.27it/s]
+
+
+8000it [02:22, 78.14it/s]
+
+
+8284it [02:26, 73.04it/s]
+
+
+8579it [02:30, 79.30it/s]
+
+8715it [02:32, 79.30it/s]
+
+
+
+
+9247it [02:40, 67.12it/s]
+
+9403it [02:42, 78.51it/s]
+
+
+9697it [02:46, 72.41it/s]
+
+
+9985it [02:50, 55.69it/s]
+
+
+10296it [02:54, 82.87it/s]
+
+10455it [02:56, 82.19it/s]
+
+10619it [02:58, 83.21it/s]
+
+
+10880it [03:02, 73.20it/s]
+
+11015it [03:04, 66.06it/s]
+
+
+11303it [03:08, 75.28it/s]
+
+
+11567it [03:12, 61.43it/s]
+
+11705it [03:14, 67.09it/s]
+
+
+12058it [03:19, 77.87it/s]Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 140, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 98, in main
+    loss = agent.learn()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 112, in learn
+    values = self.model(states).gather(1, actions.unsqueeze(-1))
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/ConvDQN.py", line 47, in forward
+    return self.fc_net(flat_conv_state)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 140, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 98, in main
+    loss = agent.learn()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 112, in learn
+    values = self.model(states).gather(1, actions.unsqueeze(-1))
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/ConvDQN.py", line 47, in forward
+    return self.fc_net(flat_conv_state)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt
+reward of episode 49: 3.0, steps of episode: 309

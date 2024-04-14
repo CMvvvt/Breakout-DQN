@@ -1,0 +1,116 @@
+
+
+348it [00:05, 88.41it/s]/Users/ming/Courses/5180/project/dqn-breakout/agent.py:65: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:278.)
+  state = torch.tensor([observation], dtype=torch.float32).to(
+
+
+
+
+
+1319it [00:17, 84.80it/s]
+reward of episode 0: 5.0
+
+
+
+1830it [00:23, 85.01it/s]
+reward of episode 1: 0.0
+
+
+
+
+2489it [00:31, 82.96it/s]
+reward of episode 2: 1.0
+
+
+
+
+
+
+3531it [00:43, 90.67it/s]
+reward of episode 3: 3.0
+
+
+
+
+
+
+
+4723it [00:57, 90.61it/s]
+reward of episode 4: 5.0
+
+
+
+
+5323it [01:06, 82.20it/s]
+reward of episode 5: 0.0
+
+
+
+5820it [01:12, 80.73it/s]
+reward of episode 6: 0.0
+
+
+
+6260it [01:17, 87.95it/s]
+reward of episode 7: 0.0
+
+
+
+6765it [01:23, 84.30it/s]
+reward of episode 8: 0.0
+
+
+
+
+
+7570it [01:33, 82.51it/s]
+reward of episode 9: 2.0
+
+
+
+
+
+
+8562it [01:46, 84.96it/s]
+reward of episode 10: 3.0
+
+
+
+
+
+
+9573it [01:58, 81.69it/s]
+reward of episode 11: 4.0
+
+
+
+
+
+10420it [02:08, 82.76it/s]Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 75, in main
+    loss = agent.learn()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 85, in learn
+    states, actions, rewards, next_states, dones = self.sample_batch()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 43, in sample_batch
+    states, actions, rewards, next_states, dones = self.buffer.sample(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/replay_memory.py", line 78, in sample
+    batch = Batch(
+  File "<string>", line 1, in <lambda>
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 75, in main
+    loss = agent.learn()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 85, in learn
+    states, actions, rewards, next_states, dones = self.sample_batch()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 43, in sample_batch
+    states, actions, rewards, next_states, dones = self.buffer.sample(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/replay_memory.py", line 78, in sample
+    batch = Batch(
+  File "<string>", line 1, in <lambda>
+KeyboardInterrupt
+reward of episode 12: 2.0
+current step is 10392

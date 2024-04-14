@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 34, in main
+    agent = DQNAgent(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 36, in __init__
+    self.model = ConvDQN(input_dims, n_actions, lr)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/ConvDQN.py", line 17, in __init__
+    print(f"shape in model:{state_dim.shape}")
+AttributeError: 'tuple' object has no attribute 'shape'
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 34, in main
+    agent = DQNAgent(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 36, in __init__
+    self.model = ConvDQN(input_dims, n_actions, lr)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/ConvDQN.py", line 17, in __init__
+    print(f"shape in model:{state_dim.shape}")
+AttributeError: 'tuple' object has no attribute 'shape'

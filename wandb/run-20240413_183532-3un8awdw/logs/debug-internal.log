@@ -1,0 +1,319 @@
+2024-04-13 18:35:32,745 INFO    StreamThr :55680 [internal.py:wandb_internal():86] W&B internal server running at pid: 55680, started at: 2024-04-13 18:35:32.745310
+2024-04-13 18:35:32,746 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status
+2024-04-13 18:35:32,748 INFO    WriterThread:55680 [datastore.py:open_for_write():87] open: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/run-3un8awdw.wandb
+2024-04-13 18:35:32,748 DEBUG   SenderThread:55680 [sender.py:send():379] send: header
+2024-04-13 18:35:32,768 DEBUG   SenderThread:55680 [sender.py:send():379] send: run
+2024-04-13 18:35:33,005 INFO    SenderThread:55680 [dir_watcher.py:__init__():211] watching files in: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files
+2024-04-13 18:35:33,006 INFO    SenderThread:55680 [sender.py:_start_run_threads():1124] run started: 3un8awdw with start time 1713047732.746001
+2024-04-13 18:35:33,013 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: check_version
+2024-04-13 18:35:33,013 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: check_version
+2024-04-13 18:35:33,236 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: run_start
+2024-04-13 18:35:33,244 DEBUG   HandlerThread:55680 [system_info.py:__init__():26] System info init
+2024-04-13 18:35:33,244 DEBUG   HandlerThread:55680 [system_info.py:__init__():41] System info init done
+2024-04-13 18:35:33,244 INFO    HandlerThread:55680 [system_monitor.py:start():194] Starting system monitor
+2024-04-13 18:35:33,244 INFO    SystemMonitor:55680 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-13 18:35:33,244 INFO    HandlerThread:55680 [system_monitor.py:probe():214] Collecting system info
+2024-04-13 18:35:33,245 INFO    SystemMonitor:55680 [interfaces.py:start():190] Started cpu monitoring
+2024-04-13 18:35:33,245 DEBUG   HandlerThread:55680 [system_info.py:probe():150] Probing system
+2024-04-13 18:35:33,246 INFO    SystemMonitor:55680 [interfaces.py:start():190] Started disk monitoring
+2024-04-13 18:35:33,247 INFO    SystemMonitor:55680 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-13 18:35:33,281 INFO    SystemMonitor:55680 [interfaces.py:start():190] Started memory monitoring
+2024-04-13 18:35:33,283 INFO    SystemMonitor:55680 [interfaces.py:start():190] Started network monitoring
+2024-04-13 18:35:33,289 DEBUG   HandlerThread:55680 [system_info.py:_probe_git():135] Probing git
+2024-04-13 18:35:33,322 DEBUG   HandlerThread:55680 [system_info.py:_probe_git():143] Probing git done
+2024-04-13 18:35:33,322 DEBUG   HandlerThread:55680 [system_info.py:probe():198] Probing system done
+2024-04-13 18:35:33,322 DEBUG   HandlerThread:55680 [system_monitor.py:probe():223] {'os': 'macOS-14.4-arm64-arm-64bit', 'python': '3.10.13', 'heartbeatAt': '2024-04-13T22:35:33.246030', 'startedAt': '2024-04-13T22:35:32.742073', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/ming/Courses/5180/project/dqn-breakout/main.py', 'codePathLocal': 'main.py', 'codePath': 'project/dqn-breakout/main.py', 'git': {'remote': 'git@github.com:CMvvvt/CS5180-RL.git', 'commit': '0fc933208f21ddc09a7dc0bf048ea34eff5d693d'}, 'email': '452000761@qq.com', 'root': '/Users/ming/Courses/5180', 'host': 'Mings-MacBook-Pro.local', 'username': 'ming', 'executable': '/Users/ming/.pyenv/versions/3.10.13/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'disk': {'/': {'total': 460.4317207336426, 'used': 10.113151550292969}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 32.0}}
+2024-04-13 18:35:33,322 INFO    HandlerThread:55680 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-13 18:35:33,322 INFO    HandlerThread:55680 [system_monitor.py:probe():227] Publishing system info
+2024-04-13 18:35:33,323 INFO    HandlerThread:55680 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-13 18:35:33,326 DEBUG   SenderThread:55680 [sender.py:send():379] send: files
+2024-04-13 18:35:33,326 INFO    SenderThread:55680 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-13 18:35:33,465 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-13 18:35:33,466 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: python_packages
+2024-04-13 18:35:33,466 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-13 18:35:33,466 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: stop_status
+2024-04-13 18:35:33,467 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-13 18:35:33,627 DEBUG   SenderThread:55680 [sender.py:send():379] send: telemetry
+2024-04-13 18:35:33,638 INFO    wandb-upload_0:55680 [upload_job.py:push():131] Uploaded file /var/folders/08/bx4bvkt15576qc27ylsr4j5w0000gn/T/tmprjpj9k6uwandb/uw2vfyhb-wandb-metadata.json
+2024-04-13 18:35:34,008 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:35:34,008 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/wandb-metadata.json
+2024-04-13 18:35:34,008 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/requirements.txt
+2024-04-13 18:35:36,015 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:35:37,804 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:35:38,026 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:35:40,036 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:35:42,044 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:35:42,922 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:35:44,054 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:35:46,061 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:35:48,067 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:35:48,091 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:35:48,479 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-13 18:35:48,479 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-13 18:35:48,480 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: stop_status
+2024-04-13 18:35:50,072 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:35:52,083 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:35:53,096 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:35:54,085 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:35:56,095 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:35:58,105 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:35:58,251 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:36:00,108 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:01,159 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:03,151 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:03,304 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:36:03,471 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-13 18:36:03,475 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-13 18:36:03,475 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: stop_status
+2024-04-13 18:36:04,157 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/config.yaml
+2024-04-13 18:36:05,162 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:07,169 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:08,490 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:36:09,179 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:11,196 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:13,190 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:13,562 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:36:14,084 DEBUG   SenderThread:55680 [sender.py:send():379] send: telemetry
+2024-04-13 18:36:14,085 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-13 18:36:15,198 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:16,200 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:17,205 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:18,477 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-13 18:36:18,477 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-13 18:36:18,477 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: stop_status
+2024-04-13 18:36:18,566 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:36:19,213 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:21,219 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:23,378 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:23,773 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:36:24,361 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:26,367 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:27,932 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-13 18:36:27,933 DEBUG   SenderThread:55680 [sender.py:send():379] send: history
+2024-04-13 18:36:27,933 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: summary_record
+2024-04-13 18:36:27,934 INFO    SenderThread:55680 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-13 18:36:28,370 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:28,370 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/wandb-summary.json
+2024-04-13 18:36:28,875 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:36:30,379 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:32,391 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:33,289 DEBUG   SystemMonitor:55680 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-13 18:36:33,291 DEBUG   SenderThread:55680 [sender.py:send():379] send: telemetry
+2024-04-13 18:36:33,291 DEBUG   SenderThread:55680 [sender.py:send():379] send: stats
+2024-04-13 18:36:33,482 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-13 18:36:33,482 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-13 18:36:33,482 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: stop_status
+2024-04-13 18:36:33,970 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:36:34,395 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:34,395 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/config.yaml
+2024-04-13 18:36:36,402 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:38,406 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:39,126 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:36:40,412 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:42,418 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:44,229 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:36:44,426 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:46,430 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:48,432 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:48,483 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-13 18:36:48,483 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-13 18:36:48,484 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: stop_status
+2024-04-13 18:36:49,327 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:36:50,441 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:52,446 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:54,412 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:36:54,454 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:54,910 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-13 18:36:54,910 DEBUG   SenderThread:55680 [sender.py:send():379] send: history
+2024-04-13 18:36:54,910 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: summary_record
+2024-04-13 18:36:54,911 INFO    SenderThread:55680 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-13 18:36:55,459 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/wandb-summary.json
+2024-04-13 18:36:56,462 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:58,469 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:36:59,460 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:37:00,476 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:37:02,482 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:37:03,297 DEBUG   SenderThread:55680 [sender.py:send():379] send: stats
+2024-04-13 18:37:03,485 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-13 18:37:03,486 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: stop_status
+2024-04-13 18:37:03,487 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-13 18:37:04,480 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:37:04,491 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:37:06,502 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:37:06,857 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-13 18:37:06,857 DEBUG   SenderThread:55680 [sender.py:send():379] send: history
+2024-04-13 18:37:06,857 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: summary_record
+2024-04-13 18:37:06,858 INFO    SenderThread:55680 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-13 18:37:07,507 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/wandb-summary.json
+2024-04-13 18:37:08,513 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:37:09,494 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:37:10,516 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:37:12,524 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:37:14,531 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:37:14,599 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:37:15,705 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-13 18:37:15,706 DEBUG   SenderThread:55680 [sender.py:send():379] send: history
+2024-04-13 18:37:15,706 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: summary_record
+2024-04-13 18:37:15,706 INFO    SenderThread:55680 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-13 18:37:16,542 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:37:16,542 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/wandb-summary.json
+2024-04-13 18:37:18,489 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-13 18:37:18,490 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-13 18:37:18,490 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: stop_status
+2024-04-13 18:37:18,548 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:37:19,696 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:37:20,554 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:37:22,575 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:37:24,579 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:37:24,788 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:37:26,588 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:37:28,598 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:37:29,863 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:37:30,607 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:37:32,613 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:37:33,122 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-13 18:37:33,122 DEBUG   SenderThread:55680 [sender.py:send():379] send: history
+2024-04-13 18:37:33,122 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: summary_record
+2024-04-13 18:37:33,123 INFO    SenderThread:55680 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-13 18:37:33,133 DEBUG   SenderThread:55680 [sender.py:send():379] send: exit
+2024-04-13 18:37:33,133 INFO    SenderThread:55680 [sender.py:send_exit():586] handling exit code: 1
+2024-04-13 18:37:33,134 INFO    SenderThread:55680 [sender.py:send_exit():588] handling runtime: 119
+2024-04-13 18:37:33,134 INFO    SenderThread:55680 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-13 18:37:33,134 INFO    SenderThread:55680 [sender.py:send_exit():594] send defer
+2024-04-13 18:37:33,134 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: defer
+2024-04-13 18:37:33,134 INFO    HandlerThread:55680 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-13 18:37:33,135 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: defer
+2024-04-13 18:37:33,135 INFO    SenderThread:55680 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-13 18:37:33,135 INFO    SenderThread:55680 [sender.py:transition_state():614] send defer: 1
+2024-04-13 18:37:33,135 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: defer
+2024-04-13 18:37:33,135 INFO    HandlerThread:55680 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-13 18:37:33,135 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: defer
+2024-04-13 18:37:33,135 INFO    SenderThread:55680 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-13 18:37:33,135 INFO    SenderThread:55680 [sender.py:transition_state():614] send defer: 2
+2024-04-13 18:37:33,135 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: defer
+2024-04-13 18:37:33,135 INFO    HandlerThread:55680 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-13 18:37:33,135 INFO    HandlerThread:55680 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-13 18:37:33,135 DEBUG   SystemMonitor:55680 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-13 18:37:33,135 DEBUG   SystemMonitor:55680 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-13 18:37:33,135 INFO    HandlerThread:55680 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-13 18:37:33,136 INFO    HandlerThread:55680 [interfaces.py:finish():202] Joined disk monitor
+2024-04-13 18:37:33,136 INFO    HandlerThread:55680 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-13 18:37:33,136 INFO    HandlerThread:55680 [interfaces.py:finish():202] Joined memory monitor
+2024-04-13 18:37:33,136 INFO    HandlerThread:55680 [interfaces.py:finish():202] Joined network monitor
+2024-04-13 18:37:33,136 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: defer
+2024-04-13 18:37:33,137 INFO    SenderThread:55680 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-13 18:37:33,137 INFO    SenderThread:55680 [sender.py:transition_state():614] send defer: 3
+2024-04-13 18:37:33,137 DEBUG   SenderThread:55680 [sender.py:send():379] send: stats
+2024-04-13 18:37:33,137 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: defer
+2024-04-13 18:37:33,137 INFO    HandlerThread:55680 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-13 18:37:33,137 DEBUG   SenderThread:55680 [sender.py:send():379] send: history
+2024-04-13 18:37:33,137 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: summary_record
+2024-04-13 18:37:33,137 INFO    SenderThread:55680 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-13 18:37:33,138 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: defer
+2024-04-13 18:37:33,138 INFO    SenderThread:55680 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-13 18:37:33,138 INFO    SenderThread:55680 [sender.py:transition_state():614] send defer: 4
+2024-04-13 18:37:33,138 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: defer
+2024-04-13 18:37:33,138 INFO    HandlerThread:55680 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-13 18:37:33,138 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: defer
+2024-04-13 18:37:33,138 INFO    SenderThread:55680 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-13 18:37:33,138 INFO    SenderThread:55680 [sender.py:transition_state():614] send defer: 5
+2024-04-13 18:37:33,138 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: defer
+2024-04-13 18:37:33,138 INFO    HandlerThread:55680 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-13 18:37:33,138 DEBUG   SenderThread:55680 [sender.py:send():379] send: summary
+2024-04-13 18:37:33,138 INFO    SenderThread:55680 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-13 18:37:33,138 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: defer
+2024-04-13 18:37:33,138 INFO    SenderThread:55680 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-13 18:37:33,138 INFO    SenderThread:55680 [sender.py:transition_state():614] send defer: 6
+2024-04-13 18:37:33,138 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: defer
+2024-04-13 18:37:33,138 INFO    HandlerThread:55680 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-13 18:37:33,138 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: defer
+2024-04-13 18:37:33,138 INFO    SenderThread:55680 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-13 18:37:33,139 INFO    SenderThread:55680 [sender.py:transition_state():614] send defer: 7
+2024-04-13 18:37:33,139 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: status_report
+2024-04-13 18:37:33,139 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: defer
+2024-04-13 18:37:33,139 INFO    HandlerThread:55680 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-13 18:37:33,139 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: defer
+2024-04-13 18:37:33,139 INFO    SenderThread:55680 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-13 18:37:33,614 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/wandb-summary.json
+2024-04-13 18:37:34,138 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-13 18:37:34,480 INFO    SenderThread:55680 [sender.py:transition_state():614] send defer: 8
+2024-04-13 18:37:34,481 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: poll_exit
+2024-04-13 18:37:34,481 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: defer
+2024-04-13 18:37:34,485 INFO    HandlerThread:55680 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-13 18:37:34,485 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: defer
+2024-04-13 18:37:34,485 INFO    SenderThread:55680 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-13 18:37:34,485 INFO    SenderThread:55680 [job_builder.py:build():318] Attempting to build job artifact
+2024-04-13 18:37:34,486 INFO    SenderThread:55680 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-04-13 18:37:34,515 INFO    SenderThread:55680 [job_builder.py:build():431] adding wandb-job metadata file
+2024-04-13 18:37:34,517 INFO    SenderThread:55680 [sender.py:transition_state():614] send defer: 9
+2024-04-13 18:37:34,517 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: defer
+2024-04-13 18:37:34,518 INFO    HandlerThread:55680 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-13 18:37:34,518 DEBUG   SenderThread:55680 [sender.py:send():379] send: artifact
+2024-04-13 18:37:34,619 INFO    Thread-12 :55680 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:37:34,873 INFO    SenderThread:55680 [sender.py:send_artifact():1468] sent artifact job-git_github.com_CMvvvt_CS5180-RL.git_project_dqn-breakout_main.py - {'id': 'QXJ0aWZhY3Q6Nzk1NDkyMTk1', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE2MjEzNzMyOA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Nzk1NDkyMTk1', 'versionIndex': 4}}}
+2024-04-13 18:37:34,873 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: defer
+2024-04-13 18:37:34,873 INFO    SenderThread:55680 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-13 18:37:34,873 INFO    SenderThread:55680 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-13 18:37:35,144 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-13 18:37:35,625 INFO    SenderThread:55680 [dir_watcher.py:finish():388] scan: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files
+2024-04-13 18:37:35,625 INFO    SenderThread:55680 [dir_watcher.py:finish():402] scan save: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/requirements.txt requirements.txt
+2024-04-13 18:37:35,625 INFO    SenderThread:55680 [dir_watcher.py:finish():402] scan save: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log output.log
+2024-04-13 18:37:35,626 INFO    SenderThread:55680 [dir_watcher.py:finish():402] scan save: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/config.yaml config.yaml
+2024-04-13 18:37:35,628 INFO    SenderThread:55680 [dir_watcher.py:finish():402] scan save: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/wandb-summary.json wandb-summary.json
+2024-04-13 18:37:35,628 INFO    SenderThread:55680 [dir_watcher.py:finish():402] scan save: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/wandb-metadata.json wandb-metadata.json
+2024-04-13 18:37:35,629 INFO    SenderThread:55680 [sender.py:transition_state():614] send defer: 10
+2024-04-13 18:37:35,629 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: poll_exit
+2024-04-13 18:37:35,630 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: defer
+2024-04-13 18:37:35,630 INFO    HandlerThread:55680 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-13 18:37:35,631 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: defer
+2024-04-13 18:37:35,631 INFO    SenderThread:55680 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-13 18:37:35,631 INFO    SenderThread:55680 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-13 18:37:35,837 INFO    wandb-upload_0:55680 [upload_job.py:push():131] Uploaded file /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/requirements.txt
+2024-04-13 18:37:35,944 INFO    wandb-upload_1:55680 [upload_job.py:push():131] Uploaded file /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/output.log
+2024-04-13 18:37:35,946 INFO    wandb-upload_3:55680 [upload_job.py:push():131] Uploaded file /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/wandb-summary.json
+2024-04-13 18:37:35,947 INFO    wandb-upload_2:55680 [upload_job.py:push():131] Uploaded file /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/files/config.yaml
+2024-04-13 18:37:36,149 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-13 18:37:36,150 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: poll_exit
+2024-04-13 18:37:36,152 INFO    Thread-11 (_thread_body):55680 [sender.py:transition_state():614] send defer: 11
+2024-04-13 18:37:36,153 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: defer
+2024-04-13 18:37:36,153 INFO    HandlerThread:55680 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-13 18:37:36,153 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: defer
+2024-04-13 18:37:36,153 INFO    SenderThread:55680 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-13 18:37:36,153 INFO    SenderThread:55680 [file_pusher.py:join():178] waiting for file pusher
+2024-04-13 18:37:36,153 INFO    SenderThread:55680 [sender.py:transition_state():614] send defer: 12
+2024-04-13 18:37:36,153 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: defer
+2024-04-13 18:37:36,153 INFO    HandlerThread:55680 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-13 18:37:36,153 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: defer
+2024-04-13 18:37:36,153 INFO    SenderThread:55680 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-13 18:37:36,153 INFO    SenderThread:55680 [file_stream.py:finish():614] file stream finish called
+2024-04-13 18:37:36,412 INFO    SenderThread:55680 [file_stream.py:finish():618] file stream finish is done
+2024-04-13 18:37:36,412 INFO    SenderThread:55680 [sender.py:transition_state():614] send defer: 13
+2024-04-13 18:37:36,412 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: defer
+2024-04-13 18:37:36,412 INFO    HandlerThread:55680 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-13 18:37:36,413 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: defer
+2024-04-13 18:37:36,413 INFO    SenderThread:55680 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-13 18:37:36,413 INFO    SenderThread:55680 [sender.py:transition_state():614] send defer: 14
+2024-04-13 18:37:36,413 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: defer
+2024-04-13 18:37:36,413 INFO    HandlerThread:55680 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-13 18:37:36,413 DEBUG   SenderThread:55680 [sender.py:send():379] send: final
+2024-04-13 18:37:36,413 DEBUG   SenderThread:55680 [sender.py:send():379] send: footer
+2024-04-13 18:37:36,413 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: defer
+2024-04-13 18:37:36,413 INFO    SenderThread:55680 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-13 18:37:36,414 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-13 18:37:36,414 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: poll_exit
+2024-04-13 18:37:36,414 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-13 18:37:36,415 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: server_info
+2024-04-13 18:37:36,415 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-13 18:37:36,415 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: poll_exit
+2024-04-13 18:37:36,415 DEBUG   SenderThread:55680 [sender.py:send_request():406] send_request: server_info
+2024-04-13 18:37:36,415 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-13 18:37:36,416 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-13 18:37:36,471 INFO    MainThread:55680 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-04-13 18:37:36,472 INFO    MainThread:55680 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-04-13 18:37:36,472 INFO    MainThread:55680 [wandb_run.py:_footer_sync_info():3895] logging synced files
+2024-04-13 18:37:36,472 DEBUG   HandlerThread:55680 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-13 18:37:36,472 INFO    HandlerThread:55680 [handler.py:finish():866] shutting down handler
+2024-04-13 18:37:37,420 INFO    WriterThread:55680 [datastore.py:close():296] close: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240413_183532-3un8awdw/run-3un8awdw.wandb
+2024-04-13 18:37:37,476 INFO    SenderThread:55680 [sender.py:finish():1546] shutting down sender
+2024-04-13 18:37:37,477 INFO    SenderThread:55680 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-13 18:37:37,477 INFO    SenderThread:55680 [file_pusher.py:join():178] waiting for file pusher

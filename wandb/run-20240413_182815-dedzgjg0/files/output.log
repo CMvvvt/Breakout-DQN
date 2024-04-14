@@ -1,0 +1,241 @@
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+27000
+28000
+29000
+30000
+31000
+32000
+33000
+34000
+35000
+36000
+37000
+38000
+39000
+40000
+41000
+42000
+43000
+44000
+45000
+46000
+47000
+48000
+49000
+50000
+51000
+52000
+53000
+54000
+55000
+56000
+57000
+58000
+59000
+60000
+61000
+62000
+63000
+64000
+65000
+66000
+67000
+68000
+69000
+70000
+71000
+72000
+73000
+74000
+75000
+76000
+77000
+78000
+79000
+80000
+81000
+82000
+83000
+84000
+85000
+86000
+87000
+88000
+89000
+90000
+91000
+92000
+93000
+94000
+95000
+96000
+97000
+98000
+99000
+100000
+Saving training model...
+
+
+
+
+492it [00:09, 46.33it/s]
+
+
+
+
+
+947it [00:19, 54.16it/s]
+
+
+
+
+
+
+1592it [00:31, 62.39it/s]
+
+
+
+
+
+
+
+
+
+2427it [00:49, 53.15it/s]
+
+
+
+
+
+
+3126it [01:01, 60.35it/s]
+
+
+
+
+
+
+
+3899it [01:16, 52.83it/s]
+
+
+
+
+
+
+
+4674it [01:29, 68.99it/s]
+
+
+
+
+
+5221it [01:39, 64.15it/s]
+
+
+
+
+
+
+
+
+6083it [01:55, 55.75it/s]
+
+
+
+
+6549it [02:04, 43.54it/s]
+
+
+
+
+
+
+7217it [02:16, 56.34it/s]
+
+
+
+
+
+
+
+
+8124it [02:32, 52.29it/s]
+
+
+
+
+
+8628it [02:41, 49.42it/s]
+
+
+
+
+9065it [02:49, 54.56it/s]
+
+
+
+
+9536it [02:57, 61.48it/s]
+
+
+
+
+
+10101it [03:07, 55.17it/s]
+
+
+
+
+
+
+
+10871it [03:22, 57.13it/s]Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 133, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 97, in main
+    loss = agent.learn()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 107, in learn
+    loss.backward()
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/autograd/__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 133, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 97, in main
+    loss = agent.learn()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 107, in learn
+    loss.backward()
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/autograd/__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

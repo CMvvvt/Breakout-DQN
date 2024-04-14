@@ -1,0 +1,20 @@
+0it [00:00, ?it/s]Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 72, in main
+    agent.insert_buffer(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 40, in insert_buffer
+    self.buffer.add(state, action, reward, next_state, done)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/replay_memory.py", line 48, in add
+    self.states[self.idx] = state
+TypeError: can't assign a numpy.ndarray to a torch.FloatTensor
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 72, in main
+    agent.insert_buffer(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 40, in insert_buffer
+    self.buffer.add(state, action, reward, next_state, done)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/replay_memory.py", line 48, in add
+    self.states[self.idx] = state
+TypeError: can't assign a numpy.ndarray to a torch.FloatTensor

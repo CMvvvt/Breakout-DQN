@@ -1,0 +1,181 @@
+2024-04-12 23:44:36,407 INFO    StreamThr :79174 [internal.py:wandb_internal():86] W&B internal server running at pid: 79174, started at: 2024-04-12 23:44:36.406024
+2024-04-12 23:44:36,408 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: status
+2024-04-12 23:44:36,411 INFO    WriterThread:79174 [datastore.py:open_for_write():87] open: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/run-u7nsie4h.wandb
+2024-04-12 23:44:36,411 DEBUG   SenderThread:79174 [sender.py:send():379] send: header
+2024-04-12 23:44:36,434 DEBUG   SenderThread:79174 [sender.py:send():379] send: run
+2024-04-12 23:44:36,744 INFO    SenderThread:79174 [dir_watcher.py:__init__():211] watching files in: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/files
+2024-04-12 23:44:36,744 INFO    SenderThread:79174 [sender.py:_start_run_threads():1124] run started: u7nsie4h with start time 1712979876.407652
+2024-04-12 23:44:36,754 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: check_version
+2024-04-12 23:44:36,754 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: check_version
+2024-04-12 23:44:37,013 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: run_start
+2024-04-12 23:44:37,020 DEBUG   HandlerThread:79174 [system_info.py:__init__():26] System info init
+2024-04-12 23:44:37,020 DEBUG   HandlerThread:79174 [system_info.py:__init__():41] System info init done
+2024-04-12 23:44:37,020 INFO    HandlerThread:79174 [system_monitor.py:start():194] Starting system monitor
+2024-04-12 23:44:37,021 INFO    SystemMonitor:79174 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-12 23:44:37,021 INFO    HandlerThread:79174 [system_monitor.py:probe():214] Collecting system info
+2024-04-12 23:44:37,021 INFO    SystemMonitor:79174 [interfaces.py:start():190] Started cpu monitoring
+2024-04-12 23:44:37,021 DEBUG   HandlerThread:79174 [system_info.py:probe():150] Probing system
+2024-04-12 23:44:37,022 INFO    SystemMonitor:79174 [interfaces.py:start():190] Started disk monitoring
+2024-04-12 23:44:37,023 INFO    SystemMonitor:79174 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-12 23:44:37,042 INFO    SystemMonitor:79174 [interfaces.py:start():190] Started memory monitoring
+2024-04-12 23:44:37,045 INFO    SystemMonitor:79174 [interfaces.py:start():190] Started network monitoring
+2024-04-12 23:44:37,049 DEBUG   HandlerThread:79174 [system_info.py:_probe_git():135] Probing git
+2024-04-12 23:44:37,071 DEBUG   HandlerThread:79174 [system_info.py:_probe_git():143] Probing git done
+2024-04-12 23:44:37,071 DEBUG   HandlerThread:79174 [system_info.py:probe():198] Probing system done
+2024-04-12 23:44:37,071 DEBUG   HandlerThread:79174 [system_monitor.py:probe():223] {'os': 'macOS-14.4-arm64-arm-64bit', 'python': '3.10.13', 'heartbeatAt': '2024-04-13T03:44:37.022002', 'startedAt': '2024-04-13T03:44:36.399036', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/ming/Courses/5180/project/dqn-breakout/main.py', 'codePathLocal': 'main.py', 'codePath': 'project/dqn-breakout/main.py', 'git': {'remote': 'git@github.com:CMvvvt/CS5180-RL.git', 'commit': '0fc933208f21ddc09a7dc0bf048ea34eff5d693d'}, 'email': '452000761@qq.com', 'root': '/Users/ming/Courses/5180', 'host': 'Mings-MacBook-Pro.local', 'username': 'ming', 'executable': '/Users/ming/.pyenv/versions/3.10.13/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'disk': {'/': {'total': 460.4317207336426, 'used': 10.113151550292969}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 32.0}}
+2024-04-12 23:44:37,071 INFO    HandlerThread:79174 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-12 23:44:37,071 INFO    HandlerThread:79174 [system_monitor.py:probe():227] Publishing system info
+2024-04-12 23:44:37,072 INFO    HandlerThread:79174 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-12 23:44:37,074 DEBUG   SenderThread:79174 [sender.py:send():379] send: files
+2024-04-12 23:44:37,074 INFO    SenderThread:79174 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-12 23:44:37,146 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-12 23:44:37,146 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-12 23:44:37,146 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: python_packages
+2024-04-12 23:44:37,147 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-12 23:44:37,147 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: stop_status
+2024-04-12 23:44:37,269 DEBUG   SenderThread:79174 [sender.py:send():379] send: telemetry
+2024-04-12 23:44:37,269 DEBUG   SenderThread:79174 [sender.py:send():379] send: exit
+2024-04-12 23:44:37,269 INFO    SenderThread:79174 [sender.py:send_exit():586] handling exit code: 1
+2024-04-12 23:44:37,269 INFO    SenderThread:79174 [sender.py:send_exit():588] handling runtime: 0
+2024-04-12 23:44:37,270 INFO    SenderThread:79174 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-12 23:44:37,270 INFO    SenderThread:79174 [sender.py:send_exit():594] send defer
+2024-04-12 23:44:37,270 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 23:44:37,270 INFO    HandlerThread:79174 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-12 23:44:37,270 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: defer
+2024-04-12 23:44:37,270 INFO    SenderThread:79174 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-12 23:44:37,270 INFO    SenderThread:79174 [sender.py:transition_state():614] send defer: 1
+2024-04-12 23:44:37,270 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 23:44:37,270 INFO    HandlerThread:79174 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-12 23:44:37,270 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: defer
+2024-04-12 23:44:37,270 INFO    SenderThread:79174 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-12 23:44:37,270 INFO    SenderThread:79174 [sender.py:transition_state():614] send defer: 2
+2024-04-12 23:44:37,270 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 23:44:37,270 INFO    HandlerThread:79174 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-12 23:44:37,270 INFO    HandlerThread:79174 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-12 23:44:37,270 INFO    HandlerThread:79174 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-12 23:44:37,270 DEBUG   SystemMonitor:79174 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-12 23:44:37,271 INFO    HandlerThread:79174 [interfaces.py:finish():202] Joined disk monitor
+2024-04-12 23:44:37,271 DEBUG   SystemMonitor:79174 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-12 23:44:37,271 DEBUG   SystemMonitor:79174 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-12 23:44:37,383 INFO    wandb-upload_0:79174 [upload_job.py:push():131] Uploaded file /var/folders/08/bx4bvkt15576qc27ylsr4j5w0000gn/T/tmpnllwk8miwandb/s32rt38a-wandb-metadata.json
+2024-04-12 23:44:37,750 INFO    Thread-12 :79174 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/files/wandb-summary.json
+2024-04-12 23:44:37,750 INFO    Thread-12 :79174 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/files/requirements.txt
+2024-04-12 23:44:37,750 INFO    Thread-12 :79174 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/files/wandb-metadata.json
+2024-04-12 23:44:37,750 INFO    Thread-12 :79174 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/files/output.log
+2024-04-12 23:44:37,910 INFO    HandlerThread:79174 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-12 23:44:37,910 INFO    HandlerThread:79174 [interfaces.py:finish():202] Joined memory monitor
+2024-04-12 23:44:37,910 INFO    HandlerThread:79174 [interfaces.py:finish():202] Joined network monitor
+2024-04-12 23:44:37,910 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: defer
+2024-04-12 23:44:37,910 INFO    SenderThread:79174 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-12 23:44:37,910 INFO    SenderThread:79174 [sender.py:transition_state():614] send defer: 3
+2024-04-12 23:44:37,910 DEBUG   SenderThread:79174 [sender.py:send():379] send: telemetry
+2024-04-12 23:44:37,910 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 23:44:37,911 INFO    HandlerThread:79174 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-12 23:44:37,910 DEBUG   SenderThread:79174 [sender.py:send():379] send: stats
+2024-04-12 23:44:37,911 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: defer
+2024-04-12 23:44:37,911 INFO    SenderThread:79174 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-12 23:44:37,911 INFO    SenderThread:79174 [sender.py:transition_state():614] send defer: 4
+2024-04-12 23:44:37,911 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 23:44:37,911 INFO    HandlerThread:79174 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-12 23:44:37,911 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: defer
+2024-04-12 23:44:37,911 INFO    SenderThread:79174 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-12 23:44:37,911 INFO    SenderThread:79174 [sender.py:transition_state():614] send defer: 5
+2024-04-12 23:44:37,911 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 23:44:37,911 INFO    HandlerThread:79174 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-12 23:44:37,911 DEBUG   SenderThread:79174 [sender.py:send():379] send: summary
+2024-04-12 23:44:37,911 INFO    SenderThread:79174 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-12 23:44:37,911 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: defer
+2024-04-12 23:44:37,911 INFO    SenderThread:79174 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-12 23:44:37,911 INFO    SenderThread:79174 [sender.py:transition_state():614] send defer: 6
+2024-04-12 23:44:37,911 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 23:44:37,911 INFO    HandlerThread:79174 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-12 23:44:37,911 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: defer
+2024-04-12 23:44:37,912 INFO    SenderThread:79174 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-12 23:44:37,913 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: status_report
+2024-04-12 23:44:37,978 INFO    SenderThread:79174 [sender.py:transition_state():614] send defer: 7
+2024-04-12 23:44:37,978 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 23:44:37,978 INFO    HandlerThread:79174 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-12 23:44:37,979 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: defer
+2024-04-12 23:44:37,979 INFO    SenderThread:79174 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-12 23:44:38,217 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-12 23:44:38,750 INFO    Thread-12 :79174 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/files/wandb-summary.json
+2024-04-12 23:44:38,750 INFO    Thread-12 :79174 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/files/config.yaml
+2024-04-12 23:44:39,278 INFO    SenderThread:79174 [sender.py:transition_state():614] send defer: 8
+2024-04-12 23:44:39,278 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: poll_exit
+2024-04-12 23:44:39,278 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 23:44:39,278 INFO    HandlerThread:79174 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-12 23:44:39,278 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: defer
+2024-04-12 23:44:39,279 INFO    SenderThread:79174 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-12 23:44:39,279 INFO    SenderThread:79174 [job_builder.py:build():318] Attempting to build job artifact
+2024-04-12 23:44:39,279 INFO    SenderThread:79174 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-04-12 23:44:39,298 INFO    SenderThread:79174 [job_builder.py:build():431] adding wandb-job metadata file
+2024-04-12 23:44:39,299 INFO    SenderThread:79174 [sender.py:transition_state():614] send defer: 9
+2024-04-12 23:44:39,300 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 23:44:39,300 INFO    HandlerThread:79174 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-12 23:44:39,300 DEBUG   SenderThread:79174 [sender.py:send():379] send: artifact
+2024-04-12 23:44:39,617 INFO    SenderThread:79174 [sender.py:send_artifact():1468] sent artifact job-git_github.com_CMvvvt_CS5180-RL.git_project_dqn-breakout_main.py - {'id': 'QXJ0aWZhY3Q6Nzk0Nzc3NjE5', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE2MjEzNzMyOA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Nzk0ODU3MDY4', 'versionIndex': 3}}}
+2024-04-12 23:44:39,617 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: defer
+2024-04-12 23:44:39,617 INFO    SenderThread:79174 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-12 23:44:39,617 INFO    SenderThread:79174 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-12 23:44:39,755 INFO    SenderThread:79174 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/files/output.log
+2024-04-12 23:44:39,755 INFO    SenderThread:79174 [dir_watcher.py:finish():388] scan: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/files
+2024-04-12 23:44:39,755 INFO    SenderThread:79174 [dir_watcher.py:finish():402] scan save: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/files/requirements.txt requirements.txt
+2024-04-12 23:44:39,755 INFO    SenderThread:79174 [dir_watcher.py:finish():402] scan save: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/files/output.log output.log
+2024-04-12 23:44:39,756 INFO    SenderThread:79174 [dir_watcher.py:finish():402] scan save: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/files/config.yaml config.yaml
+2024-04-12 23:44:39,759 INFO    SenderThread:79174 [dir_watcher.py:finish():402] scan save: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/files/wandb-summary.json wandb-summary.json
+2024-04-12 23:44:39,759 INFO    SenderThread:79174 [dir_watcher.py:finish():402] scan save: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/files/wandb-metadata.json wandb-metadata.json
+2024-04-12 23:44:39,759 INFO    SenderThread:79174 [sender.py:transition_state():614] send defer: 10
+2024-04-12 23:44:39,761 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 23:44:39,761 INFO    HandlerThread:79174 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-12 23:44:39,763 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: defer
+2024-04-12 23:44:39,763 INFO    SenderThread:79174 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-12 23:44:39,763 INFO    SenderThread:79174 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-12 23:44:39,982 INFO    wandb-upload_0:79174 [upload_job.py:push():131] Uploaded file /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/files/requirements.txt
+2024-04-12 23:44:40,017 INFO    wandb-upload_2:79174 [upload_job.py:push():131] Uploaded file /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/files/config.yaml
+2024-04-12 23:44:40,055 INFO    wandb-upload_3:79174 [upload_job.py:push():131] Uploaded file /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/files/wandb-summary.json
+2024-04-12 23:44:40,057 INFO    wandb-upload_1:79174 [upload_job.py:push():131] Uploaded file /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/files/output.log
+2024-04-12 23:44:40,225 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-12 23:44:40,225 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: poll_exit
+2024-04-12 23:44:40,258 INFO    Thread-11 (_thread_body):79174 [sender.py:transition_state():614] send defer: 11
+2024-04-12 23:44:40,258 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 23:44:40,258 INFO    HandlerThread:79174 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-12 23:44:40,258 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: defer
+2024-04-12 23:44:40,259 INFO    SenderThread:79174 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-12 23:44:40,259 INFO    SenderThread:79174 [file_pusher.py:join():178] waiting for file pusher
+2024-04-12 23:44:40,259 INFO    SenderThread:79174 [sender.py:transition_state():614] send defer: 12
+2024-04-12 23:44:40,259 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 23:44:40,259 INFO    HandlerThread:79174 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-12 23:44:40,259 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: defer
+2024-04-12 23:44:40,259 INFO    SenderThread:79174 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-12 23:44:40,259 INFO    SenderThread:79174 [file_stream.py:finish():614] file stream finish called
+2024-04-12 23:44:40,325 INFO    SenderThread:79174 [file_stream.py:finish():618] file stream finish is done
+2024-04-12 23:44:40,325 INFO    SenderThread:79174 [sender.py:transition_state():614] send defer: 13
+2024-04-12 23:44:40,325 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 23:44:40,325 INFO    HandlerThread:79174 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-12 23:44:40,325 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: defer
+2024-04-12 23:44:40,325 INFO    SenderThread:79174 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-12 23:44:40,325 INFO    SenderThread:79174 [sender.py:transition_state():614] send defer: 14
+2024-04-12 23:44:40,326 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: defer
+2024-04-12 23:44:40,326 INFO    HandlerThread:79174 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-12 23:44:40,326 DEBUG   SenderThread:79174 [sender.py:send():379] send: final
+2024-04-12 23:44:40,326 DEBUG   SenderThread:79174 [sender.py:send():379] send: footer
+2024-04-12 23:44:40,326 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: defer
+2024-04-12 23:44:40,326 INFO    SenderThread:79174 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-12 23:44:40,326 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-12 23:44:40,327 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-12 23:44:40,327 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: poll_exit
+2024-04-12 23:44:40,327 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: poll_exit
+2024-04-12 23:44:40,327 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: server_info
+2024-04-12 23:44:40,327 DEBUG   SenderThread:79174 [sender.py:send_request():406] send_request: server_info
+2024-04-12 23:44:40,327 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-12 23:44:40,329 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-12 23:44:40,329 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-12 23:44:40,393 INFO    MainThread:79174 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-04-12 23:44:40,393 INFO    MainThread:79174 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-04-12 23:44:40,394 INFO    MainThread:79174 [wandb_run.py:_footer_sync_info():3895] logging synced files
+2024-04-12 23:44:40,394 DEBUG   HandlerThread:79174 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-12 23:44:40,394 INFO    HandlerThread:79174 [handler.py:finish():866] shutting down handler
+2024-04-12 23:44:41,332 INFO    WriterThread:79174 [datastore.py:close():296] close: /Users/ming/Courses/5180/project/dqn-breakout/wandb/run-20240412_234436-u7nsie4h/run-u7nsie4h.wandb
+2024-04-12 23:44:41,396 INFO    SenderThread:79174 [sender.py:finish():1546] shutting down sender
+2024-04-12 23:44:41,396 INFO    SenderThread:79174 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-12 23:44:41,396 INFO    SenderThread:79174 [file_pusher.py:join():178] waiting for file pusher

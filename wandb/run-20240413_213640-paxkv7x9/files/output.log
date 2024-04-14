@@ -1,0 +1,473 @@
+/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/gymnasium/envs/registration.py:513: DeprecationWarning: [33mWARN: The environment Breakout-v0 is out of date. You should consider upgrading to version `v4`.
+  logger.deprecation(
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+27000
+28000
+29000
+30000
+31000
+32000
+33000
+34000
+35000
+36000
+37000
+38000
+39000
+40000
+41000
+42000
+43000
+44000
+45000
+46000
+47000
+48000
+49000
+50000
+51000
+52000
+53000
+54000
+55000
+56000
+57000
+58000
+59000
+60000
+61000
+62000
+63000
+64000
+65000
+66000
+67000
+68000
+69000
+70000
+71000
+72000
+73000
+74000
+75000
+76000
+77000
+78000
+79000
+80000
+81000
+82000
+83000
+84000
+85000
+86000
+87000
+88000
+89000
+90000
+91000
+92000
+93000
+94000
+95000
+96000
+97000
+98000
+36it [00:00, 61.65it/s]
+99000
+100000
+
+
+302it [00:04, 76.87it/s]
+
+
+
+
+633it [00:43, 78.40it/s]
+
+
+926it [00:47, 74.82it/s]
+
+1042it [00:48, 71.44it/s]
+
+1209it [00:50, 76.69it/s]
+
+
+1489it [00:54, 73.01it/s]
+
+
+1777it [00:58, 68.56it/s]
+
+1912it [01:00, 72.50it/s]
+
+
+
+2347it [01:06, 82.66it/s]
+
+
+2633it [01:10, 77.15it/s]
+
+2788it [01:12, 79.03it/s]
+
+
+3085it [01:16, 77.96it/s]
+
+
+3416it [01:20, 77.47it/s]
+
+
+3701it [01:24, 45.48it/s]
+
+
+4023it [01:29, 79.85it/s]
+
+
+4314it [01:33, 68.17it/s]
+
+4458it [01:35, 77.96it/s]
+
+4613it [01:37, 76.54it/s]
+
+4772it [01:39, 81.66it/s]
+
+
+5066it [01:43, 79.07it/s]
+
+5225it [01:45, 79.03it/s]
+
+
+5520it [01:49, 75.05it/s]
+
+
+
+5951it [01:55, 57.77it/s]
+
+
+6247it [01:59, 73.16it/s]
+
+
+6547it [02:03, 71.45it/s]
+
+
+6858it [02:07, 79.98it/s]
+
+
+7087it [02:10, 56.42it/s]
+
+7233it [02:12, 74.12it/s]
+
+
+7547it [02:16, 79.25it/s]
+
+7698it [02:18, 78.41it/s]
+
+
+7985it [02:22, 75.87it/s]
+
+
+8265it [02:27, 81.42it/s]
+
+
+
+
+8824it [02:35, 73.08it/s]
+
+8982it [02:37, 77.01it/s]
+
+9137it [02:39, 78.17it/s]
+
+
+9426it [02:43, 75.32it/s]
+
+9563it [02:45, 76.31it/s]
+
+9720it [02:47, 77.32it/s]
+
+
+10033it [02:51, 78.66it/s]
+
+10197it [02:53, 79.90it/s]
+
+
+10461it [02:57, 68.36it/s]
+
+10571it [02:59, 40.73it/s]
+
+
+10872it [03:03, 78.12it/s]
+
+11026it [03:05, 71.81it/s]
+
+11132it [03:07, 42.94it/s]
+
+
+11376it [03:11, 71.25it/s]
+
+
+11657it [03:15, 47.53it/s]
+
+11745it [03:16, 61.87it/s]
+
+
+11988it [03:21, 71.26it/s]
+
+
+
+12390it [03:27, 65.29it/s]
+
+12520it [03:29, 70.16it/s]
+
+
+12813it [03:33, 76.71it/s]
+
+12960it [03:35, 64.29it/s]
+
+
+13261it [03:39, 75.17it/s]
+
+13389it [03:41, 74.13it/s]
+
+
+13700it [03:45, 56.40it/s]
+
+13842it [03:47, 72.67it/s]
+
+
+14135it [03:51, 70.69it/s]
+
+
+
+14568it [03:57, 79.57it/s]
+
+
+14879it [04:01, 69.14it/s]
+
+
+15158it [04:05, 68.59it/s]
+
+
+15429it [04:09, 64.88it/s]
+
+
+15670it [04:13, 58.91it/s]
+
+15809it [04:15, 73.00it/s]
+
+
+
+
+16288it [04:23, 70.94it/s]
+
+
+16551it [04:27, 72.30it/s]
+
+
+16830it [04:31, 70.34it/s]
+
+16924it [04:33, 69.99it/s]
+
+
+17213it [04:37, 68.42it/s]
+
+
+
+17619it [04:43, 70.28it/s]
+
+
+17891it [04:47, 68.87it/s]
+
+18020it [04:49, 64.63it/s]
+
+18168it [04:51, 71.80it/s]
+
+18309it [04:53, 72.80it/s]
+
+
+18561it [04:57, 67.54it/s]
+
+
+18834it [05:01, 70.60it/s]
+
+18982it [05:03, 68.57it/s]
+
+
+19257it [05:07, 71.17it/s]
+
+19400it [05:09, 69.77it/s]
+
+
+19670it [05:13, 71.34it/s]
+
+19790it [05:15, 63.43it/s]
+
+
+20031it [05:19, 54.82it/s]
+
+20178it [05:21, 76.95it/s]
+
+
+
+20593it [05:27, 62.56it/s]
+
+
+20871it [05:31, 74.92it/s]
+
+
+21151it [05:35, 74.51it/s]
+
+
+
+21498it [05:41, 53.48it/s]
+
+
+21739it [05:45, 50.99it/s]
+
+
+21980it [05:49, 66.13it/s]
+
+
+22259it [05:53, 70.39it/s]
+
+
+22495it [05:57, 73.67it/s]
+
+
+22747it [06:01, 66.60it/s]
+
+22894it [06:03, 72.66it/s]
+
+
+23157it [06:07, 57.87it/s]
+
+23264it [06:09, 64.90it/s]
+
+
+23501it [06:13, 41.64it/s]
+
+23643it [06:15, 72.04it/s]
+
+
+
+24065it [06:21, 69.45it/s]
+
+
+
+24472it [06:27, 67.88it/s]
+
+
+24750it [06:31, 72.40it/s]
+
+
+25037it [06:35, 72.58it/s]
+
+
+
+25341it [06:41, 77.88it/s]
+
+25488it [06:43, 68.75it/s]
+
+
+25742it [06:47, 70.37it/s]
+
+
+26017it [06:51, 61.93it/s]
+
+
+26255it [06:55, 66.77it/s]
+
+
+26531it [06:59, 67.89it/s]
+
+26674it [07:01, 69.35it/s]
+
+
+26955it [07:05, 72.64it/s]
+
+27099it [07:07, 71.50it/s]
+
+27227it [07:09, 72.42it/s]
+
+
+27516it [07:13, 67.64it/s]
+
+
+27785it [07:17, 59.64it/s]
+
+
+28026it [07:21, 75.77it/s]
+
+28184it [07:23, 77.02it/s]
+
+
+
+28573it [07:29, 77.36it/s]
+
+28722it [07:31, 77.68it/s]
+
+
+
+29136it [07:38, 65.48it/s]
+
+
+
+29552it [07:44, 73.23it/s]
+
+
+29828it [07:48, 75.72it/s]
+
+29976it [07:50, 75.89it/s]
+
+30124it [07:52, 67.46it/s]
+
+
+30366it [07:55, 68.05it/s]
+
+30593it [07:59, 67.13it/s]Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 140, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 98, in main
+    loss = agent.learn()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 141, in learn
+    loss.backward()
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/autograd/__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 140, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 98, in main
+    loss = agent.learn()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 141, in learn
+    loss.backward()
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/autograd/__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

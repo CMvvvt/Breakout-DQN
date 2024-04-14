@@ -1,0 +1,7979 @@
+
+
+528it [00:04, 131.10it/s]/Users/ming/Courses/5180/project/dqn-breakout/agent.py:65: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:278.)
+  state = torch.tensor([observation], dtype=torch.float32).to(
+781it [00:07, 129.65it/s]
+reward of episode 0: 1.0
+
+
+
+1546it [00:13, 128.15it/s]
+reward of episode 1: 3.0
+
+
+2049it [00:17, 124.59it/s]
+reward of episode 2: 0.0
+
+
+2556it [00:21, 129.86it/s]
+reward of episode 3: 0.0
+
+
+
+3298it [00:27, 124.46it/s]
+reward of episode 4: 1.0
+
+
+
+
+
+4545it [00:37, 124.98it/s]
+reward of episode 5: 4.0
+
+
+5009it [00:41, 119.07it/s]
+reward of episode 6: 0.0
+
+
+
+
+5798it [00:49, 107.96it/s]
+reward of episode 7: 2.0
+
+
+
+6440it [00:56, 116.50it/s]
+reward of episode 8: 0.0
+
+
+
+7094it [01:02, 106.11it/s]
+reward of episode 9: 2.0
+
+
+7531it [01:06, 101.90it/s]
+reward of episode 10: 0.0
+
+
+
+8159it [01:12, 98.79it/s]
+reward of episode 11: 1.0
+
+
+
+8847it [01:18, 110.34it/s]
+reward of episode 12: 0.0
+
+
+9316it [01:22, 107.23it/s]
+reward of episode 13: 1.0
+
+
+
+
+10196it [01:29, 118.12it/s]
+reward of episode 14: 2.0
+
+
+10651it [01:33, 110.01it/s]
+reward of episode 15: 0.0
+
+
+
+
+
+11677it [01:43, 95.11it/s]
+reward of episode 16: 3.0
+
+
+
+12312it [01:49, 107.82it/s]
+reward of episode 17: 1.0
+
+
+
+12961it [01:56, 114.20it/s]
+reward of episode 18: 1.0
+
+
+13433it [02:00, 119.27it/s]
+reward of episode 19: 1.0
+
+
+
+14117it [02:06, 120.72it/s]
+reward of episode 20: 0.0
+
+
+14568it [02:10, 118.38it/s]
+reward of episode 21: 0.0
+
+
+15005it [02:14, 98.55it/s]
+reward of episode 22: 0.0
+
+
+
+
+
+
+
+
+16534it [02:29, 114.68it/s]
+reward of episode 23: 6.0
+
+
+
+17225it [02:36, 117.89it/s]
+reward of episode 24: 2.0
+
+
+17667it [02:40, 106.63it/s]
+reward of episode 25: 0.0
+
+
+
+
+
+18812it [02:50, 111.95it/s]
+reward of episode 26: 3.0
+
+
+
+19465it [02:56, 115.30it/s]
+reward of episode 27: 1.0
+
+
+19934it [03:00, 119.30it/s]
+reward of episode 28: 0.0
+
+
+20323it [03:04, 67.12it/s]
+reward of episode 29: 0.0
+
+
+
+
+
+21194it [03:14, 88.54it/s]
+reward of episode 30: 2.0
+
+
+
+21717it [03:20, 102.84it/s]
+reward of episode 31: 0.0
+
+
+
+
+22377it [03:27, 103.72it/s]
+reward of episode 32: 1.0
+
+
+
+
+23200it [03:36, 102.23it/s]
+reward of episode 33: 2.0
+
+
+23599it [03:40, 106.63it/s]
+reward of episode 34: 0.0
+
+
+
+24219it [03:46, 106.97it/s]
+reward of episode 35: 0.0
+
+
+24628it [03:50, 99.87it/s]
+reward of episode 36: 0.0
+
+
+
+25248it [03:56, 110.36it/s]
+reward of episode 37: 1.0
+
+
+
+
+
+26287it [04:06, 112.10it/s]
+reward of episode 38: 2.0
+
+
+
+26852it [04:12, 102.24it/s]
+reward of episode 39: 2.0
+
+
+27272it [04:16, 104.23it/s]
+reward of episode 40: 0.0
+
+
+
+
+
+
+28246it [04:28, 75.21it/s]
+reward of episode 41: 2.0
+
+
+
+
+28843it [04:36, 47.39it/s]
+reward of episode 42: 1.0
+
+
+
+
+
+29667it [04:47, 91.41it/s]
+reward of episode 43: 2.0
+
+
+
+
+
+30381it [04:56, 81.36it/s]
+reward of episode 44: 1.0
+
+
+
+
+
+
+
+31578it [05:10, 94.89it/s]
+reward of episode 45: 4.0
+
+
+
+
+
+32473it [05:20, 83.26it/s]
+reward of episode 46: 3.0
+
+
+
+
+33104it [05:28, 89.66it/s]
+reward of episode 47: 1.0
+
+
+
+
+33783it [05:36, 93.44it/s]
+reward of episode 48: 1.0
+
+
+
+
+34423it [05:44, 79.70it/s]
+reward of episode 49: 0.0
+
+
+
+
+35083it [05:53, 89.05it/s]
+reward of episode 50: 1.0
+
+
+
+
+35765it [06:01, 91.85it/s]
+reward of episode 51: 1.0
+
+
+36086it [06:04, 91.72it/s]
+reward of episode 52: 0.0
+
+
+
+
+36725it [06:12, 86.09it/s]
+reward of episode 53: 0.0
+
+
+37095it [06:16, 94.10it/s]
+reward of episode 54: 0.0
+
+
+
+
+
+37800it [06:26, 87.23it/s]
+reward of episode 55: 1.0
+
+
+
+
+38368it [06:34, 85.48it/s]
+reward of episode 56: 1.0
+
+
+
+38855it [06:40, 87.50it/s]
+reward of episode 57: 0.0
+
+
+
+
+39531it [06:48, 71.02it/s]
+reward of episode 58: 1.0
+
+
+
+39981it [06:55, 89.56it/s]
+reward of episode 59: 0.0
+
+
+
+
+40581it [07:03, 86.42it/s]
+reward of episode 60: 0.0
+
+
+
+
+41015it [07:11, 62.90it/s]
+reward of episode 61: 0.0
+
+
+
+41489it [07:17, 86.86it/s]
+reward of episode 62: 0.0
+
+
+
+
+
+
+42491it [07:29, 93.19it/s]
+reward of episode 63: 3.0
+
+
+
+
+43145it [07:36, 91.13it/s]
+reward of episode 64: 1.0
+
+
+
+43648it [07:42, 90.61it/s]
+reward of episode 65: 0.0
+
+
+
+
+44340it [07:51, 86.60it/s]
+reward of episode 66: 1.0
+
+
+
+
+44944it [07:59, 67.28it/s]
+reward of episode 67: 2.0
+
+
+
+
+
+45784it [08:09, 74.00it/s]
+reward of episode 68: 2.0
+
+
+
+
+46480it [08:17, 86.66it/s]
+reward of episode 69: 1.0
+
+
+
+
+47053it [08:25, 72.23it/s]
+reward of episode 70: 0.0
+
+
+
+
+47700it [08:33, 77.58it/s]
+reward of episode 71: 2.0
+
+
+
+
+48339it [08:41, 86.39it/s]
+reward of episode 72: 0.0
+
+
+
+
+
+49160it [08:51, 85.88it/s]
+reward of episode 73: 3.0
+
+
+
+
+
+
+
+50321it [09:05, 79.16it/s]
+reward of episode 74: 4.0
+
+
+
+50807it [09:11, 89.63it/s]
+reward of episode 75: 0.0
+
+
+
+51330it [09:17, 83.89it/s]
+reward of episode 76: 0.0
+
+
+
+51855it [09:23, 87.02it/s]
+reward of episode 77: 0.0
+
+
+
+
+52503it [09:31, 83.06it/s]
+reward of episode 78: 1.0
+
+
+
+
+53169it [09:39, 74.02it/s]
+reward of episode 79: 1.0
+
+
+
+
+53832it [09:47, 87.56it/s]
+reward of episode 80: 1.0
+
+
+
+
+54463it [09:55, 90.77it/s]
+reward of episode 81: 1.0
+
+
+
+
+
+55279it [10:05, 75.73it/s]
+reward of episode 82: 2.0
+
+
+
+
+
+55928it [10:15, 73.53it/s]
+reward of episode 83: 1.0
+
+
+
+56340it [10:21, 58.66it/s]
+reward of episode 84: 0.0
+
+
+
+
+
+
+
+
+57381it [10:37, 69.15it/s]
+reward of episode 85: 3.0
+
+
+
+57839it [10:43, 84.39it/s]
+reward of episode 86: 0.0
+
+
+
+58328it [10:49, 81.95it/s]
+reward of episode 87: 0.0
+
+
+
+58824it [10:55, 84.62it/s]
+reward of episode 88: 0.0
+
+
+
+
+
+59616it [11:05, 78.00it/s]
+reward of episode 89: 1.0
+
+
+
+60067it [11:11, 70.59it/s]
+reward of episode 90: 0.0
+
+
+
+60566it [11:17, 79.12it/s]
+reward of episode 91: 0.0
+
+
+
+61037it [11:23, 44.71it/s]
+reward of episode 92: 0.0
+
+
+
+
+61672it [11:32, 79.18it/s]
+reward of episode 93: 0.0
+
+
+
+62156it [11:38, 76.16it/s]
+reward of episode 94: 0.0
+
+
+
+
+62657it [11:46, 74.14it/s]
+reward of episode 95: 0.0
+
+
+
+
+
+63304it [11:55, 76.51it/s]
+reward of episode 96: 1.0
+
+
+
+
+63815it [12:03, 81.21it/s]
+reward of episode 97: 0.0
+
+
+
+
+64440it [12:11, 82.65it/s]
+reward of episode 98: 1.0
+
+
+
+64943it [12:18, 89.23it/s]
+reward of episode 99: 0.0
+
+
+
+
+
+
+
+66034it [12:32, 84.86it/s]
+reward of episode 100: 3.0
+
+
+
+
+
+
+66933it [12:44, 81.49it/s]
+reward of episode 101: 3.0
+
+
+
+
+67549it [12:51, 84.20it/s]
+reward of episode 102: 1.0
+
+
+
+67990it [12:57, 80.11it/s]
+reward of episode 103: 0.0
+
+
+
+
+
+68791it [13:07, 77.56it/s]
+reward of episode 104: 1.0
+
+
+
+
+69424it [13:15, 81.47it/s]
+reward of episode 105: 1.0
+
+
+
+69885it [13:22, 76.14it/s]
+reward of episode 106: 0.0
+
+
+
+
+70462it [13:30, 73.42it/s]
+reward of episode 107: 1.0
+
+
+
+70943it [13:36, 82.18it/s]
+reward of episode 108: 0.0
+
+
+
+
+
+71670it [13:46, 78.39it/s]
+reward of episode 109: 1.0
+
+
+
+
+72249it [13:54, 42.68it/s]
+reward of episode 110: 1.0
+
+
+
+
+72876it [14:02, 78.78it/s]
+reward of episode 111: 1.0
+
+
+
+
+
+
+
+73899it [14:15, 78.47it/s]
+reward of episode 112: 3.0
+
+
+
+
+
+
+
+74967it [14:30, 78.57it/s]
+reward of episode 113: 3.0
+
+
+
+
+
+75731it [14:40, 74.40it/s]
+reward of episode 114: 2.0
+
+
+
+
+76362it [14:48, 78.93it/s]
+reward of episode 115: 0.0
+
+
+
+76819it [14:54, 72.96it/s]
+reward of episode 116: 1.0
+
+
+
+
+
+77582it [15:04, 77.10it/s]
+reward of episode 117: 2.0
+
+
+
+
+
+
+
+
+78827it [15:20, 84.52it/s]
+reward of episode 118: 4.0
+
+
+
+
+79372it [15:28, 78.82it/s]
+reward of episode 119: 0.0
+
+
+
+
+79962it [15:36, 76.20it/s]
+reward of episode 120: 1.0
+
+
+
+
+
+80696it [15:46, 75.44it/s]
+reward of episode 121: 1.0
+
+
+
+81155it [15:52, 78.60it/s]
+reward of episode 122: 0.0
+
+
+
+
+
+81899it [16:02, 76.98it/s]
+reward of episode 123: 1.0
+
+
+
+
+82506it [16:10, 84.20it/s]
+reward of episode 124: 1.0
+
+
+
+
+
+
+
+
+83567it [16:27, 77.48it/s]
+reward of episode 125: 3.0
+
+
+
+
+
+
+84502it [16:39, 64.32it/s]
+reward of episode 126: 2.0
+
+
+
+84957it [16:45, 69.47it/s]
+reward of episode 127: 0.0
+
+
+
+
+85590it [16:53, 75.33it/s]
+reward of episode 128: 1.0
+
+
+
+
+
+86334it [17:03, 76.12it/s]
+reward of episode 129: 1.0
+
+
+
+
+
+
+87263it [17:15, 75.72it/s]
+reward of episode 130: 3.0
+
+
+
+
+
+
+88156it [17:27, 79.46it/s]
+reward of episode 131: 2.0
+
+
+
+88632it [17:33, 77.55it/s]
+reward of episode 132: 0.0
+
+
+
+
+89224it [17:41, 80.11it/s]
+reward of episode 133: 1.0
+
+
+
+
+
+
+
+90000it [17:55, 70.22it/s]
+reward of episode 134: 1.0
+
+
+
+90443it [18:01, 76.74it/s]
+reward of episode 135: 0.0
+
+
+
+
+91043it [18:09, 67.20it/s]
+reward of episode 136: 0.0
+
+
+
+
+
+
+91799it [18:21, 71.69it/s]
+reward of episode 137: 2.0
+
+
+
+
+92300it [18:29, 69.04it/s]
+reward of episode 138: 0.0
+
+
+
+
+92879it [18:37, 69.00it/s]
+reward of episode 139: 0.0
+
+
+
+
+93467it [18:45, 69.33it/s]
+reward of episode 140: 1.0
+
+
+
+
+
+
+
+94431it [18:59, 76.87it/s]
+reward of episode 141: 3.0
+
+
+
+
+95040it [19:07, 66.84it/s]
+reward of episode 142: 1.0
+
+
+
+
+
+95778it [19:17, 75.29it/s]
+reward of episode 143: 1.0
+
+
+
+
+
+
+96648it [19:29, 75.69it/s]
+reward of episode 144: 2.0
+
+
+
+
+97241it [19:37, 69.83it/s]
+reward of episode 145: 1.0
+
+
+
+
+97805it [19:45, 74.26it/s]
+reward of episode 146: 1.0
+
+
+
+
+
+98492it [19:55, 75.04it/s]
+reward of episode 147: 1.0
+
+
+
+98918it [20:01, 73.62it/s]
+reward of episode 148: 0.0
+
+
+
+
+
+99622it [20:11, 72.38it/s]
+reward of episode 149: 1.0
+
+
+
+100071it [20:18, 71.89it/s]
+reward of episode 150: 0.0
+
+
+
+
+100640it [20:26, 73.36it/s]
+reward of episode 151: 0.0
+
+
+
+101089it [20:32, 73.45it/s]
+reward of episode 152: 0.0
+
+
+
+
+
+
+101916it [20:43, 78.09it/s]
+reward of episode 153: 2.0
+
+
+
+
+102498it [20:51, 70.79it/s]
+reward of episode 154: 0.0
+
+
+
+
+103077it [20:59, 70.46it/s]
+reward of episode 155: 1.0
+
+
+
+
+103679it [21:07, 70.07it/s]
+reward of episode 156: 0.0
+
+
+
+104083it [21:13, 78.11it/s]
+reward of episode 157: 0.0
+
+
+
+
+
+104799it [21:24, 37.14it/s]
+reward of episode 158: 1.0
+
+
+
+
+
+105537it [21:34, 75.05it/s]
+reward of episode 159: 1.0
+
+
+
+
+
+106254it [21:44, 71.80it/s]
+reward of episode 160: 2.0
+
+
+
+
+
+
+107049it [21:55, 65.87it/s]
+reward of episode 161: 2.0
+
+
+
+
+
+107776it [22:05, 67.96it/s]
+reward of episode 162: 1.0
+
+
+
+
+108332it [22:14, 68.02it/s]
+reward of episode 163: 0.0
+
+
+
+108779it [22:20, 70.96it/s]
+reward of episode 164: 0.0
+
+
+
+
+109342it [22:28, 72.22it/s]
+reward of episode 165: 0.0
+
+
+
+109765it [22:34, 63.88it/s]
+reward of episode 166: 0.0
+
+
+
+
+
+
+
+110551it [22:48, 71.95it/s]
+reward of episode 167: 2.0
+
+
+
+
+111073it [22:56, 52.70it/s]
+reward of episode 168: 0.0
+
+
+
+
+111547it [23:04, 71.39it/s]
+reward of episode 169: 0.0
+
+
+
+
+112119it [23:12, 73.28it/s]
+reward of episode 170: 0.0
+
+
+
+
+
+
+
+113112it [23:26, 73.76it/s]
+reward of episode 171: 3.0
+
+
+
+
+
+113802it [23:36, 74.55it/s]
+reward of episode 172: 1.0
+
+
+
+
+114348it [23:44, 53.95it/s]
+reward of episode 173: 0.0
+
+
+
+
+
+115065it [23:54, 57.19it/s]
+reward of episode 174: 2.0
+
+
+
+
+115600it [24:02, 68.29it/s]
+reward of episode 175: 0.0
+
+
+
+
+
+
+116349it [24:14, 65.14it/s]
+reward of episode 176: 1.0
+
+
+
+
+116851it [24:22, 47.70it/s]
+reward of episode 177: 0.0
+
+
+
+
+117328it [24:30, 68.75it/s]
+reward of episode 178: 0.0
+
+
+
+
+
+
+118001it [24:42, 65.32it/s]
+reward of episode 179: 1.0
+
+
+
+
+118434it [24:50, 53.26it/s]
+reward of episode 180: 0.0
+
+
+
+
+118932it [24:58, 68.16it/s]
+reward of episode 181: 0.0
+
+
+
+
+
+119641it [25:08, 68.89it/s]
+reward of episode 182: 1.0
+
+
+
+
+
+
+
+
+
+
+
+120985it [25:30, 70.82it/s]
+reward of episode 183: 5.0
+
+
+
+
+
+
+121721it [25:42, 58.53it/s]
+reward of episode 184: 1.0
+
+
+
+
+122247it [25:50, 66.60it/s]
+reward of episode 185: 0.0
+
+
+
+
+
+
+122994it [26:02, 67.26it/s]
+reward of episode 186: 2.0
+
+
+
+
+123504it [26:10, 53.41it/s]
+reward of episode 187: 0.0
+
+
+
+
+
+
+
+
+124474it [26:26, 67.07it/s]
+reward of episode 188: 2.0
+
+
+
+
+
+
+125243it [26:38, 68.16it/s]
+reward of episode 189: 2.0
+
+
+
+
+
+
+125952it [26:50, 67.85it/s]
+reward of episode 190: 2.0
+
+
+
+
+
+126571it [27:01, 65.53it/s]
+reward of episode 191: 0.0
+
+
+
+126984it [27:07, 72.44it/s]
+reward of episode 192: 0.0
+
+
+
+
+127452it [27:14, 73.29it/s]
+reward of episode 193: 0.0
+
+
+
+
+
+
+128231it [27:26, 58.17it/s]
+reward of episode 194: 1.0
+
+
+
+
+
+
+129020it [27:38, 64.24it/s]
+reward of episode 195: 2.0
+
+
+
+
+
+
+
+129938it [27:52, 58.96it/s]
+reward of episode 196: 2.0
+
+
+
+
+
+
+130681it [28:05, 68.61it/s]
+reward of episode 197: 1.0
+
+
+
+
+131170it [28:13, 69.52it/s]
+reward of episode 198: 0.0
+
+
+
+
+
+131808it [28:23, 64.84it/s]
+reward of episode 199: 1.0
+
+
+
+
+132283it [28:31, 62.36it/s]
+reward of episode 200: 0.0
+
+
+
+
+132782it [28:39, 52.22it/s]
+reward of episode 201: 0.0
+
+
+
+
+
+133407it [28:48, 65.91it/s]
+reward of episode 202: 1.0
+
+
+
+
+133926it [28:56, 68.41it/s]
+reward of episode 203: 0.0
+
+
+
+
+
+
+
+
+134943it [29:13, 71.24it/s]
+reward of episode 204: 4.0
+
+
+
+
+135470it [29:21, 75.20it/s]
+reward of episode 205: 0.0
+
+
+
+
+
+
+136250it [29:33, 69.84it/s]
+reward of episode 206: 1.0
+
+
+
+136644it [29:39, 54.22it/s]
+reward of episode 207: 0.0
+
+
+
+
+
+137283it [29:49, 68.04it/s]
+reward of episode 208: 0.0
+
+
+
+
+137788it [29:57, 70.58it/s]
+reward of episode 209: 0.0
+
+
+
+
+
+
+138430it [30:09, 33.83it/s]
+reward of episode 210: 2.0
+
+
+
+
+138918it [30:17, 66.23it/s]
+reward of episode 211: 0.0
+
+
+
+
+
+
+
+139732it [30:31, 66.23it/s]
+reward of episode 212: 1.0
+
+
+
+
+
+
+140440it [30:43, 44.97it/s]
+reward of episode 213: 1.0
+
+
+
+
+
+
+
+
+
+
+
+141339it [31:05, 55.42it/s]
+reward of episode 214: 2.0
+
+
+
+
+141784it [31:13, 63.61it/s]
+reward of episode 215: 0.0
+
+
+
+
+
+
+
+
+142700it [31:29, 69.97it/s]
+reward of episode 216: 2.0
+
+
+
+
+
+
+143267it [31:41, 56.62it/s]
+reward of episode 217: 0.0
+
+
+
+
+
+143844it [31:51, 63.25it/s]
+reward of episode 218: 1.0
+
+
+
+
+
+
+144564it [32:03, 69.57it/s]
+reward of episode 219: 1.0
+
+
+
+
+
+
+
+145481it [32:17, 62.45it/s]
+reward of episode 220: 3.0
+
+
+
+
+
+
+
+146254it [32:32, 71.06it/s]
+reward of episode 221: 2.0
+
+
+
+
+
+
+
+
+147094it [32:47, 34.90it/s]
+reward of episode 222: 2.0
+
+
+
+
+
+147575it [32:57, 39.96it/s]
+reward of episode 223: 0.0
+
+
+
+
+
+
+148204it [33:09, 45.31it/s]
+reward of episode 224: 1.0
+
+
+
+
+
+148853it [33:19, 68.93it/s]
+reward of episode 225: 1.0
+
+
+
+
+
+
+
+149559it [33:34, 59.75it/s]
+reward of episode 226: 1.0
+
+
+
+
+
+
+
+
+150245it [33:49, 62.47it/s]
+reward of episode 227: 1.0
+
+
+
+
+
+150800it [33:59, 44.44it/s]
+reward of episode 228: 0.0
+
+
+
+
+
+
+
+151667it [34:13, 65.84it/s]
+reward of episode 229: 2.0
+
+
+
+
+
+
+
+152608it [34:28, 63.57it/s]
+reward of episode 230: 3.0
+
+
+
+
+153067it [34:36, 57.42it/s]
+reward of episode 231: 0.0
+
+
+
+
+
+153580it [34:46, 69.13it/s]
+reward of episode 232: 0.0
+
+
+
+
+
+154079it [34:56, 60.10it/s]
+reward of episode 233: 0.0
+
+
+
+
+
+154657it [35:06, 55.41it/s]
+reward of episode 234: 0.0
+
+
+
+
+
+
+155394it [35:18, 65.18it/s]
+reward of episode 235: 2.0
+
+
+
+
+
+
+156196it [35:30, 67.75it/s]
+reward of episode 236: 2.0
+
+
+
+
+
+
+
+
+157247it [35:46, 63.34it/s]
+reward of episode 237: 3.0
+
+
+
+
+
+157918it [35:56, 66.93it/s]
+reward of episode 238: 1.0
+
+
+
+
+
+
+
+
+158932it [36:12, 71.35it/s]
+reward of episode 239: 3.0
+
+
+
+
+
+159505it [36:22, 68.94it/s]
+reward of episode 240: 0.0
+
+
+
+
+
+
+
+
+
+160599it [36:40, 57.11it/s]
+reward of episode 241: 4.0
+
+
+
+
+
+161230it [36:50, 62.33it/s]
+reward of episode 242: 1.0
+
+
+
+
+
+
+
+162128it [37:04, 66.99it/s]
+reward of episode 243: 2.0
+
+
+
+
+162584it [37:12, 43.73it/s]
+reward of episode 244: 0.0
+
+
+
+
+163036it [37:20, 65.66it/s]
+reward of episode 245: 0.0
+
+
+
+
+163552it [37:28, 55.73it/s]
+reward of episode 246: 0.0
+
+
+
+
+164086it [37:36, 65.10it/s]
+reward of episode 247: 0.0
+
+
+
+
+
+164655it [37:46, 71.47it/s]
+reward of episode 248: 0.0
+
+
+
+
+
+
+165358it [37:58, 60.92it/s]
+reward of episode 249: 1.0
+
+
+
+
+
+
+
+166118it [38:12, 59.00it/s]
+reward of episode 250: 2.0
+
+
+
+
+166625it [38:20, 65.99it/s]
+reward of episode 251: 0.0
+
+
+
+
+167127it [38:28, 65.04it/s]
+reward of episode 252: 0.0
+
+
+
+
+
+
+
+167957it [38:43, 59.61it/s]
+reward of episode 253: 2.0
+
+
+
+
+
+168459it [38:52, 66.44it/s]
+reward of episode 254: 0.0
+
+
+
+
+
+
+
+169394it [39:06, 70.02it/s]
+reward of episode 255: 2.0
+
+
+
+169797it [39:12, 68.37it/s]
+reward of episode 256: 0.0
+
+
+
+
+170338it [39:20, 65.30it/s]
+reward of episode 257: 0.0
+
+
+
+
+170868it [39:29, 68.65it/s]
+reward of episode 258: 0.0
+
+
+
+
+
+171506it [39:39, 36.69it/s]
+reward of episode 259: 1.0
+
+
+
+
+
+172177it [39:49, 62.90it/s]
+reward of episode 260: 1.0
+
+
+
+
+
+172793it [39:58, 68.02it/s]
+reward of episode 261: 1.0
+
+
+
+
+173306it [40:06, 68.18it/s]
+reward of episode 262: 0.0
+
+
+
+
+173823it [40:14, 70.86it/s]
+reward of episode 263: 0.0
+
+
+
+
+
+174500it [40:25, 72.49it/s]
+reward of episode 264: 1.0
+
+
+
+
+
+175174it [40:35, 62.17it/s]
+reward of episode 265: 1.0
+
+
+
+175563it [40:41, 68.26it/s]
+reward of episode 266: 0.0
+
+
+
+
+
+
+
+
+176641it [40:57, 70.84it/s]
+reward of episode 267: 3.0
+
+
+
+
+
+177331it [41:07, 71.96it/s]
+reward of episode 268: 1.0
+
+
+
+
+177785it [41:14, 68.95it/s]
+reward of episode 269: 0.0
+
+
+
+
+178289it [41:23, 65.11it/s]
+reward of episode 270: 0.0
+
+
+
+
+
+178974it [41:33, 70.82it/s]
+reward of episode 271: 1.0
+
+
+
+
+
+
+
+
+
+180164it [41:51, 66.41it/s]
+reward of episode 272: 4.0
+
+
+
+
+
+
+180949it [42:03, 57.95it/s]
+reward of episode 273: 2.0
+
+
+
+
+
+
+
+181836it [42:17, 66.49it/s]
+reward of episode 274: 3.0
+
+
+
+
+
+182474it [42:27, 67.05it/s]
+reward of episode 275: 1.0
+
+
+
+
+
+
+183165it [42:39, 55.21it/s]
+reward of episode 276: 1.0
+
+
+
+
+
+
+
+
+
+184194it [42:57, 56.41it/s]
+reward of episode 277: 3.0
+
+
+
+
+184671it [43:05, 63.99it/s]
+reward of episode 278: 0.0
+
+
+
+
+
+
+
+185512it [43:19, 62.46it/s]
+reward of episode 279: 2.0
+
+
+
+
+
+
+
+
+
+186572it [43:37, 58.99it/s]
+reward of episode 280: 3.0
+
+
+
+
+187008it [43:45, 52.36it/s]
+reward of episode 281: 0.0
+
+
+
+
+
+
+187684it [43:57, 59.45it/s]
+reward of episode 282: 1.0
+
+
+
+
+
+188254it [44:07, 64.71it/s]
+reward of episode 283: 1.0
+
+
+
+
+
+
+188956it [44:20, 55.70it/s]
+reward of episode 284: 1.0
+
+
+
+
+
+
+189759it [44:32, 65.35it/s]
+reward of episode 285: 2.0
+
+
+
+
+
+
+190394it [44:43, 58.64it/s]
+reward of episode 286: 1.0
+
+
+
+
+
+
+191104it [44:55, 63.50it/s]
+reward of episode 287: 1.0
+
+
+
+
+191658it [45:03, 69.78it/s]
+reward of episode 288: 0.0
+
+
+
+
+
+192286it [45:13, 66.06it/s]
+reward of episode 289: 1.0
+
+
+
+
+192798it [45:22, 69.86it/s]
+reward of episode 290: 0.0
+
+
+
+
+193301it [45:30, 51.79it/s]
+reward of episode 291: 0.0
+
+
+
+
+193815it [45:38, 57.47it/s]
+reward of episode 292: 0.0
+
+
+
+
+
+
+
+
+194741it [45:53, 66.17it/s]
+reward of episode 293: 2.0
+
+
+
+
+
+
+195498it [46:05, 55.74it/s]
+reward of episode 294: 2.0
+
+
+
+
+
+196079it [46:15, 64.07it/s]
+reward of episode 295: 0.0
+
+
+
+
+
+
+
+196792it [46:30, 64.67it/s]
+reward of episode 296: 1.0
+
+
+
+
+
+
+197461it [46:42, 60.54it/s]
+reward of episode 297: 1.0
+
+
+
+
+
+
+
+198280it [46:56, 52.71it/s]
+reward of episode 298: 2.0
+
+
+
+
+
+198825it [47:06, 65.35it/s]
+reward of episode 299: 1.0
+
+
+
+
+
+
+
+199733it [47:20, 66.40it/s]
+reward of episode 300: 2.0
+
+
+
+
+200227it [47:28, 67.64it/s]
+reward of episode 301: 0.0
+
+
+
+
+
+200892it [47:38, 66.11it/s]
+reward of episode 302: 1.0
+
+
+
+
+
+201512it [47:48, 60.60it/s]
+reward of episode 303: 1.0
+
+
+
+201888it [47:54, 57.53it/s]
+reward of episode 304: 0.0
+
+
+
+
+202407it [48:02, 59.30it/s]
+reward of episode 305: 0.0
+
+
+
+
+
+203025it [48:12, 66.07it/s]
+reward of episode 306: 0.0
+
+
+
+203420it [48:18, 66.28it/s]
+reward of episode 307: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+204915it [48:44, 48.96it/s]
+reward of episode 308: 5.0
+
+
+
+
+
+
+205648it [48:56, 68.24it/s]
+reward of episode 309: 2.0
+
+
+
+
+
+
+206404it [49:08, 54.56it/s]
+reward of episode 310: 1.0
+
+
+
+
+206912it [49:16, 67.45it/s]
+reward of episode 311: 0.0
+
+
+
+
+
+
+207650it [49:28, 66.26it/s]
+reward of episode 312: 1.0
+
+
+
+
+208172it [49:36, 65.60it/s]
+reward of episode 313: 0.0
+
+
+
+
+208650it [49:44, 58.97it/s]
+reward of episode 314: 0.0
+
+
+
+
+
+
+
+
+
+209739it [50:03, 61.85it/s]
+reward of episode 315: 3.0
+
+
+
+
+
+
+
+
+210755it [50:19, 69.44it/s]
+reward of episode 316: 3.0
+
+
+
+
+
+211372it [50:28, 63.06it/s]
+reward of episode 317: 1.0
+
+
+
+
+211872it [50:36, 52.04it/s]
+reward of episode 318: 0.0
+
+
+
+
+212350it [50:44, 56.84it/s]
+reward of episode 319: 0.0
+
+
+
+
+
+212972it [50:54, 61.39it/s]
+reward of episode 320: 0.0
+
+
+
+
+
+213615it [51:04, 65.96it/s]
+reward of episode 321: 1.0
+
+
+
+
+
+214232it [51:15, 64.07it/s]
+reward of episode 322: 1.0
+
+
+
+
+214763it [51:23, 63.95it/s]
+reward of episode 323: 1.0
+
+
+
+
+
+215393it [51:33, 63.66it/s]
+reward of episode 324: 0.0
+
+
+
+
+215867it [51:41, 63.29it/s]
+reward of episode 325: 0.0
+
+
+
+
+216330it [51:48, 61.14it/s]
+reward of episode 326: 0.0
+
+
+
+
+
+216964it [51:58, 66.38it/s]
+reward of episode 327: 1.0
+
+
+
+
+
+217598it [52:08, 35.01it/s]
+reward of episode 328: 1.0
+
+
+
+
+
+
+218374it [52:20, 70.07it/s]
+reward of episode 329: 1.0
+
+
+
+
+
+
+219147it [52:33, 63.91it/s]
+reward of episode 330: 2.0
+
+
+
+
+
+219763it [52:43, 61.15it/s]
+reward of episode 331: 1.0
+
+
+
+
+
+
+220477it [52:54, 55.39it/s]
+reward of episode 332: 1.0
+
+
+
+
+
+221126it [53:04, 66.16it/s]
+reward of episode 333: 1.0
+
+
+
+
+221604it [53:13, 63.80it/s]
+reward of episode 334: 0.0
+
+
+
+
+222108it [53:21, 61.63it/s]
+reward of episode 335: 0.0
+
+
+
+
+
+222718it [53:31, 60.66it/s]
+reward of episode 336: 0.0
+
+
+
+
+
+
+
+223588it [53:45, 62.09it/s]
+reward of episode 337: 2.0
+
+
+
+
+
+
+
+224473it [53:59, 64.65it/s]
+reward of episode 338: 2.0
+
+
+
+
+
+
+225222it [54:11, 61.72it/s]
+reward of episode 339: 2.0
+
+
+
+
+225738it [54:19, 60.38it/s]
+reward of episode 340: 0.0
+
+
+
+
+226198it [54:27, 65.24it/s]
+reward of episode 341: 0.0
+
+
+
+
+
+226819it [54:37, 66.63it/s]
+reward of episode 342: 0.0
+
+
+
+
+227308it [54:45, 62.72it/s]
+reward of episode 343: 0.0
+
+
+
+
+
+
+
+228207it [54:59, 66.40it/s]
+reward of episode 344: 3.0
+
+
+
+228605it [55:05, 63.19it/s]
+reward of episode 345: 0.0
+
+
+
+
+
+229206it [55:15, 63.03it/s]
+reward of episode 346: 0.0
+
+
+
+
+229728it [55:23, 66.61it/s]
+reward of episode 347: 1.0
+
+
+
+
+
+
+230473it [55:35, 59.78it/s]
+reward of episode 348: 1.0
+
+
+
+
+
+
+
+231337it [55:49, 63.82it/s]
+reward of episode 349: 2.0
+
+
+
+
+
+
+232053it [56:01, 66.08it/s]
+reward of episode 350: 2.0
+
+
+
+
+
+
+
+
+
+
+
+233346it [56:23, 55.08it/s]
+reward of episode 351: 5.0
+
+
+
+
+
+
+234110it [56:35, 59.60it/s]
+reward of episode 352: 1.0
+
+
+
+
+
+234720it [56:45, 63.25it/s]
+reward of episode 353: 1.0
+
+
+
+
+
+
+
+
+235731it [57:01, 58.57it/s]
+reward of episode 354: 3.0
+
+
+
+
+
+
+236487it [57:14, 65.59it/s]
+reward of episode 355: 1.0
+
+
+
+
+
+
+237192it [57:25, 59.98it/s]
+reward of episode 356: 1.0
+
+
+
+
+
+
+237948it [57:37, 65.96it/s]
+reward of episode 357: 1.0
+
+
+
+
+
+
+
+238827it [57:51, 67.56it/s]
+reward of episode 358: 2.0
+
+
+
+
+239328it [57:59, 66.31it/s]
+reward of episode 359: 0.0
+
+
+
+
+
+
+
+
+
+240447it [58:18, 66.81it/s]
+reward of episode 360: 4.0
+
+
+
+
+
+241066it [58:28, 64.66it/s]
+reward of episode 361: 1.0
+
+
+
+
+241535it [58:35, 60.69it/s]
+reward of episode 362: 0.0
+
+
+
+
+
+
+
+
+
+
+242742it [58:55, 64.25it/s]
+reward of episode 363: 5.0
+
+
+
+
+
+
+
+
+
+
+243965it [59:15, 67.48it/s]
+reward of episode 364: 5.0
+
+
+
+
+
+
+
+
+
+245088it [59:34, 60.03it/s]
+reward of episode 365: 4.0
+
+
+
+
+
+
+
+
+
+246198it [59:52, 64.37it/s]
+reward of episode 366: 3.0
+
+
+
+
+
+
+
+247070it [1:00:06, 61.14it/s]
+reward of episode 367: 2.0
+
+
+
+
+
+
+247763it [1:00:17, 62.86it/s]
+reward of episode 368: 1.0
+
+
+
+
+
+
+
+
+248754it [1:00:34, 60.56it/s]
+reward of episode 369: 3.0
+
+
+
+
+249222it [1:00:42, 61.59it/s]
+reward of episode 370: 0.0
+
+
+
+
+
+
+
+
+250160it [1:00:58, 67.99it/s]
+reward of episode 371: 3.0
+
+
+
+
+
+
+
+250985it [1:01:12, 59.91it/s]
+reward of episode 372: 2.0
+
+
+
+
+
+251623it [1:01:22, 69.65it/s]
+reward of episode 373: 0.0
+
+
+
+
+252121it [1:01:30, 63.07it/s]
+reward of episode 374: 0.0
+
+
+
+
+
+
+
+252989it [1:01:44, 49.34it/s]
+reward of episode 375: 2.0
+
+
+
+
+
+
+253730it [1:01:56, 63.92it/s]
+reward of episode 376: 1.0
+
+
+
+254090it [1:02:02, 62.69it/s]
+reward of episode 377: 0.0
+
+
+
+
+
+254692it [1:02:12, 52.39it/s]
+reward of episode 378: 1.0
+
+
+
+
+
+
+
+
+255667it [1:02:28, 63.35it/s]
+reward of episode 379: 2.0
+
+
+
+
+
+
+256403it [1:02:40, 63.12it/s]
+reward of episode 380: 2.0
+
+
+
+
+
+
+257142it [1:02:52, 63.04it/s]
+reward of episode 381: 1.0
+
+
+
+
+257649it [1:03:00, 66.92it/s]
+reward of episode 382: 0.0
+
+
+
+
+258168it [1:03:08, 63.15it/s]
+reward of episode 383: 0.0
+
+
+
+
+
+
+
+
+
+259285it [1:03:26, 62.59it/s]
+reward of episode 384: 4.0
+
+
+
+
+
+259898it [1:03:36, 64.85it/s]
+reward of episode 385: 0.0
+
+
+
+
+260381it [1:03:44, 62.10it/s]
+reward of episode 386: 0.0
+
+
+
+
+
+
+261118it [1:03:56, 65.86it/s]
+reward of episode 387: 1.0
+
+
+
+
+
+
+
+
+262079it [1:04:12, 60.19it/s]
+reward of episode 388: 3.0
+
+
+
+
+
+262717it [1:04:22, 65.77it/s]
+reward of episode 389: 1.0
+
+
+
+
+
+
+263457it [1:04:34, 65.19it/s]
+reward of episode 390: 1.0
+
+
+
+
+
+
+264167it [1:04:47, 64.79it/s]
+reward of episode 391: 1.0
+
+
+
+
+264636it [1:04:54, 64.21it/s]
+reward of episode 392: 0.0
+
+
+
+
+
+
+
+
+265638it [1:05:10, 66.96it/s]
+reward of episode 393: 3.0
+
+
+
+
+266135it [1:05:18, 67.34it/s]
+reward of episode 394: 0.0
+
+
+
+
+
+
+
+
+
+
+
+267431it [1:05:40, 61.27it/s]
+reward of episode 395: 4.0
+
+
+
+
+
+
+
+268281it [1:05:54, 60.22it/s]
+reward of episode 396: 2.0
+
+
+
+
+
+
+
+
+
+269209it [1:06:13, 50.86it/s]
+reward of episode 397: 2.0
+
+
+
+
+
+
+
+
+269885it [1:06:29, 40.77it/s]
+reward of episode 398: 1.0
+
+
+
+
+
+270415it [1:06:38, 61.96it/s]
+reward of episode 399: 0.0
+
+
+
+
+
+270969it [1:06:49, 61.24it/s]
+reward of episode 400: 0.0
+
+
+
+
+271453it [1:06:57, 65.37it/s]
+reward of episode 401: 0.0
+
+
+
+
+
+272014it [1:07:07, 62.75it/s]
+reward of episode 402: 0.0
+
+
+
+
+272497it [1:07:15, 54.65it/s]
+reward of episode 403: 0.0
+
+
+
+
+
+273110it [1:07:25, 60.93it/s]
+reward of episode 404: 1.0
+
+
+
+
+273615it [1:07:33, 59.85it/s]
+reward of episode 405: 0.0
+
+
+
+
+
+274231it [1:07:43, 62.54it/s]
+reward of episode 406: 0.0
+
+
+
+
+274727it [1:07:51, 58.49it/s]
+reward of episode 407: 0.0
+
+
+
+
+
+
+
+
+275658it [1:08:07, 63.88it/s]
+reward of episode 408: 3.0
+
+
+
+
+
+
+
+
+276666it [1:08:23, 66.48it/s]
+reward of episode 409: 3.0
+
+
+
+
+
+
+277397it [1:08:35, 64.84it/s]
+reward of episode 410: 1.0
+
+
+
+
+
+277874it [1:08:45, 51.28it/s]
+reward of episode 411: 0.0
+
+
+
+
+278353it [1:08:53, 61.97it/s]
+reward of episode 412: 0.0
+
+
+
+
+
+
+
+
+
+279310it [1:09:11, 63.95it/s]
+reward of episode 413: 3.0
+
+
+
+
+279806it [1:09:19, 61.66it/s]
+reward of episode 414: 0.0
+
+
+
+
+
+280394it [1:09:29, 61.40it/s]
+reward of episode 415: 0.0
+
+
+
+
+280890it [1:09:37, 62.53it/s]
+reward of episode 416: 0.0
+
+
+
+
+
+
+
+
+281775it [1:09:53, 50.76it/s]
+reward of episode 417: 2.0
+
+
+
+
+
+
+
+
+
+282528it [1:10:11, 53.23it/s]
+reward of episode 418: 1.0
+
+
+
+
+
+
+283233it [1:10:23, 51.80it/s]
+reward of episode 419: 1.0
+
+
+
+
+
+
+
+
+
+
+
+284327it [1:10:45, 62.63it/s]
+reward of episode 420: 3.0
+
+
+
+
+
+
+
+285188it [1:10:59, 63.21it/s]
+reward of episode 421: 2.0
+
+
+
+
+
+285774it [1:11:10, 60.29it/s]
+reward of episode 422: 1.0
+
+
+
+
+
+
+
+286524it [1:11:23, 61.95it/s]
+reward of episode 423: 1.0
+
+
+
+
+
+
+287254it [1:11:35, 57.75it/s]
+reward of episode 424: 2.0
+
+
+
+
+
+
+
+288076it [1:11:49, 64.61it/s]
+reward of episode 425: 2.0
+
+
+
+
+
+288646it [1:11:59, 58.46it/s]
+reward of episode 426: 0.0
+
+
+
+
+
+
+289361it [1:12:12, 61.57it/s]
+reward of episode 427: 1.0
+
+
+
+
+
+
+290084it [1:12:24, 37.73it/s]
+reward of episode 428: 1.0
+
+
+
+
+
+
+290785it [1:12:36, 60.35it/s]
+reward of episode 429: 1.0
+
+
+
+
+
+291318it [1:12:46, 60.66it/s]
+reward of episode 430: 0.0
+
+
+
+
+
+291896it [1:12:55, 62.56it/s]
+reward of episode 431: 0.0
+
+
+
+
+292395it [1:13:03, 58.23it/s]
+reward of episode 432: 0.0
+
+
+
+
+
+
+293098it [1:13:15, 55.51it/s]
+reward of episode 433: 1.0
+
+
+
+
+
+293676it [1:13:26, 60.60it/s]
+reward of episode 434: 0.0
+
+
+
+
+
+
+
+294530it [1:13:40, 59.78it/s]
+reward of episode 435: 3.0
+
+
+
+
+
+
+
+
+295491it [1:13:56, 64.38it/s]
+reward of episode 436: 2.0
+
+
+
+
+
+
+
+
+296399it [1:14:11, 56.31it/s]
+reward of episode 437: 3.0
+
+
+
+
+
+
+
+
+
+
+
+297738it [1:14:34, 59.15it/s]
+reward of episode 438: 5.0
+
+
+
+
+
+
+298452it [1:14:46, 64.04it/s]
+reward of episode 439: 1.0
+
+
+
+
+
+299047it [1:14:56, 63.28it/s]
+reward of episode 440: 1.0
+
+
+
+
+
+
+
+299886it [1:15:10, 61.28it/s]
+reward of episode 441: 2.0
+
+
+
+
+300379it [1:15:18, 67.92it/s]
+reward of episode 442: 0.0
+
+
+
+
+
+300954it [1:15:28, 61.14it/s]
+reward of episode 443: 0.0
+
+
+
+
+
+
+
+
+301897it [1:15:44, 64.93it/s]
+reward of episode 444: 3.0
+
+
+
+
+
+
+
+
+302843it [1:16:00, 57.18it/s]
+reward of episode 445: 2.0
+
+
+
+
+
+
+
+303670it [1:16:14, 64.83it/s]
+reward of episode 446: 2.0
+
+
+
+
+
+
+304250it [1:16:27, 58.72it/s]
+reward of episode 447: 0.0
+
+
+
+
+304718it [1:16:35, 57.80it/s]
+reward of episode 448: 0.0
+
+
+
+
+
+305317it [1:16:45, 60.28it/s]
+reward of episode 449: 0.0
+
+
+
+
+
+
+
+306140it [1:16:59, 62.36it/s]
+reward of episode 450: 2.0
+
+
+
+
+306636it [1:17:07, 59.82it/s]
+reward of episode 451: 0.0
+
+
+
+
+307120it [1:17:15, 63.98it/s]
+reward of episode 452: 0.0
+
+
+
+
+
+
+
+307962it [1:17:29, 61.13it/s]
+reward of episode 453: 1.0
+
+
+
+
+
+
+308678it [1:17:41, 57.34it/s]
+reward of episode 454: 2.0
+
+
+
+
+
+
+
+
+309628it [1:17:57, 62.44it/s]
+reward of episode 455: 2.0
+
+
+
+
+
+
+
+
+
+
+310773it [1:18:17, 63.82it/s]
+reward of episode 456: 4.0
+
+
+
+
+
+
+311500it [1:18:29, 67.65it/s]
+reward of episode 457: 1.0
+
+
+
+
+311987it [1:18:37, 56.32it/s]
+reward of episode 458: 0.0
+
+
+
+
+
+
+312676it [1:18:49, 57.10it/s]
+reward of episode 459: 1.0
+
+
+
+
+
+
+
+313526it [1:19:03, 59.95it/s]
+reward of episode 460: 2.0
+
+
+
+
+
+314097it [1:19:13, 58.16it/s]
+reward of episode 461: 0.0
+
+
+
+
+
+314702it [1:19:23, 64.88it/s]
+reward of episode 462: 0.0
+
+
+
+
+
+315292it [1:19:33, 62.09it/s]
+reward of episode 463: 1.0
+
+
+
+
+
+
+
+316090it [1:19:47, 63.15it/s]
+reward of episode 464: 2.0
+
+
+
+
+
+316662it [1:19:57, 58.54it/s]
+reward of episode 465: 1.0
+
+
+
+
+
+317262it [1:20:07, 60.34it/s]
+reward of episode 466: 0.0
+
+
+
+
+
+
+
+
+
+318345it [1:20:25, 65.69it/s]
+reward of episode 467: 3.0
+
+
+
+
+318813it [1:20:33, 57.43it/s]
+reward of episode 468: 0.0
+
+
+
+
+
+
+
+319607it [1:20:47, 63.96it/s]
+reward of episode 469: 2.0
+
+
+
+
+
+
+320325it [1:20:59, 62.75it/s]
+reward of episode 470: 1.0
+
+
+
+
+
+
+321036it [1:21:11, 55.66it/s]
+reward of episode 471: 1.0
+
+
+
+
+
+321639it [1:21:21, 64.44it/s]
+reward of episode 472: 1.0
+
+
+
+
+
+
+322334it [1:21:33, 55.31it/s]
+reward of episode 473: 1.0
+
+
+
+
+
+
+
+323171it [1:21:47, 58.05it/s]
+reward of episode 474: 2.0
+
+
+
+
+
+
+323890it [1:22:00, 60.25it/s]
+reward of episode 475: 1.0
+
+
+
+
+
+324449it [1:22:09, 53.85it/s]
+reward of episode 476: 1.0
+
+
+
+
+
+
+325168it [1:22:21, 60.61it/s]
+reward of episode 477: 1.0
+
+
+
+
+325639it [1:22:29, 63.85it/s]
+reward of episode 478: 0.0
+
+
+
+
+
+326234it [1:22:39, 58.54it/s]
+reward of episode 479: 0.0
+
+
+
+
+
+326825it [1:22:49, 59.86it/s]
+reward of episode 480: 1.0
+
+
+
+
+
+
+
+327633it [1:23:04, 59.36it/s]
+reward of episode 481: 1.0
+
+
+
+
+
+328218it [1:23:14, 63.52it/s]
+reward of episode 482: 0.0
+
+
+
+
+328717it [1:23:22, 61.19it/s]
+reward of episode 483: 0.0
+
+
+
+
+329184it [1:23:30, 64.95it/s]
+reward of episode 484: 0.0
+
+
+
+
+
+
+329853it [1:23:41, 61.34it/s]
+reward of episode 485: 1.0
+
+
+
+
+
+
+330555it [1:23:53, 57.24it/s]
+reward of episode 486: 1.0
+
+
+
+
+
+
+331281it [1:24:05, 57.28it/s]
+reward of episode 487: 1.0
+
+
+
+
+
+
+332002it [1:24:18, 60.27it/s]
+reward of episode 488: 1.0
+
+
+
+
+
+332594it [1:24:28, 62.31it/s]
+reward of episode 489: 1.0
+
+
+
+
+
+
+
+
+333514it [1:24:44, 43.77it/s]
+reward of episode 490: 3.0
+
+
+
+
+
+334115it [1:24:54, 48.68it/s]
+reward of episode 491: 1.0
+
+
+
+
+
+
+
+
+
+335150it [1:25:11, 60.04it/s]
+reward of episode 492: 3.0
+
+
+
+
+
+
+335850it [1:25:23, 39.01it/s]
+reward of episode 493: 1.0
+
+
+
+
+
+
+
+
+336801it [1:25:40, 54.22it/s]
+reward of episode 494: 3.0
+
+
+
+
+
+
+337517it [1:25:52, 62.36it/s]
+reward of episode 495: 1.0
+
+
+
+
+337988it [1:26:00, 59.88it/s]
+reward of episode 496: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+339440it [1:26:26, 59.97it/s]
+reward of episode 497: 5.0
+
+
+
+
+
+340053it [1:26:36, 61.18it/s]
+reward of episode 498: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+341482it [1:27:02, 62.56it/s]
+reward of episode 499: 5.0
+
+
+
+
+
+
+
+
+
+
+342668it [1:27:22, 63.59it/s]
+reward of episode 500: 4.0
+
+
+
+
+
+343253it [1:27:32, 59.11it/s]
+reward of episode 501: 0.0
+
+
+
+
+
+
+
+
+344186it [1:27:48, 60.63it/s]
+reward of episode 502: 2.0
+
+
+
+
+344655it [1:27:56, 60.73it/s]
+reward of episode 503: 0.0
+
+
+
+
+
+
+
+
+
+
+345818it [1:28:16, 58.79it/s]
+reward of episode 504: 3.0
+
+
+
+
+
+
+
+
+346654it [1:28:32, 58.32it/s]
+reward of episode 505: 2.0
+
+
+
+
+347101it [1:28:40, 45.46it/s]
+reward of episode 506: 0.0
+
+
+
+
+
+
+
+
+
+
+
+348367it [1:29:02, 60.67it/s]
+reward of episode 507: 4.0
+
+
+
+
+
+348960it [1:29:13, 62.86it/s]
+reward of episode 508: 1.0
+
+
+
+
+
+
+349651it [1:29:24, 58.10it/s]
+reward of episode 509: 1.0
+
+
+
+
+
+
+350384it [1:29:36, 59.25it/s]
+reward of episode 510: 1.0
+
+
+
+
+
+
+351087it [1:29:48, 61.10it/s]
+reward of episode 511: 1.0
+
+
+
+
+351558it [1:29:56, 60.60it/s]
+reward of episode 512: 0.0
+
+
+
+
+352035it [1:30:04, 63.36it/s]
+reward of episode 513: 0.0
+
+
+
+
+
+
+
+
+
+
+353224it [1:30:25, 54.25it/s]
+reward of episode 514: 4.0
+
+
+
+
+
+353796it [1:30:34, 61.12it/s]
+reward of episode 515: 0.0
+
+
+
+
+
+354337it [1:30:44, 38.21it/s]
+reward of episode 516: 0.0
+
+
+
+
+
+
+355044it [1:30:56, 58.23it/s]
+reward of episode 517: 1.0
+
+
+
+
+355515it [1:31:05, 59.80it/s]
+reward of episode 518: 0.0
+
+
+
+
+
+
+
+356293it [1:31:19, 57.66it/s]
+reward of episode 519: 1.0
+
+
+
+
+
+
+356992it [1:31:30, 61.77it/s]
+reward of episode 520: 1.0
+
+
+
+
+
+
+
+
+357924it [1:31:47, 61.28it/s]
+reward of episode 521: 2.0
+
+
+
+
+
+358513it [1:31:57, 53.52it/s]
+reward of episode 522: 0.0
+
+
+
+
+358994it [1:32:05, 57.08it/s]
+reward of episode 523: 0.0
+
+
+
+
+359452it [1:32:13, 58.77it/s]
+reward of episode 524: 0.0
+
+
+
+
+
+360046it [1:32:23, 64.45it/s]
+reward of episode 525: 0.0
+
+
+
+
+
+
+360710it [1:32:34, 59.19it/s]
+reward of episode 526: 1.0
+
+
+
+
+
+361243it [1:32:44, 53.61it/s]
+reward of episode 527: 0.0
+
+
+
+
+
+
+
+362066it [1:32:59, 62.72it/s]
+reward of episode 528: 2.0
+
+
+
+
+
+
+
+
+363011it [1:33:15, 58.46it/s]
+reward of episode 529: 3.0
+
+
+
+
+
+
+
+
+
+
+
+364312it [1:33:37, 60.44it/s]
+reward of episode 530: 5.0
+
+
+
+
+
+
+
+365110it [1:33:51, 56.41it/s]
+reward of episode 531: 2.0
+
+
+
+
+365529it [1:33:59, 58.07it/s]
+reward of episode 532: 0.0
+
+
+
+
+
+366104it [1:34:09, 45.44it/s]
+reward of episode 533: 0.0
+
+
+
+
+
+366694it [1:34:19, 47.51it/s]
+reward of episode 534: 0.0
+
+
+
+
+
+367258it [1:34:29, 57.54it/s]
+reward of episode 535: 0.0
+
+
+
+
+
+
+367913it [1:34:41, 52.15it/s]
+reward of episode 536: 1.0
+
+
+
+
+
+
+368608it [1:34:53, 54.85it/s]
+reward of episode 537: 1.0
+
+
+
+
+369089it [1:35:01, 58.77it/s]
+reward of episode 538: 0.0
+
+
+
+
+
+
+
+369857it [1:35:15, 54.59it/s]
+reward of episode 539: 2.0
+
+
+
+
+
+370412it [1:35:25, 57.22it/s]
+reward of episode 540: 0.0
+
+
+
+
+
+371013it [1:35:35, 60.57it/s]
+reward of episode 541: 1.0
+
+
+
+
+
+
+371687it [1:35:47, 54.66it/s]
+reward of episode 542: 1.0
+
+
+
+
+
+
+
+
+372596it [1:36:03, 63.83it/s]
+reward of episode 543: 3.0
+
+
+
+
+
+
+
+373396it [1:36:17, 60.28it/s]
+reward of episode 544: 2.0
+
+
+
+
+
+
+
+
+
+
+
+374520it [1:36:39, 54.99it/s]
+reward of episode 545: 3.0
+
+
+
+
+
+
+375201it [1:36:51, 56.42it/s]
+reward of episode 546: 1.0
+
+
+
+
+
+
+375907it [1:37:04, 47.75it/s]
+reward of episode 547: 1.0
+
+
+
+
+
+376489it [1:37:14, 57.36it/s]
+reward of episode 548: 1.0
+
+
+
+
+
+
+377162it [1:37:26, 57.40it/s]
+reward of episode 549: 1.0
+
+
+
+
+
+
+377844it [1:37:37, 57.24it/s]
+reward of episode 550: 1.0
+
+
+
+
+
+378401it [1:37:47, 54.05it/s]
+reward of episode 551: 0.0
+
+
+
+
+
+378980it [1:37:57, 60.87it/s]
+reward of episode 552: 0.0
+
+
+
+
+
+
+
+
+
+379989it [1:38:16, 59.31it/s]
+reward of episode 553: 3.0
+
+
+
+
+
+380432it [1:38:26, 26.13it/s]
+reward of episode 554: 0.0
+
+
+
+
+
+
+381101it [1:38:38, 57.30it/s]
+reward of episode 555: 1.0
+
+
+
+
+381540it [1:38:46, 55.48it/s]
+reward of episode 556: 0.0
+
+
+
+
+
+382112it [1:38:56, 59.98it/s]
+reward of episode 557: 0.0
+
+
+
+
+382558it [1:39:03, 59.75it/s]
+reward of episode 558: 0.0
+
+
+
+
+
+
+383244it [1:39:15, 63.59it/s]
+reward of episode 559: 1.0
+
+
+
+
+
+
+383949it [1:39:28, 62.32it/s]
+reward of episode 560: 1.0
+
+
+
+
+
+
+384640it [1:39:40, 51.68it/s]
+reward of episode 561: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+386093it [1:40:06, 57.73it/s]
+reward of episode 562: 5.0
+
+
+
+
+
+
+
+386921it [1:40:20, 61.98it/s]
+reward of episode 563: 2.0
+
+
+
+
+
+
+
+387683it [1:40:34, 54.14it/s]
+reward of episode 564: 1.0
+
+
+
+
+
+
+388346it [1:40:46, 58.68it/s]
+reward of episode 565: 1.0
+
+
+
+
+
+
+389032it [1:40:58, 56.56it/s]
+reward of episode 566: 1.0
+
+
+
+
+
+389618it [1:41:08, 59.37it/s]
+reward of episode 567: 0.0
+
+
+
+
+
+
+
+390412it [1:41:22, 60.93it/s]
+reward of episode 568: 2.0
+
+
+
+
+
+
+
+
+
+391451it [1:41:40, 59.47it/s]
+reward of episode 569: 4.0
+
+
+
+
+
+
+
+392208it [1:41:54, 49.80it/s]
+reward of episode 570: 2.0
+
+
+
+
+
+392783it [1:42:04, 56.80it/s]
+reward of episode 571: 0.0
+
+
+
+
+
+393366it [1:42:14, 60.18it/s]
+reward of episode 572: 0.0
+
+
+
+
+
+
+
+
+
+
+394494it [1:42:34, 44.44it/s]
+reward of episode 573: 4.0
+
+
+
+
+
+395032it [1:42:44, 53.26it/s]
+reward of episode 574: 0.0
+
+
+
+
+
+
+395715it [1:42:56, 57.63it/s]
+reward of episode 575: 1.0
+
+
+
+
+
+396298it [1:43:06, 62.34it/s]
+reward of episode 576: 0.0
+
+
+
+
+
+396887it [1:43:16, 58.97it/s]
+reward of episode 577: 0.0
+
+
+
+
+397327it [1:43:24, 53.53it/s]
+reward of episode 578: 0.0
+
+
+
+
+
+397923it [1:43:34, 58.68it/s]
+reward of episode 579: 0.0
+
+
+
+
+
+398490it [1:43:44, 49.02it/s]
+reward of episode 580: 0.0
+
+
+
+
+
+399070it [1:43:54, 58.70it/s]
+reward of episode 581: 1.0
+
+
+
+
+
+
+
+399857it [1:44:08, 33.07it/s]
+reward of episode 582: 2.0
+
+
+
+
+
+
+
+
+
+400915it [1:44:27, 52.56it/s]
+reward of episode 583: 3.0
+
+
+
+
+
+
+401613it [1:44:39, 46.84it/s]
+reward of episode 584: 1.0
+
+
+
+
+
+
+
+
+
+402601it [1:44:56, 59.13it/s]
+reward of episode 585: 3.0
+
+
+
+
+
+403182it [1:45:06, 57.90it/s]
+reward of episode 586: 1.0
+
+
+
+
+
+
+403882it [1:45:18, 60.08it/s]
+reward of episode 587: 0.0
+
+
+
+
+404351it [1:45:27, 55.15it/s]
+reward of episode 588: 0.0
+
+
+
+
+
+
+
+405130it [1:45:41, 57.04it/s]
+reward of episode 589: 2.0
+
+
+
+
+
+405713it [1:45:51, 59.35it/s]
+reward of episode 590: 0.0
+
+
+
+
+
+
+
+
+
+406744it [1:46:09, 54.85it/s]
+reward of episode 591: 3.0
+
+
+
+
+
+
+
+
+407522it [1:46:25, 58.52it/s]
+reward of episode 592: 2.0
+
+
+
+
+
+
+
+
+
+408558it [1:46:43, 58.24it/s]
+reward of episode 593: 3.0
+
+
+
+
+
+409120it [1:46:53, 61.04it/s]
+reward of episode 594: 1.0
+
+
+
+
+
+
+409823it [1:47:05, 57.79it/s]
+reward of episode 595: 1.0
+
+
+
+
+
+
+
+
+
+
+410960it [1:47:25, 56.86it/s]
+reward of episode 596: 4.0
+
+
+
+
+
+
+
+
+
+411985it [1:47:43, 54.91it/s]
+reward of episode 597: 4.0
+
+
+
+
+
+412580it [1:47:53, 63.71it/s]
+reward of episode 598: 1.0
+
+
+
+
+
+
+
+
+
+
+413734it [1:48:13, 60.93it/s]
+reward of episode 599: 3.0
+
+
+
+
+
+
+414392it [1:48:25, 61.88it/s]
+reward of episode 600: 1.0
+
+
+
+
+
+414994it [1:48:35, 59.73it/s]
+reward of episode 601: 0.0
+
+
+
+
+
+
+415671it [1:48:47, 56.85it/s]
+reward of episode 602: 1.0
+
+
+
+
+
+
+416351it [1:48:59, 51.30it/s]
+reward of episode 603: 1.0
+
+
+
+
+
+
+
+417181it [1:49:13, 58.06it/s]
+reward of episode 604: 2.0
+
+
+
+
+417650it [1:49:21, 56.52it/s]
+reward of episode 605: 0.0
+
+
+
+
+
+418213it [1:49:32, 58.90it/s]
+reward of episode 606: 0.0
+
+
+
+
+
+418758it [1:49:41, 62.50it/s]
+reward of episode 607: 1.0
+
+
+
+
+
+
+
+
+419679it [1:49:57, 59.63it/s]
+reward of episode 608: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+421048it [1:50:21, 60.81it/s]
+reward of episode 609: 6.0
+
+
+
+
+
+421623it [1:50:31, 52.36it/s]
+reward of episode 610: 0.0
+
+
+
+
+
+422184it [1:50:42, 58.09it/s]
+reward of episode 611: 0.0
+
+
+
+
+
+
+422869it [1:50:54, 36.25it/s]
+reward of episode 612: 1.0
+
+
+
+
+
+
+
+
+
+
+423986it [1:51:13, 58.30it/s]
+reward of episode 613: 2.0
+
+
+
+
+424443it [1:51:22, 55.25it/s]
+reward of episode 614: 0.0
+
+
+
+
+
+425019it [1:51:32, 48.82it/s]
+reward of episode 615: 0.0
+
+
+
+
+425473it [1:51:40, 60.32it/s]
+reward of episode 616: 0.0
+
+
+
+
+
+
+
+
+426396it [1:51:56, 64.19it/s]
+reward of episode 617: 2.0
+
+
+
+
+
+
+
+
+
+427458it [1:52:14, 59.01it/s]
+reward of episode 618: 4.0
+
+
+
+
+
+
+
+428278it [1:52:28, 62.63it/s]
+reward of episode 619: 2.0
+
+
+
+
+
+428900it [1:52:38, 65.58it/s]
+reward of episode 620: 0.0
+
+
+
+
+
+
+
+
+429698it [1:52:54, 54.55it/s]
+reward of episode 621: 1.0
+
+
+
+
+
+
+430399it [1:53:06, 57.93it/s]
+reward of episode 622: 1.0
+
+
+
+
+
+
+431059it [1:53:18, 55.14it/s]
+reward of episode 623: 1.0
+
+
+
+
+
+
+431774it [1:53:30, 59.29it/s]
+reward of episode 624: 1.0
+
+
+
+
+
+432337it [1:53:40, 51.41it/s]
+reward of episode 625: 0.0
+
+
+
+
+
+432925it [1:53:50, 54.61it/s]
+reward of episode 626: 1.0
+
+
+
+
+
+433480it [1:54:01, 49.54it/s]
+reward of episode 627: 0.0
+
+
+
+
+
+
+
+434234it [1:54:14, 54.05it/s]
+reward of episode 628: 2.0
+
+
+
+
+
+434801it [1:54:24, 54.44it/s]
+reward of episode 629: 0.0
+
+
+
+
+
+
+
+
+435746it [1:54:40, 60.73it/s]
+reward of episode 630: 2.0
+
+
+
+
+
+436319it [1:54:50, 57.66it/s]
+reward of episode 631: 1.0
+
+
+
+
+
+
+
+437139it [1:55:05, 58.79it/s]
+reward of episode 632: 2.0
+
+
+
+
+
+
+437830it [1:55:17, 57.74it/s]
+reward of episode 633: 1.0
+
+
+
+
+
+
+
+438630it [1:55:31, 60.53it/s]
+reward of episode 634: 2.0
+
+
+
+
+
+
+439284it [1:55:42, 59.26it/s]
+reward of episode 635: 1.0
+
+
+
+
+439750it [1:55:50, 58.57it/s]
+reward of episode 636: 0.0
+
+
+
+
+
+
+440439it [1:56:02, 55.53it/s]
+reward of episode 637: 1.0
+
+
+
+
+
+
+
+441228it [1:56:17, 59.40it/s]
+reward of episode 638: 1.0
+
+
+
+
+
+
+441855it [1:56:29, 60.95it/s]
+reward of episode 639: 1.0
+
+
+
+
+
+
+
+
+442785it [1:56:45, 55.13it/s]
+reward of episode 640: 3.0
+
+
+
+
+
+443360it [1:56:55, 59.14it/s]
+reward of episode 641: 1.0
+
+
+
+
+
+
+444042it [1:57:06, 61.15it/s]
+reward of episode 642: 1.0
+
+
+
+
+
+
+
+444842it [1:57:21, 58.60it/s]
+reward of episode 643: 2.0
+
+
+
+
+
+
+445537it [1:57:33, 60.58it/s]
+reward of episode 644: 1.0
+
+
+
+
+
+446123it [1:57:43, 59.70it/s]
+reward of episode 645: 0.0
+
+
+
+
+
+
+
+
+
+447132it [1:58:01, 61.93it/s]
+reward of episode 646: 3.0
+
+
+
+
+
+447707it [1:58:11, 55.40it/s]
+reward of episode 647: 0.0
+
+
+
+
+
+448262it [1:58:21, 52.68it/s]
+reward of episode 648: 1.0
+
+
+
+
+
+
+
+449049it [1:58:35, 61.30it/s]
+reward of episode 649: 1.0
+
+
+
+
+
+
+449720it [1:58:47, 58.36it/s]
+reward of episode 650: 1.0
+
+
+
+
+
+450308it [1:58:57, 61.69it/s]
+reward of episode 651: 0.0
+
+
+
+
+
+450908it [1:59:07, 59.63it/s]
+reward of episode 652: 1.0
+
+
+
+
+451346it [1:59:15, 55.24it/s]
+reward of episode 653: 0.0
+
+
+
+
+
+
+452022it [1:59:27, 60.43it/s]
+reward of episode 654: 1.0
+
+
+
+
+
+452601it [1:59:37, 57.06it/s]
+reward of episode 655: 0.0
+
+
+
+
+
+
+
+453379it [1:59:51, 54.42it/s]
+reward of episode 656: 1.0
+
+
+
+
+
+
+454059it [2:00:03, 59.03it/s]
+reward of episode 657: 1.0
+
+
+
+
+454529it [2:00:11, 57.36it/s]
+reward of episode 658: 0.0
+
+
+
+
+
+
+455215it [2:00:24, 32.91it/s]
+reward of episode 659: 1.0
+
+
+
+
+
+455809it [2:00:34, 60.90it/s]
+reward of episode 660: 0.0
+
+
+
+
+456219it [2:00:41, 50.51it/s]
+reward of episode 661: 0.0
+
+
+
+
+
+
+456906it [2:00:53, 57.04it/s]
+reward of episode 662: 1.0
+
+
+
+
+
+
+
+
+
+457938it [2:01:11, 47.41it/s]
+reward of episode 663: 2.0
+
+
+
+
+
+
+
+
+458868it [2:01:27, 57.89it/s]
+reward of episode 664: 2.0
+
+
+
+
+
+459464it [2:01:38, 59.61it/s]
+reward of episode 665: 0.0
+
+
+
+
+
+
+
+
+460351it [2:01:54, 33.87it/s]
+reward of episode 666: 3.0
+
+
+
+
+
+
+
+461126it [2:02:07, 60.22it/s]
+reward of episode 667: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+462512it [2:02:31, 62.65it/s]
+reward of episode 668: 4.0
+
+
+
+
+
+463074it [2:02:42, 58.48it/s]
+reward of episode 669: 0.0
+
+
+
+
+
+463646it [2:02:52, 57.16it/s]
+reward of episode 670: 0.0
+
+
+
+
+
+
+464355it [2:03:04, 55.77it/s]
+reward of episode 671: 1.0
+
+
+
+
+
+
+465062it [2:03:16, 59.94it/s]
+reward of episode 672: 1.0
+
+
+
+
+465523it [2:03:24, 52.73it/s]
+reward of episode 673: 0.0
+
+
+
+
+
+466089it [2:03:33, 59.97it/s]
+reward of episode 674: 0.0
+
+
+
+
+
+
+
+466884it [2:03:48, 54.32it/s]
+reward of episode 675: 1.0
+
+
+
+
+
+467439it [2:03:58, 54.78it/s]
+reward of episode 676: 0.0
+
+
+
+
+
+
+
+468237it [2:04:12, 51.19it/s]
+reward of episode 677: 1.0
+
+
+
+
+
+
+468941it [2:04:24, 52.99it/s]
+reward of episode 678: 2.0
+
+
+
+
+
+
+
+
+
+469955it [2:04:42, 57.63it/s]
+reward of episode 679: 2.0
+
+
+
+
+
+
+
+
+470781it [2:04:58, 54.98it/s]
+reward of episode 680: 2.0
+
+
+
+
+
+
+
+
+
+471552it [2:05:16, 40.74it/s]
+reward of episode 681: 1.0
+
+
+
+
+
+472121it [2:05:26, 61.54it/s]
+reward of episode 682: 0.0
+
+
+
+
+
+472736it [2:05:36, 61.18it/s]
+reward of episode 683: 1.0
+
+
+
+
+
+
+
+
+
+
+473839it [2:05:56, 52.99it/s]
+reward of episode 684: 3.0
+
+
+
+
+474302it [2:06:04, 46.25it/s]
+reward of episode 685: 0.0
+
+
+
+
+
+474887it [2:06:14, 56.09it/s]
+reward of episode 686: 0.0
+
+
+
+
+
+
+
+
+475761it [2:06:30, 62.46it/s]
+reward of episode 687: 2.0
+
+
+
+
+
+476355it [2:06:40, 62.87it/s]
+reward of episode 688: 0.0
+
+
+
+
+476813it [2:06:48, 58.04it/s]
+reward of episode 689: 0.0
+
+
+
+
+
+
+
+
+477780it [2:07:04, 62.14it/s]
+reward of episode 690: 2.0
+
+
+
+
+
+
+478463it [2:07:16, 57.27it/s]
+reward of episode 691: 1.0
+
+
+
+
+
+
+
+479255it [2:07:30, 61.90it/s]
+reward of episode 692: 2.0
+
+
+
+
+
+479854it [2:07:41, 64.24it/s]
+reward of episode 693: 0.0
+
+
+
+
+
+
+
+
+480763it [2:07:56, 63.17it/s]
+reward of episode 694: 2.0
+
+
+
+
+
+
+
+481569it [2:08:10, 61.47it/s]
+reward of episode 695: 2.0
+
+
+
+
+
+
+
+
+482523it [2:08:26, 58.27it/s]
+reward of episode 696: 2.0
+
+
+
+
+
+
+
+483357it [2:08:41, 58.33it/s]
+reward of episode 697: 2.0
+
+
+
+
+
+
+
+
+484302it [2:08:57, 63.61it/s]
+reward of episode 698: 3.0
+
+
+
+
+
+
+485000it [2:09:08, 64.05it/s]
+reward of episode 699: 1.0
+
+
+
+
+
+
+
+485839it [2:09:22, 61.47it/s]
+reward of episode 700: 2.0
+
+
+
+
+486316it [2:09:30, 55.28it/s]
+reward of episode 701: 0.0
+
+
+
+
+
+
+487035it [2:09:43, 61.57it/s]
+reward of episode 702: 1.0
+
+
+
+
+487502it [2:09:51, 61.94it/s]
+reward of episode 703: 0.0
+
+
+
+
+
+488093it [2:10:01, 62.99it/s]
+reward of episode 704: 0.0
+
+
+
+
+
+
+
+488930it [2:10:15, 59.10it/s]
+reward of episode 705: 2.0
+
+
+
+
+
+
+489601it [2:10:26, 63.98it/s]
+reward of episode 706: 1.0
+
+
+
+
+490097it [2:10:35, 62.94it/s]
+reward of episode 707: 0.0
+
+
+
+
+
+
+490803it [2:10:47, 57.34it/s]
+reward of episode 708: 1.0
+
+
+
+
+
+
+491531it [2:10:59, 65.72it/s]
+reward of episode 709: 1.0
+
+
+
+
+
+
+
+
+
+
+492676it [2:11:19, 57.93it/s]
+reward of episode 710: 4.0
+
+
+
+
+
+
+493384it [2:11:31, 61.45it/s]
+reward of episode 711: 1.0
+
+
+
+
+
+
+
+494189it [2:11:45, 48.01it/s]
+reward of episode 712: 1.0
+
+
+
+
+494684it [2:11:53, 62.85it/s]
+reward of episode 713: 0.0
+
+
+
+
+
+495277it [2:12:03, 64.40it/s]
+reward of episode 714: 0.0
+
+
+
+
+
+
+496000it [2:12:15, 59.36it/s]
+reward of episode 715: 1.0
+
+
+
+
+
+496574it [2:12:25, 62.93it/s]
+reward of episode 716: 0.0
+
+
+
+
+
+
+497272it [2:12:37, 63.99it/s]
+reward of episode 717: 1.0
+
+
+
+
+
+497848it [2:12:47, 51.41it/s]
+reward of episode 718: 0.0
+
+
+
+
+
+
+
+
+
+498668it [2:13:05, 46.80it/s]
+reward of episode 719: 2.0
+
+
+
+
+
+
+
+
+
+
+
+499810it [2:13:27, 51.88it/s]
+reward of episode 720: 3.0
+
+
+
+
+
+
+500458it [2:13:40, 55.96it/s]
+reward of episode 721: 1.0
+
+
+
+
+
+
+
+
+
+501379it [2:13:57, 57.43it/s]
+reward of episode 722: 3.0
+
+
+
+
+
+
+
+
+502272it [2:14:13, 56.08it/s]
+reward of episode 723: 2.0
+
+
+
+
+
+
+
+503045it [2:14:28, 58.45it/s]
+reward of episode 724: 1.0
+
+
+
+
+
+
+
+
+
+504059it [2:14:46, 53.69it/s]
+reward of episode 725: 2.0
+
+
+
+
+504509it [2:14:54, 49.81it/s]
+reward of episode 726: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+505867it [2:15:17, 56.43it/s]
+reward of episode 727: 5.0
+
+
+
+
+
+506396it [2:15:27, 62.41it/s]
+reward of episode 728: 0.0
+
+
+
+
+
+
+
+
+
+507377it [2:15:46, 50.58it/s]
+reward of episode 729: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+508752it [2:16:12, 50.62it/s]
+reward of episode 730: 4.0
+
+
+
+
+
+
+
+
+
+509595it [2:16:31, 59.43it/s]
+reward of episode 731: 1.0
+
+
+
+
+
+510164it [2:16:41, 58.22it/s]
+reward of episode 732: 0.0
+
+
+
+
+
+
+510845it [2:16:53, 58.58it/s]
+reward of episode 733: 1.0
+
+
+
+
+
+511423it [2:17:03, 59.22it/s]
+reward of episode 734: 0.0
+
+
+
+
+
+511996it [2:17:13, 57.52it/s]
+reward of episode 735: 1.0
+
+
+
+
+
+
+
+512788it [2:17:27, 60.09it/s]
+reward of episode 736: 1.0
+
+
+
+
+
+
+
+513614it [2:17:41, 61.10it/s]
+reward of episode 737: 3.0
+
+
+
+
+
+
+
+
+514476it [2:17:57, 57.48it/s]
+reward of episode 738: 2.0
+
+
+
+
+
+
+
+
+
+515489it [2:18:15, 56.38it/s]
+reward of episode 739: 3.0
+
+
+
+
+515963it [2:18:23, 60.94it/s]
+reward of episode 740: 0.0
+
+
+
+
+
+
+516655it [2:18:35, 57.96it/s]
+reward of episode 741: 1.0
+
+
+
+
+
+
+
+517461it [2:18:49, 52.68it/s]
+reward of episode 742: 1.0
+
+
+
+
+
+
+518135it [2:19:01, 60.28it/s]
+reward of episode 743: 1.0
+
+
+
+
+
+518677it [2:19:11, 58.19it/s]
+reward of episode 744: 0.0
+
+
+
+
+
+
+519378it [2:19:23, 53.05it/s]
+reward of episode 745: 1.0
+
+
+
+
+
+519935it [2:19:33, 59.54it/s]
+reward of episode 746: 1.0
+
+
+
+
+
+520511it [2:19:43, 59.11it/s]
+reward of episode 747: 0.0
+
+
+
+
+
+
+
+521308it [2:19:57, 58.47it/s]
+reward of episode 748: 1.0
+
+
+
+
+521790it [2:20:05, 60.27it/s]
+reward of episode 749: 0.0
+
+
+
+
+
+
+
+522586it [2:20:20, 55.43it/s]
+reward of episode 750: 1.0
+
+
+
+
+
+523125it [2:20:29, 63.41it/s]
+reward of episode 751: 1.0
+
+
+
+
+
+523695it [2:20:39, 49.29it/s]
+reward of episode 752: 0.0
+
+
+
+
+
+
+
+524488it [2:20:53, 54.27it/s]
+reward of episode 753: 2.0
+
+
+
+
+
+
+525199it [2:21:05, 55.25it/s]
+reward of episode 754: 1.0
+
+
+
+
+
+525757it [2:21:15, 53.07it/s]
+reward of episode 755: 0.0
+
+
+
+
+
+
+526461it [2:21:28, 61.31it/s]
+reward of episode 756: 1.0
+
+
+
+
+
+
+
+527253it [2:21:41, 59.29it/s]
+reward of episode 757: 1.0
+
+
+
+
+527707it [2:21:49, 47.88it/s]
+reward of episode 758: 0.0
+
+
+
+
+
+
+528369it [2:22:01, 59.31it/s]
+reward of episode 759: 1.0
+
+
+
+
+
+
+529014it [2:22:13, 60.84it/s]
+reward of episode 760: 0.0
+
+
+
+
+
+
+
+
+529942it [2:22:30, 60.17it/s]
+reward of episode 761: 2.0
+
+
+
+
+
+530511it [2:22:40, 56.13it/s]
+reward of episode 762: 0.0
+
+
+
+
+
+531075it [2:22:50, 57.50it/s]
+reward of episode 763: 0.0
+
+
+
+
+
+531627it [2:22:59, 56.24it/s]
+reward of episode 764: 1.0
+
+
+
+
+
+532218it [2:23:09, 56.47it/s]
+reward of episode 765: 0.0
+
+
+
+
+
+532791it [2:23:19, 55.24it/s]
+reward of episode 766: 1.0
+
+
+
+
+
+
+533482it [2:23:32, 59.79it/s]
+reward of episode 767: 1.0
+
+
+
+
+
+534049it [2:23:42, 58.01it/s]
+reward of episode 768: 0.0
+
+
+
+
+
+534610it [2:23:52, 37.81it/s]
+reward of episode 769: 0.0
+
+
+
+
+
+
+
+
+535533it [2:24:08, 61.36it/s]
+reward of episode 770: 3.0
+
+
+
+
+
+
+536195it [2:24:19, 60.39it/s]
+reward of episode 771: 1.0
+
+
+
+
+
+
+536899it [2:24:32, 58.22it/s]
+reward of episode 772: 1.0
+
+
+
+
+
+
+
+
+
+
+
+538095it [2:24:54, 52.17it/s]
+reward of episode 773: 5.0
+
+
+
+
+
+538666it [2:25:04, 57.15it/s]
+reward of episode 774: 0.0
+
+
+
+
+
+
+
+
+539555it [2:25:20, 56.45it/s]
+reward of episode 775: 2.0
+
+
+
+
+
+540108it [2:25:30, 58.85it/s]
+reward of episode 776: 1.0
+
+
+
+
+
+
+540768it [2:25:42, 57.55it/s]
+reward of episode 777: 1.0
+
+
+
+
+
+541313it [2:25:52, 59.29it/s]
+reward of episode 778: 0.0
+
+
+
+
+
+
+541884it [2:26:04, 54.34it/s]
+reward of episode 779: 0.0
+
+
+
+
+
+
+
+
+
+542758it [2:26:22, 54.38it/s]
+reward of episode 780: 2.0
+
+
+
+
+
+
+543434it [2:26:34, 59.03it/s]
+reward of episode 781: 1.0
+
+
+
+
+
+543941it [2:26:44, 27.82it/s]
+reward of episode 782: 0.0
+
+
+
+
+
+
+
+544672it [2:26:58, 59.15it/s]
+reward of episode 783: 1.0
+
+
+
+
+
+
+
+
+
+545589it [2:27:16, 33.95it/s]
+reward of episode 784: 2.0
+
+
+
+
+
+
+
+
+
+546418it [2:27:35, 59.97it/s]
+reward of episode 785: 1.0
+
+
+
+
+
+
+
+
+547223it [2:27:50, 57.52it/s]
+reward of episode 786: 1.0
+
+
+
+
+
+
+
+547911it [2:28:04, 55.45it/s]
+reward of episode 787: 2.0
+
+
+
+
+
+548477it [2:28:14, 57.97it/s]
+reward of episode 788: 0.0
+
+
+
+
+
+
+
+
+
+549425it [2:28:33, 59.05it/s]
+reward of episode 789: 2.0
+
+
+
+
+
+
+550047it [2:28:45, 53.14it/s]
+reward of episode 790: 1.0
+
+
+
+
+
+
+550665it [2:28:57, 56.41it/s]
+reward of episode 791: 0.0
+
+
+
+
+551117it [2:29:05, 51.66it/s]
+reward of episode 792: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+552401it [2:29:29, 58.24it/s]
+reward of episode 793: 4.0
+
+
+
+
+552854it [2:29:37, 51.61it/s]
+reward of episode 794: 0.0
+
+
+
+
+
+
+
+
+553712it [2:29:53, 59.24it/s]
+reward of episode 795: 1.0
+
+
+
+
+
+
+
+
+554577it [2:30:09, 46.29it/s]
+reward of episode 796: 2.0
+
+
+
+
+
+
+555261it [2:30:21, 51.82it/s]
+reward of episode 797: 1.0
+
+
+
+
+
+
+555901it [2:30:33, 55.17it/s]
+reward of episode 798: 1.0
+
+
+
+
+
+
+
+556658it [2:30:47, 55.98it/s]
+reward of episode 799: 1.0
+
+
+
+
+
+
+557305it [2:30:59, 50.98it/s]
+reward of episode 800: 1.0
+
+
+
+
+
+557873it [2:31:09, 49.81it/s]
+reward of episode 801: 0.0
+
+
+
+
+558307it [2:31:17, 56.46it/s]
+reward of episode 802: 0.0
+
+
+
+
+
+558885it [2:31:27, 59.89it/s]
+reward of episode 803: 0.0
+
+
+
+
+
+559483it [2:31:37, 62.34it/s]
+reward of episode 804: 0.0
+
+
+
+
+559916it [2:31:45, 59.81it/s]
+reward of episode 805: 0.0
+
+
+
+
+
+
+
+560704it [2:31:59, 59.49it/s]
+reward of episode 806: 2.0
+
+
+
+
+
+
+
+561507it [2:32:13, 59.42it/s]
+reward of episode 807: 1.0
+
+
+
+
+561956it [2:32:21, 57.85it/s]
+reward of episode 808: 0.0
+
+
+
+
+
+
+
+562761it [2:32:35, 61.40it/s]
+reward of episode 809: 1.0
+
+
+
+
+
+
+
+
+
+563813it [2:32:53, 39.12it/s]
+reward of episode 810: 3.0
+
+
+
+
+
+564433it [2:33:03, 62.26it/s]
+reward of episode 811: 1.0
+
+
+
+
+
+565014it [2:33:14, 58.05it/s]
+reward of episode 812: 0.0
+
+
+
+
+
+
+
+565822it [2:33:28, 60.65it/s]
+reward of episode 813: 1.0
+
+
+
+
+
+
+
+
+
+
+
+567059it [2:33:49, 60.69it/s]
+reward of episode 814: 3.0
+
+
+
+
+
+
+567732it [2:34:01, 62.12it/s]
+reward of episode 815: 2.0
+
+
+
+
+
+
+568444it [2:34:14, 62.43it/s]
+reward of episode 816: 1.0
+
+
+
+
+
+
+569162it [2:34:26, 62.01it/s]
+reward of episode 817: 1.0
+
+
+
+
+
+
+
+569989it [2:34:40, 51.05it/s]
+reward of episode 818: 2.0
+
+
+
+
+
+570585it [2:34:50, 61.79it/s]
+reward of episode 819: 0.0
+
+
+
+
+
+
+
+
+
+571581it [2:35:07, 56.80it/s]
+reward of episode 820: 6.0
+
+
+
+
+
+
+
+
+
+
+
+572850it [2:35:30, 59.13it/s]
+reward of episode 821: 3.0
+
+
+
+
+
+
+573494it [2:35:42, 51.09it/s]
+reward of episode 822: 0.0
+
+
+
+
+
+
+
+
+574321it [2:35:58, 56.37it/s]
+reward of episode 823: 2.0
+
+
+
+
+
+
+574995it [2:36:10, 47.74it/s]
+reward of episode 824: 0.0
+
+
+
+
+
+
+
+
+
+575861it [2:36:28, 54.41it/s]
+reward of episode 825: 2.0
+
+
+
+
+
+
+
+576521it [2:36:42, 53.20it/s]
+reward of episode 826: 1.0
+
+
+
+
+
+
+
+577224it [2:36:56, 55.15it/s]
+reward of episode 827: 1.0
+
+
+
+
+
+
+577829it [2:37:08, 48.50it/s]
+reward of episode 828: 1.0
+
+
+
+
+
+578393it [2:37:18, 57.62it/s]
+reward of episode 829: 0.0
+
+
+
+
+
+
+
+579087it [2:37:32, 56.85it/s]
+reward of episode 830: 1.0
+
+
+
+
+
+
+579690it [2:37:44, 41.07it/s]
+reward of episode 831: 1.0
+
+
+
+
+
+
+
+
+580299it [2:38:00, 37.63it/s]
+reward of episode 832: 0.0
+
+
+
+
+
+
+
+
+
+581287it [2:38:18, 52.88it/s]
+reward of episode 833: 3.0
+
+
+
+
+
+
+
+582065it [2:38:32, 54.30it/s]
+reward of episode 834: 1.0
+
+
+
+
+
+
+
+582845it [2:38:46, 52.55it/s]
+reward of episode 835: 1.0
+
+
+
+
+
+
+583493it [2:38:59, 60.60it/s]
+reward of episode 836: 0.0
+
+
+
+
+583957it [2:39:07, 55.81it/s]
+reward of episode 837: 0.0
+
+
+
+
+
+
+584616it [2:39:18, 57.33it/s]
+reward of episode 838: 0.0
+
+
+
+
+
+585179it [2:39:28, 58.26it/s]
+reward of episode 839: 0.0
+
+
+
+
+
+
+
+
+
+586192it [2:39:46, 58.65it/s]
+reward of episode 840: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+587648it [2:40:13, 54.92it/s]
+
+reward of episode 841: 5.0
+
+
+
+
+
+
+588412it [2:40:26, 56.56it/s]
+reward of episode 842: 1.0
+
+
+
+
+
+
+
+
+
+
+589521it [2:40:47, 58.76it/s]
+reward of episode 843: 3.0
+
+
+
+
+
+
+
+
+
+590560it [2:41:05, 49.97it/s]
+reward of episode 844: 4.0
+
+
+
+
+
+
+591228it [2:41:17, 57.31it/s]
+reward of episode 845: 1.0
+
+
+
+
+
+
+591909it [2:41:29, 55.06it/s]
+reward of episode 846: 1.0
+
+
+
+
+
+
+
+592708it [2:41:43, 41.74it/s]
+reward of episode 847: 1.0
+
+
+
+
+
+
+
+
+
+593688it [2:42:01, 54.85it/s]
+reward of episode 848: 2.0
+
+
+
+
+
+
+594361it [2:42:13, 52.61it/s]
+reward of episode 849: 1.0
+
+
+
+
+
+
+
+595163it [2:42:27, 57.76it/s]
+reward of episode 850: 2.0
+
+
+
+
+
+
+
+
+596073it [2:42:43, 59.07it/s]
+reward of episode 851: 2.0
+
+
+
+
+
+596640it [2:42:53, 58.14it/s]
+reward of episode 852: 0.0
+
+
+
+
+
+
+597252it [2:43:05, 35.17it/s]
+reward of episode 853: 1.0
+
+
+
+
+
+597825it [2:43:15, 60.41it/s]
+reward of episode 854: 0.0
+
+
+
+
+598290it [2:43:23, 57.07it/s]
+reward of episode 855: 0.0
+
+
+
+
+
+
+
+599085it [2:43:37, 60.46it/s]
+reward of episode 856: 0.0
+
+
+
+
+
+
+
+
+599955it [2:43:53, 61.50it/s]
+reward of episode 857: 2.0
+
+
+
+
+
+
+600622it [2:44:06, 54.87it/s]
+reward of episode 858: 0.0
+
+
+
+
+
+601175it [2:44:15, 58.30it/s]
+reward of episode 859: 0.0
+
+
+
+
+
+
+
+
+602088it [2:44:32, 61.09it/s]
+reward of episode 860: 2.0
+
+
+
+
+
+
+
+
+
+603090it [2:44:49, 61.09it/s]
+reward of episode 861: 3.0
+
+
+
+
+
+
+
+603898it [2:45:03, 59.41it/s]
+reward of episode 862: 1.0
+
+
+
+
+
+
+
+604718it [2:45:18, 57.20it/s]
+reward of episode 863: 1.0
+
+
+
+
+
+
+
+
+605647it [2:45:34, 62.82it/s]
+reward of episode 864: 2.0
+
+
+
+
+
+
+
+606403it [2:45:48, 59.45it/s]
+reward of episode 865: 1.0
+
+
+
+
+
+
+607082it [2:46:00, 60.49it/s]
+reward of episode 866: 1.0
+
+
+
+
+
+
+607777it [2:46:12, 56.08it/s]
+reward of episode 867: 1.0
+
+
+
+
+
+
+608410it [2:46:26, 59.51it/s]
+reward of episode 868: 2.0
+
+
+
+
+
+
+
+
+
+609464it [2:46:44, 48.09it/s]
+reward of episode 869: 2.0
+
+
+
+
+609917it [2:46:52, 57.49it/s]
+reward of episode 870: 1.0
+
+
+
+
+
+
+610612it [2:47:04, 59.90it/s]
+reward of episode 871: 0.0
+
+
+
+
+
+611163it [2:47:14, 60.57it/s]
+reward of episode 872: 0.0
+
+
+
+
+
+
+
+
+612081it [2:47:30, 58.04it/s]
+reward of episode 873: 2.0
+
+
+
+
+612522it [2:47:38, 58.02it/s]
+reward of episode 874: 0.0
+
+
+
+
+
+
+
+613310it [2:47:52, 57.91it/s]
+reward of episode 875: 1.0
+
+
+
+
+
+
+613979it [2:48:04, 56.85it/s]
+reward of episode 876: 0.0
+
+
+
+
+
+
+614655it [2:48:16, 59.43it/s]
+reward of episode 877: 0.0
+
+
+
+
+
+
+
+
+615545it [2:48:32, 57.41it/s]
+reward of episode 878: 2.0
+
+
+
+
+
+616126it [2:48:42, 60.36it/s]
+reward of episode 879: 0.0
+
+
+
+
+
+
+
+
+
+
+
+617376it [2:49:05, 48.26it/s]
+reward of episode 880: 2.0
+
+
+
+
+
+617927it [2:49:14, 60.04it/s]
+reward of episode 881: 0.0
+
+
+
+
+
+
+
+
+618839it [2:49:31, 61.21it/s]
+reward of episode 882: 2.0
+
+
+
+
+
+
+619512it [2:49:43, 56.14it/s]
+reward of episode 883: 1.0
+
+
+
+
+
+
+
+
+620377it [2:49:58, 60.30it/s]
+reward of episode 884: 2.0
+
+
+
+
+
+
+
+621176it [2:50:13, 56.61it/s]
+reward of episode 885: 1.0
+
+
+
+
+
+
+
+
+622070it [2:50:29, 58.53it/s]
+reward of episode 886: 2.0
+
+
+
+
+
+
+622747it [2:50:41, 56.21it/s]
+reward of episode 887: 0.0
+
+
+
+
+
+
+623408it [2:50:53, 55.45it/s]
+reward of episode 888: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+625010it [2:51:21, 60.63it/s]
+reward of episode 889: 6.0
+
+
+
+
+
+
+
+
+625900it [2:51:37, 53.29it/s]
+reward of episode 890: 2.0
+
+
+
+
+
+
+
+
+
+626890it [2:51:55, 60.48it/s]
+reward of episode 891: 2.0
+
+
+
+
+
+
+
+
+
+
+
+628160it [2:52:17, 61.55it/s]
+reward of episode 892: 4.0
+
+
+
+
+
+
+
+628964it [2:52:31, 61.73it/s]
+reward of episode 893: 2.0
+
+
+
+
+
+
+
+629728it [2:52:45, 61.28it/s]
+reward of episode 894: 0.0
+
+
+
+
+
+
+
+630505it [2:52:59, 59.25it/s]
+reward of episode 895: 1.0
+
+
+
+
+
+
+631204it [2:53:12, 56.53it/s]
+reward of episode 896: 0.0
+
+
+
+
+
+
+631868it [2:53:23, 58.39it/s]
+reward of episode 897: 1.0
+
+
+
+
+
+632431it [2:53:33, 58.03it/s]
+reward of episode 898: 0.0
+
+
+
+
+
+
+
+
+
+
+633570it [2:53:54, 47.67it/s]
+reward of episode 899: 2.0
+
+
+
+
+
+
+
+
+634454it [2:54:10, 58.63it/s]
+reward of episode 900: 1.0
+
+
+
+
+
+
+
+
+
+
+
+635722it [2:54:32, 55.13it/s]
+reward of episode 901: 3.0
+
+
+
+
+636164it [2:54:40, 46.83it/s]
+reward of episode 902: 0.0
+
+
+
+
+
+
+636804it [2:54:52, 58.49it/s]
+reward of episode 903: 0.0
+
+
+
+
+
+
+
+637605it [2:55:06, 61.33it/s]
+reward of episode 904: 1.0
+
+
+
+
+
+
+638312it [2:55:18, 60.45it/s]
+reward of episode 905: 0.0
+
+
+
+
+
+
+
+
+
+
+639451it [2:55:38, 58.99it/s]
+reward of episode 906: 3.0
+
+
+
+
+
+
+
+
+640318it [2:55:54, 37.83it/s]
+reward of episode 907: 1.0
+
+
+
+
+
+
+
+
+
+
+641457it [2:56:14, 58.42it/s]
+reward of episode 908: 3.0
+
+
+
+
+
+
+642054it [2:56:26, 58.00it/s]
+reward of episode 909: 0.0
+
+
+
+
+
+
+
+642871it [2:56:40, 61.19it/s]
+reward of episode 910: 0.0
+
+
+
+
+
+643438it [2:56:50, 48.02it/s]
+reward of episode 911: 0.0
+
+
+
+
+
+644009it [2:57:00, 57.42it/s]
+reward of episode 912: 0.0
+
+
+
+
+
+
+
+644795it [2:57:14, 60.16it/s]
+reward of episode 913: 1.0
+
+
+
+
+
+645356it [2:57:24, 45.97it/s]
+reward of episode 914: 0.0
+
+
+
+
+
+
+646070it [2:57:36, 61.82it/s]
+reward of episode 915: 1.0
+
+
+
+
+
+
+
+
+
+
+647174it [2:57:56, 51.37it/s]
+reward of episode 916: 4.0
+
+
+
+
+
+
+
+
+
+648207it [2:58:14, 61.31it/s]
+reward of episode 917: 2.0
+
+
+
+
+
+
+648887it [2:58:27, 57.36it/s]
+reward of episode 918: 1.0
+
+
+
+
+
+
+
+
+649774it [2:58:42, 60.91it/s]
+reward of episode 919: 1.0
+
+
+
+
+
+
+
+650552it [2:58:57, 55.72it/s]
+reward of episode 920: 2.0
+
+
+
+
+
+
+
+651364it [2:59:11, 58.78it/s]
+reward of episode 921: 1.0
+
+
+
+
+
+
+
+652171it [2:59:25, 58.38it/s]
+reward of episode 922: 2.0
+
+
+
+
+
+652737it [2:59:35, 56.30it/s]
+reward of episode 923: 0.0
+
+
+
+
+
+
+653408it [2:59:47, 59.55it/s]
+reward of episode 924: 1.0
+
+
+
+
+
+
+
+
+
+654404it [3:00:05, 57.25it/s]
+reward of episode 925: 1.0
+
+
+
+
+
+
+655074it [3:00:17, 50.85it/s]
+reward of episode 926: 1.0
+
+
+
+
+
+
+
+
+655956it [3:00:33, 53.76it/s]
+reward of episode 927: 2.0
+
+
+
+
+
+
+
+
+656863it [3:00:49, 59.28it/s]
+reward of episode 928: 2.0
+
+
+
+
+
+
+657534it [3:01:01, 62.01it/s]
+reward of episode 929: 1.0
+
+
+
+
+
+658073it [3:01:11, 51.03it/s]
+reward of episode 930: 1.0
+
+
+
+
+
+
+658780it [3:01:23, 58.51it/s]
+reward of episode 931: 1.0
+
+
+
+
+
+
+
+
+
+
+
+660005it [3:01:45, 61.50it/s]
+reward of episode 932: 4.0
+
+
+
+
+
+
+660644it [3:01:57, 54.06it/s]
+reward of episode 933: 1.0
+
+
+
+
+
+661238it [3:02:07, 57.40it/s]
+reward of episode 934: 0.0
+
+
+
+
+
+
+
+662066it [3:02:21, 60.36it/s]
+reward of episode 935: 1.0
+
+
+
+
+662513it [3:02:29, 59.14it/s]
+reward of episode 936: 0.0
+
+
+
+
+662991it [3:02:37, 63.73it/s]
+reward of episode 937: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+664286it [3:03:01, 56.34it/s]
+reward of episode 938: 4.0
+
+
+
+
+
+
+
+
+665215it [3:03:18, 59.05it/s]
+reward of episode 939: 1.0
+
+
+
+
+
+
+
+665972it [3:03:31, 46.10it/s]
+reward of episode 940: 0.0
+
+
+
+
+
+
+666634it [3:03:43, 51.63it/s]
+reward of episode 941: 1.0
+
+
+
+
+
+
+
+
+
+667526it [3:04:02, 57.45it/s]
+reward of episode 942: 1.0
+
+
+
+
+
+
+
+668290it [3:04:16, 50.27it/s]
+reward of episode 943: 1.0
+
+
+
+
+
+
+
+668983it [3:04:29, 50.55it/s]
+reward of episode 944: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+670453it [3:04:58, 53.54it/s]
+reward of episode 945: 4.0
+
+
+
+
+
+
+671113it [3:05:10, 52.67it/s]
+reward of episode 946: 0.0
+
+
+
+
+
+671689it [3:05:20, 56.29it/s]
+reward of episode 947: 0.0
+
+
+
+
+
+672240it [3:05:30, 47.44it/s]
+reward of episode 948: 1.0
+
+
+
+
+
+
+672859it [3:05:42, 58.77it/s]
+reward of episode 949: 1.0
+
+
+
+
+
+
+673495it [3:05:54, 31.17it/s]
+reward of episode 950: 1.0
+
+
+
+
+
+
+
+
+
+
+674606it [3:06:14, 58.88it/s]
+reward of episode 951: 3.0
+
+
+
+
+
+
+
+
+
+
+675667it [3:06:34, 48.07it/s]
+reward of episode 952: 3.0
+
+
+
+
+
+
+676343it [3:06:46, 63.15it/s]
+reward of episode 953: 1.0
+
+
+
+
+
+
+
+677185it [3:07:00, 63.44it/s]
+reward of episode 954: 1.0
+
+
+
+
+
+
+677895it [3:07:12, 61.53it/s]
+reward of episode 955: 0.0
+
+
+
+
+
+
+
+678578it [3:07:27, 62.24it/s]
+reward of episode 956: 0.0
+
+
+
+
+
+
+
+679357it [3:07:40, 56.39it/s]
+reward of episode 957: 1.0
+
+
+
+
+
+
+680055it [3:07:52, 60.43it/s]
+reward of episode 958: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+681084it [3:08:17, 41.11it/s]
+reward of episode 959: 2.0
+
+
+
+
+
+
+
+
+
+
+681957it [3:08:37, 54.25it/s]
+reward of episode 960: 2.0
+
+
+
+
+
+
+
+682597it [3:08:51, 56.05it/s]
+reward of episode 961: 0.0
+
+
+
+
+
+
+683288it [3:09:03, 51.55it/s]
+reward of episode 962: 0.0
+
+
+
+
+
+
+
+
+684115it [3:09:19, 56.75it/s]
+reward of episode 963: 2.0
+
+
+
+
+
+
+684781it [3:09:31, 61.15it/s]
+reward of episode 964: 1.0
+
+
+
+
+
+
+
+
+685723it [3:09:47, 60.81it/s]
+reward of episode 965: 2.0
+
+
+
+
+
+
+
+686565it [3:10:01, 62.61it/s]
+reward of episode 966: 1.0
+
+
+
+
+
+
+
+
+
+687639it [3:10:19, 57.64it/s]
+reward of episode 967: 3.0
+
+
+
+
+
+
+
+688430it [3:10:33, 57.36it/s]
+reward of episode 968: 1.0
+
+
+
+
+
+
+
+
+
+
+
+689315it [3:10:55, 58.78it/s]
+reward of episode 969: 0.0
+
+
+
+
+
+
+
+
+
+
+
+690495it [3:11:17, 57.23it/s]
+reward of episode 970: 4.0
+
+
+
+
+
+
+
+
+
+691290it [3:11:35, 52.84it/s]
+reward of episode 971: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+692311it [3:11:59, 46.57it/s]
+reward of episode 972: 0.0
+
+
+
+
+
+
+
+
+
+
+
+693266it [3:12:21, 42.80it/s]
+reward of episode 973: 2.0
+
+
+
+
+
+
+
+
+
+
+
+694134it [3:12:43, 21.54it/s]
+reward of episode 974: 1.0
+
+
+
+
+
+
+
+
+
+694859it [3:13:01, 51.85it/s]
+reward of episode 975: 1.0
+
+
+
+
+
+
+
+
+695561it [3:13:17, 54.77it/s]
+reward of episode 976: 2.0
+
+
+
+
+
+
+
+
+
+696507it [3:13:35, 49.31it/s]
+reward of episode 977: 2.0
+
+
+
+
+
+
+
+
+697270it [3:13:52, 51.81it/s]
+reward of episode 978: 1.0
+
+
+
+
+
+
+
+697960it [3:14:06, 40.56it/s]
+reward of episode 979: 1.0
+
+
+
+
+
+
+
+
+698690it [3:14:21, 44.29it/s]
+reward of episode 980: 1.0
+
+
+
+
+
+
+
+699314it [3:14:35, 55.42it/s]
+reward of episode 981: 1.0
+
+
+
+
+
+
+
+
+
+700112it [3:14:54, 22.84it/s]
+reward of episode 982: 2.0
+
+
+
+
+
+
+
+700827it [3:15:08, 54.62it/s]
+reward of episode 983: 0.0
+
+
+
+
+
+
+
+701499it [3:15:22, 58.03it/s]
+reward of episode 984: 1.0
+
+
+
+
+
+
+
+
+
+
+
+702480it [3:15:44, 55.52it/s]
+reward of episode 985: 2.0
+
+
+
+
+
+
+
+703160it [3:15:58, 36.54it/s]
+reward of episode 986: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+704610it [3:16:33, 50.05it/s]
+reward of episode 987: 5.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+705966it [3:16:59, 57.61it/s]
+reward of episode 988: 5.0
+
+
+
+
+
+
+
+
+
+706938it [3:17:17, 50.61it/s]
+reward of episode 989: 3.0
+
+
+
+
+
+
+
+707669it [3:17:31, 58.21it/s]
+reward of episode 990: 0.0
+
+
+
+
+
+
+
+
+
+708578it [3:17:49, 52.60it/s]
+reward of episode 991: 0.0
+
+
+
+
+
+
+
+
+
+709537it [3:18:07, 57.72it/s]
+reward of episode 992: 2.0
+
+
+
+
+
+
+710180it [3:18:19, 57.40it/s]
+reward of episode 993: 0.0
+
+
+
+
+
+710751it [3:18:29, 56.79it/s]
+reward of episode 994: 0.0
+
+
+
+
+
+
+
+711466it [3:18:43, 53.41it/s]
+reward of episode 995: 0.0
+
+
+
+
+
+
+
+712204it [3:18:57, 52.78it/s]
+reward of episode 996: 0.0
+
+
+
+
+
+
+
+712953it [3:19:11, 56.21it/s]
+reward of episode 997: 1.0
+
+
+
+
+
+
+713609it [3:19:23, 58.49it/s]
+reward of episode 998: 0.0
+
+
+
+
+
+714197it [3:19:35, 54.33it/s]Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 99, in main
+    env.close()
+AttributeError: 'FrameStackingAndResizingEnv' object has no attribute 'close'
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 99, in main
+    env.close()
+AttributeError: 'FrameStackingAndResizingEnv' object has no attribute 'close'
+reward of episode 999: 0.0
+current step is 714169

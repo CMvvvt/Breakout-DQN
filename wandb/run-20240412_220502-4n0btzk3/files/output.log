@@ -1,0 +1,3273 @@
+shape in model:(4, 84, 84)
+shape in model:(4, 84, 84)
+
+
+
+
+
+344it [00:13, 24.51it/s]/Users/ming/Courses/5180/project/dqn-breakout/agent.py:60: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:278.)
+  state = torch.tensor([observation], dtype=torch.float32)
+
+
+
+
+
+
+
+680it [00:27, 24.73it/s]
+reward of episode 0: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1310it [00:56, 22.06it/s]
+reward of episode 1: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2087it [01:31, 21.86it/s]
+reward of episode 2: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3115it [02:14, 23.34it/s]
+reward of episode 3: 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+3766it [02:40, 24.33it/s]
+reward of episode 4: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4561it [03:11, 25.24it/s]
+reward of episode 5: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5671it [03:56, 25.88it/s]
+reward of episode 6: 4.0
+
+
+
+
+
+
+
+
+
+
+
+
+6274it [04:20, 24.56it/s]
+reward of episode 7: 1.0
+
+
+
+
+
+
+
+
+
+
+6775it [04:40, 25.34it/s]
+reward of episode 8: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7644it [05:15, 25.54it/s]
+reward of episode 9: 2.0
+
+
+
+
+
+
+
+
+
+
+
+8170it [05:38, 21.10it/s]
+reward of episode 10: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+8704it [06:04, 23.90it/s]
+reward of episode 11: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9490it [06:36, 25.43it/s]
+reward of episode 12: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10152it [07:04, 23.10it/s]
+reward of episode 13: 1.0
+
+
+
+
+
+
+
+
+
+
+
+10656it [07:26, 25.20it/s]
+reward of episode 14: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11368it [07:56, 23.61it/s]
+reward of episode 15: 1.0
+
+
+
+
+
+
+
+
+
+
+
+11874it [08:18, 19.23it/s]
+reward of episode 16: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12575it [08:48, 24.89it/s]
+reward of episode 17: 1.0
+
+
+
+
+
+
+
+
+
+
+13067it [09:08, 25.28it/s]
+reward of episode 18: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13898it [09:42, 23.99it/s]
+reward of episode 19: 2.0
+
+
+
+
+
+
+
+
+
+
+
+14438it [10:04, 24.94it/s]
+reward of episode 20: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15218it [10:36, 24.60it/s]
+reward of episode 21: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16025it [11:11, 25.23it/s]
+reward of episode 22: 2.0
+
+
+
+
+
+
+
+
+
+
+
+16547it [11:32, 24.41it/s]
+reward of episode 23: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17234it [12:00, 22.33it/s]
+reward of episode 24: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17924it [12:29, 23.95it/s]
+reward of episode 25: 1.0
+
+
+
+
+
+
+
+
+
+
+18410it [12:49, 24.83it/s]
+reward of episode 26: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19232it [13:22, 24.39it/s]
+reward of episode 27: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+19823it [13:47, 25.69it/s]
+reward of episode 28: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20501it [14:15, 24.00it/s]
+reward of episode 29: 1.0
+
+
+
+
+
+
+
+
+
+
+
+21032it [14:37, 24.47it/s]
+reward of episode 30: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21715it [15:05, 24.97it/s]
+reward of episode 31: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+22492it [15:37, 24.25it/s]
+reward of episode 32: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23272it [16:09, 21.45it/s]
+reward of episode 33: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24241it [16:49, 24.97it/s]
+reward of episode 34: 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25310it [17:35, 23.97it/s]
+reward of episode 35: 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+26570it [18:28, 24.88it/s]
+reward of episode 36: 5.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+27187it [18:53, 24.46it/s]
+reward of episode 37: 1.0
+
+
+
+
+
+
+
+
+
+
+
+27709it [19:15, 24.27it/s]
+reward of episode 38: 0.0
+
+
+
+
+
+
+
+
+
+
+28192it [19:35, 24.87it/s]
+reward of episode 39: 0.0
+
+
+
+
+
+
+
+
+
+
+
+28725it [19:58, 23.38it/s]
+reward of episode 40: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+29802it [20:43, 24.74it/s]
+reward of episode 41: 4.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+30411it [21:10, 22.51it/s]
+reward of episode 42: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+30926it [21:33, 24.06it/s]
+reward of episode 43: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+31829it [22:12, 23.07it/s]
+reward of episode 44: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32619it [22:50, 20.27it/s]
+reward of episode 45: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+33325it [23:22, 22.28it/s]
+reward of episode 46: 1.0
+
+
+
+
+
+
+
+
+
+
+33781it [23:42, 22.05it/s]
+reward of episode 47: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+34915it [24:32, 23.16it/s]
+reward of episode 48: 4.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+35899it [25:16, 23.02it/s]
+reward of episode 49: 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+36720it [25:52, 22.77it/s]
+reward of episode 50: 2.0
+
+
+
+
+
+
+
+
+
+
+
+37218it [26:14, 21.56it/s]
+reward of episode 51: 0.0
+
+
+
+
+
+
+
+
+
+
+
+37714it [26:36, 22.05it/s]
+reward of episode 52: 0.0
+
+
+
+
+
+
+
+
+
+
+
+38215it [26:58, 22.56it/s]
+reward of episode 53: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+38832it [27:26, 23.09it/s]
+reward of episode 54: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+39519it [27:56, 21.40it/s]
+reward of episode 55: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+40196it [28:26, 22.88it/s]
+reward of episode 56: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+40880it [28:57, 22.56it/s]
+reward of episode 57: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+41901it [29:42, 22.84it/s]
+reward of episode 58: 4.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+42601it [30:15, 17.65it/s]
+reward of episode 59: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+43491it [30:57, 23.78it/s]
+reward of episode 60: 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+44298it [31:33, 22.49it/s]
+reward of episode 61: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+44826it [31:59, 23.08it/s]
+reward of episode 62: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+45342it [32:23, 20.93it/s]
+reward of episode 63: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+46038it [32:55, 22.14it/s]
+reward of episode 64: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+46770it [33:31, 22.64it/s]
+reward of episode 65: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+47686it [34:13, 23.27it/s]
+reward of episode 66: 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+48222it [34:38, 21.96it/s]
+reward of episode 67: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+49140it [35:19, 22.19it/s]
+reward of episode 68: 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+50048it [36:02, 19.99it/s]
+reward of episode 69: 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+50749it [36:33, 23.10it/s]
+reward of episode 70: 1.0
+
+
+
+
+
+
+
+
+
+
+
+51236it [36:56, 21.63it/s]
+reward of episode 71: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+52236it [37:46, 14.29it/s]
+reward of episode 72: 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+53149it [38:32, 21.50it/s]
+reward of episode 73: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+53666it [38:56, 22.83it/s]
+reward of episode 74: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+54483it [39:38, 23.42it/s]
+reward of episode 75: 2.0
+
+
+
+
+
+
+
+
+
+
+
+54974it [40:00, 23.05it/s]
+reward of episode 76: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+55648it [40:30, 23.44it/s]
+reward of episode 77: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+56528it [41:10, 23.00it/s]
+reward of episode 78: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+57227it [41:44, 23.86it/s]
+reward of episode 79: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+58035it [42:21, 22.70it/s]
+reward of episode 80: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+58643it [42:49, 22.54it/s]
+reward of episode 81: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+59284it [43:18, 23.69it/s]
+reward of episode 82: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+60252it [44:01, 22.82it/s]
+reward of episode 83: 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+60757it [44:25, 21.23it/s]
+reward of episode 84: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+61679it [45:07, 22.76it/s]
+reward of episode 85: 2.0
+
+
+
+
+
+
+
+
+
+
+
+62178it [45:29, 23.72it/s]
+reward of episode 86: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+62966it [46:03, 23.65it/s]
+reward of episode 87: 2.0
+
+
+
+
+
+
+
+
+
+
+
+63458it [46:25, 21.97it/s]
+reward of episode 88: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+64193it [46:57, 22.86it/s]
+reward of episode 89: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+64790it [47:23, 22.67it/s]
+reward of episode 90: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+65486it [47:53, 23.10it/s]
+reward of episode 91: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+66298it [48:29, 23.21it/s]
+reward of episode 92: 2.0
+
+
+
+
+
+
+
+
+
+
+
+66811it [48:51, 23.55it/s]
+reward of episode 93: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+67630it [49:27, 24.53it/s]
+reward of episode 94: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+68269it [49:55, 23.24it/s]
+reward of episode 95: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+69472it [50:48, 23.07it/s]
+reward of episode 96: 4.0
+
+
+
+
+
+
+
+
+
+
+
+
+70009it [51:12, 24.14it/s]
+reward of episode 97: 0.0
+
+
+
+
+
+
+
+
+
+
+70498it [51:32, 23.95it/s]
+reward of episode 98: 0.0
+
+
+
+
+
+
+
+
+
+
+70978it [51:52, 23.87it/s]
+reward of episode 99: 0.0
+
+
+
+
+
+
+
+
+
+
+
+71494it [52:14, 23.29it/s]
+reward of episode 100: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+72217it [52:44, 24.11it/s]
+reward of episode 101: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+73204it [53:26, 24.16it/s]
+reward of episode 102: 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+73912it [53:56, 23.37it/s]
+reward of episode 103: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+74860it [54:36, 24.46it/s]
+reward of episode 104: 3.0
+
+
+
+
+
+
+
+
+
+
+
+75375it [54:58, 24.16it/s]
+reward of episode 105: 0.0
+
+
+
+
+
+
+
+
+
+
+75849it [55:19, 24.23it/s]
+reward of episode 106: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+76630it [56:21, 24.79it/s]
+reward of episode 107: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+77125it [56:46, 17.93it/s]
+reward of episode 108: 0.0
+
+
+
+
+
+
+
+
+
+
+
+77629it [57:08, 21.53it/s]
+reward of episode 109: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+78322it [57:38, 21.17it/s]
+reward of episode 110: 1.0
+
+
+
+
+
+
+
+
+
+
+
+78829it [58:00, 22.69it/s]
+reward of episode 111: 0.0
+
+
+
+
+
+
+
+
+
+
+
+79327it [58:22, 23.25it/s]
+reward of episode 112: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+80288it [59:04, 21.80it/s]
+reward of episode 113: 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+80939it [59:32, 20.12it/s]
+reward of episode 114: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+81469it [59:58, 23.03it/s]
+reward of episode 115: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+81968it [1:00:22, 23.25it/s]
+reward of episode 116: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+82484it [1:00:46, 23.58it/s]
+reward of episode 117: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+83276it [1:01:20, 23.19it/s]
+reward of episode 118: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+83960it [1:01:50, 24.13it/s]
+reward of episode 119: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+84790it [1:02:26, 23.19it/s]
+reward of episode 120: 2.0
+
+
+
+
+
+
+
+
+
+
+
+85252it [1:02:49, 22.63it/s]
+reward of episode 121: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+85953it [1:03:22, 17.09it/s]
+reward of episode 122: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+86628it [1:03:54, 22.41it/s]
+reward of episode 123: 1.0
+
+
+
+
+
+
+
+
+
+
+
+87141it [1:04:17, 23.74it/s]
+reward of episode 124: 0.0
+
+
+
+
+
+
+
+
+
+
+
+87651it [1:04:39, 22.27it/s]
+reward of episode 125: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+88503it [1:05:16, 21.99it/s]
+reward of episode 126: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+89001it [1:05:41, 21.93it/s]
+reward of episode 127: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+89937it [1:06:27, 22.94it/s]
+reward of episode 128: 2.0
+
+
+
+
+
+
+
+
+
+
+
+90403it [1:06:49, 18.47it/s]
+reward of episode 129: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+91579it [1:07:45, 12.75it/s]
+reward of episode 130: 4.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+92273it [1:08:17, 22.66it/s]
+reward of episode 131: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+92776it [1:08:41, 18.19it/s]
+reward of episode 132: 0.0
+
+
+
+
+
+
+
+
+
+
+
+93272it [1:09:03, 23.34it/s]
+reward of episode 133: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+93993it [1:09:39, 21.73it/s]
+reward of episode 134: 1.0
+
+
+
+
+
+
+
+
+
+
+
+94481it [1:10:01, 23.89it/s]
+reward of episode 135: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+95015it [1:10:26, 22.66it/s]
+reward of episode 136: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+95991it [1:11:11, 22.41it/s]
+reward of episode 137: 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+96886it [1:11:54, 23.67it/s]
+reward of episode 138: 2.0
+
+
+
+
+
+
+
+
+
+
+
+97390it [1:12:16, 23.01it/s]
+reward of episode 139: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+98017it [1:12:44, 21.73it/s]
+reward of episode 140: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+99294it [1:13:46, 23.19it/s]
+reward of episode 141: 4.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100048it [1:14:20, 23.48it/s]
+reward of episode 142: 1.0
+
+
+
+
+
+
+
+
+
+
+
+100530it [1:14:42, 23.57it/s]
+reward of episode 143: 0.0
+
+
+
+
+
+
+
+
+
+
+
+101003it [1:15:04, 23.35it/s]
+reward of episode 144: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+101942it [1:15:46, 23.18it/s]
+reward of episode 145: 2.0
+
+
+
+
+
+
+
+
+
+
+
+102411it [1:16:09, 21.73it/s]
+reward of episode 146: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+103112it [1:16:40, 21.99it/s]
+reward of episode 147: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+103771it [1:17:13, 21.97it/s]
+reward of episode 148: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+104800it [1:18:02, 19.66it/s]
+reward of episode 149: 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+105708it [1:18:45, 22.81it/s]
+reward of episode 150: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+106555it [1:19:26, 19.52it/s]
+reward of episode 151: 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+107071it [1:19:53, 15.58it/s]
+reward of episode 152: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+107847it [1:20:29, 21.84it/s]
+reward of episode 153: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+108386it [1:20:55, 21.37it/s]
+reward of episode 154: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+109288it [1:21:41, 22.42it/s]
+reward of episode 155: 2.0
+
+
+
+
+
+
+
+
+
+
+
+109783it [1:22:03, 22.06it/s]
+reward of episode 156: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+110488it [1:22:35, 22.71it/s]
+reward of episode 157: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+111375it [1:23:15, 23.52it/s]
+reward of episode 158: 2.0
+
+
+
+
+
+
+
+
+
+
+
+111858it [1:23:37, 14.63it/s]
+reward of episode 159: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+112563it [1:24:09, 20.74it/s]
+reward of episode 160: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+113448it [1:24:49, 22.84it/s]
+reward of episode 161: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+114529it [1:25:42, 22.81it/s]
+reward of episode 162: 3.0
+
+
+
+
+
+
+
+
+
+
+
+115017it [1:26:03, 23.14it/s]
+reward of episode 163: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+115554it [1:26:27, 23.07it/s]
+reward of episode 164: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+116276it [1:27:04, 23.20it/s]
+reward of episode 165: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+117082it [1:27:41, 20.56it/s]
+reward of episode 166: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+118207it [1:28:34, 21.92it/s]
+reward of episode 167: 4.0
+
+
+
+
+
+
+
+
+
+
+
+
+118723it [1:28:58, 22.98it/s]
+reward of episode 168: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+119650it [1:29:40, 22.18it/s]
+reward of episode 169: 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+120331it [1:30:12, 23.85it/s]
+reward of episode 170: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+120989it [1:30:42, 21.91it/s]
+reward of episode 171: 1.0
+
+
+
+
+
+
+
+
+
+
+
+121490it [1:31:04, 23.99it/s]
+reward of episode 172: 0.0
+
+
+
+
+
+
+
+
+
+
+
+121955it [1:31:26, 23.21it/s]
+reward of episode 173: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+122666it [1:31:58, 22.22it/s]
+reward of episode 174: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+123167it [1:32:22, 15.52it/s]
+reward of episode 175: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+123700it [1:32:46, 21.93it/s]
+reward of episode 176: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+124515it [1:33:25, 21.53it/s]
+reward of episode 177: 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+125028it [1:33:48, 23.54it/s]
+reward of episode 178: 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+126081it [1:34:34, 22.85it/s]
+reward of episode 179: 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+127072it [1:35:19, 22.80it/s]
+reward of episode 180: 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+127593it [1:35:42, 20.03it/s]
+reward of episode 181: 0.0
+127599it [1:35:43, 15.57it/s]Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 75, in main
+    loss = agent.learn()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 83, in learn
+    Q_pred = self.model(states).gather(1, actions).squeeze(1)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/ConvDQN.py", line 49, in forward
+    # Forward the dummy input through the convolutional layers
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 460, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 456, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 75, in main
+    loss = agent.learn()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 83, in learn
+    Q_pred = self.model(states).gather(1, actions).squeeze(1)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/ConvDQN.py", line 49, in forward
+    # Forward the dummy input through the convolutional layers
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 460, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 456, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+KeyboardInterrupt

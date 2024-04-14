@@ -1,0 +1,32 @@
+/Users/ming/Courses/5180/project/dqn-breakout/replay_memory.py:28: FutureWarning: In the future `np.bool` will be defined as the corresponding NumPy scalar.
+  self.dones = np.zeros(max_size, dtype=np.bool)
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 34, in main
+    agent = DQNAgent(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 35, in __init__
+    self.buffer = ReplayMemory(mem_size, input_dims)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/replay_memory.py", line 28, in __init__
+    self.dones = np.zeros(max_size, dtype=np.bool)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'bool'.
+`np.bool` was a deprecated alias for the builtin `bool`. To avoid this error in existing code, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations. Did you mean: 'bool_'?
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 34, in main
+    agent = DQNAgent(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 35, in __init__
+    self.buffer = ReplayMemory(mem_size, input_dims)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/replay_memory.py", line 28, in __init__
+    self.dones = np.zeros(max_size, dtype=np.bool)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'bool'.
+`np.bool` was a deprecated alias for the builtin `bool`. To avoid this error in existing code, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations. Did you mean: 'bool_'?

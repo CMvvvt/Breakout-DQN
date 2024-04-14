@@ -1,0 +1,26 @@
+/Users/ming/Courses/5180/project/dqn-breakout/replay_memory.py:25: FutureWarning: In the future `np.long` will be defined as the corresponding NumPy scalar.
+  self.actions = np.zeros(max_size, dtype=np.long)
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 34, in main
+    agent = DQNAgent(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 35, in __init__
+    self.buffer = ReplayMemory(mem_size, input_dims)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/replay_memory.py", line 25, in __init__
+    self.actions = np.zeros(max_size, dtype=np.long)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'long'. Did you mean: 'log'?
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 34, in main
+    agent = DQNAgent(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 35, in __init__
+    self.buffer = ReplayMemory(mem_size, input_dims)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/replay_memory.py", line 25, in __init__
+    self.actions = np.zeros(max_size, dtype=np.long)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/numpy/__init__.py", line 320, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'long'. Did you mean: 'log'?

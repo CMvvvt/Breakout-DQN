@@ -1,0 +1,34 @@
+/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/gymnasium/envs/registration.py:513: DeprecationWarning: [33mWARN: The environment Breakout-v0 is out of date. You should consider upgrading to version `v4`.
+  logger.deprecation(
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+Saving training model...
+actions's shape should be [32]: torch.Size([32])
+rewards's shape should be [32]: torch.Size([32])
+dones's shape should be [32]: torch.Size([32])
+Qvalues shape should be [32, 4] torch.Size([32, 4])
+Values shape should be [32, 1] torch.Size([32, 1])
+0it [00:00, ?it/s]Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 140, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 98, in main
+    loss = agent.learn()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 125, in learn
+    target_values = rewards + self.gamma * next_q_values * (1 - dones)
+TypeError: unsupported operand type(s) for *: 'float' and 'builtin_function_or_method'
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 140, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 98, in main
+    loss = agent.learn()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 125, in learn
+    target_values = rewards + self.gamma * next_q_values * (1 - dones)
+TypeError: unsupported operand type(s) for *: 'float' and 'builtin_function_or_method'

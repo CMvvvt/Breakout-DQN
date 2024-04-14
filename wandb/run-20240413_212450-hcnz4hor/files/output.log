@@ -1,0 +1,171 @@
+/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/gymnasium/envs/registration.py:513: DeprecationWarning: [33mWARN: The environment Breakout-v0 is out of date. You should consider upgrading to version `v4`.
+  logger.deprecation(
+1000
+2000
+3000
+4000
+5000
+0it [00:00, ?it/s]
+6000
+7000
+8000
+9000
+10000
+
+159it [00:01, 103.03it/s]
+
+
+
+625it [00:08, 94.69it/s]
+
+819it [00:09, 100.38it/s]
+
+
+1219it [00:14, 88.86it/s]
+
+1409it [00:16, 87.48it/s]
+
+1611it [00:18, 102.11it/s]
+
+
+1999it [00:22, 92.12it/s]
+
+2179it [00:24, 81.67it/s]
+
+2349it [00:26, 93.48it/s]
+
+
+2709it [00:30, 102.81it/s]
+
+2902it [00:32, 100.36it/s]
+
+
+3276it [00:36, 97.37it/s]
+
+3472it [00:38, 91.79it/s]
+
+3655it [00:40, 89.66it/s]
+
+3832it [00:42, 85.47it/s]
+
+4006it [00:44, 94.17it/s]
+
+
+4376it [00:48, 82.27it/s]
+
+4552it [00:50, 95.11it/s]
+
+4731it [00:52, 89.80it/s]
+
+4925it [00:54, 95.24it/s]
+
+
+5270it [00:58, 100.21it/s]
+
+5442it [01:00, 83.76it/s]
+
+5609it [01:02, 64.22it/s]
+
+
+5994it [01:06, 84.51it/s]
+reward of episode 23: 1.0, steps of episode: 236
+
+
+6300it [01:10, 86.31it/s]
+
+6486it [01:12, 87.50it/s]
+
+6664it [01:14, 83.61it/s]
+
+
+7042it [01:18, 97.33it/s]
+
+
+7434it [01:22, 91.06it/s]
+
+7626it [01:24, 94.90it/s]
+
+7814it [01:26, 93.23it/s]
+
+8010it [01:28, 97.11it/s]
+
+8208it [01:30, 104.35it/s]
+
+8388it [01:32, 89.46it/s]
+
+
+8721it [01:36, 70.18it/s]
+
+
+
+9192it [01:42, 84.83it/s]
+
+9363it [01:44, 83.76it/s]
+
+9527it [01:46, 83.96it/s]
+
+9704it [01:48, 82.81it/s]
+
+9852it [01:50, 73.60it/s]
+
+
+10184it [01:54, 73.35it/s]
+
+
+10505it [01:58, 83.67it/s]
+
+10665it [02:00, 74.30it/s]
+
+
+10996it [02:04, 86.59it/s]
+
+11157it [02:06, 77.31it/s]
+
+
+11454it [02:10, 53.17it/s]
+
+
+11789it [02:14, 85.94it/s]
+
+11955it [02:16, 85.74it/s]
+
+
+12315it [02:20, 89.13it/s]
+
+12491it [02:22, 80.82it/s]Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 140, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 98, in main
+    loss = agent.learn()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 149, in learn
+    self.model.optimizer.step()
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/optim/optimizer.py", line 385, in wrapper
+    out = func(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/optim/adam.py", line 166, in step
+    adam(
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/optim/adam.py", line 316, in adam
+    func(params,
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/optim/adam.py", line 379, in _single_tensor_adam
+    if weight_decay != 0:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 140, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 98, in main
+    loss = agent.learn()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 149, in learn
+    self.model.optimizer.step()
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/optim/optimizer.py", line 385, in wrapper
+    out = func(*args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/optim/adam.py", line 166, in step
+    adam(
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/optim/adam.py", line 316, in adam
+    func(params,
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/torch/optim/adam.py", line 379, in _single_tensor_adam
+    if weight_decay != 0:
+KeyboardInterrupt
+reward of episode 50: 3.0, steps of episode: 332

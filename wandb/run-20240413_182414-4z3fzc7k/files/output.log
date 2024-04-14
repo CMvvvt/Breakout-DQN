@@ -1,0 +1,46 @@
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 133, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 54, in main
+    agent = DQNAgent(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 41, in __init__
+    self.buffer.populate(env, replay_start_size)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/replay_memory.py", line 99, in populate
+    state = env.reset()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/utils.py", line 119, in reset
+    observation = self.env.reset()
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/gymnasium/core.py", line 467, in reset
+    return self.env.reset(seed=seed, options=options)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/gymnasium/core.py", line 467, in reset
+    return self.env.reset(seed=seed, options=options)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/gymnasium/core.py", line 515, in reset
+    obs, info = self.env.reset(seed=seed, options=options)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/gymnasium/core.py", line 516, in reset
+    return self.observation(obs), info
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/gymnasium/core.py", line 534, in observation
+    raise NotImplementedError
+NotImplementedError
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 133, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 54, in main
+    agent = DQNAgent(
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 41, in __init__
+    self.buffer.populate(env, replay_start_size)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/replay_memory.py", line 99, in populate
+    state = env.reset()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/utils.py", line 119, in reset
+    observation = self.env.reset()
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/gymnasium/core.py", line 467, in reset
+    return self.env.reset(seed=seed, options=options)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/gymnasium/core.py", line 467, in reset
+    return self.env.reset(seed=seed, options=options)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/gymnasium/core.py", line 515, in reset
+    obs, info = self.env.reset(seed=seed, options=options)
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/gymnasium/core.py", line 516, in reset
+    return self.observation(obs), info
+  File "/Users/ming/.pyenv/versions/3.10.13/lib/python3.10/site-packages/gymnasium/core.py", line 534, in observation
+    raise NotImplementedError
+NotImplementedError
+self.env.observation_space, should be (4, 84, 84) Box(0.0, 255.0, (84, 84, 4), float32)
+self.env.action_space, should be 4: Discrete(4)

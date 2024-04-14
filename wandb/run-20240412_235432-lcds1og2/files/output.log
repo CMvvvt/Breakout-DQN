@@ -1,0 +1,17 @@
+0it [00:00, ?it/s]Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 75, in main
+    loss = agent.learn()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 87, in learn
+    rewards = rewards.squeeze(1)
+IndexError: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 103, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 75, in main
+    loss = agent.learn()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 87, in learn
+    rewards = rewards.squeeze(1)
+IndexError: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+shape of reward: torch.Size([32])

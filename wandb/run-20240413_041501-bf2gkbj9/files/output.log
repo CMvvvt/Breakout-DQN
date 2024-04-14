@@ -1,0 +1,284 @@
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+27000
+28000
+29000
+30000
+31000
+32000
+33000
+34000
+35000
+36000
+37000
+38000
+39000
+40000
+41000
+42000
+43000
+44000
+45000
+46000
+47000
+48000
+49000
+50000
+51000
+52000
+53000
+54000
+55000
+56000
+57000
+58000
+59000
+60000
+61000
+62000
+63000
+64000
+65000
+66000
+67000
+68000
+69000
+70000
+71000
+72000
+73000
+74000
+75000
+76000
+77000
+78000
+79000
+80000
+81000
+82000
+83000
+84000
+85000
+86000
+87000
+88000
+89000
+90000
+91000
+92000
+93000
+94000
+95000
+96000
+97000
+98000
+99000
+100000
+
+286it [00:04, 80.00it/s]/Users/ming/Courses/5180/project/dqn-breakout/agent.py:68: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:278.)
+  state = torch.tensor([observation], dtype=torch.float32).to(
+
+
+
+
+
+
+
+
+1554it [00:21, 69.71it/s]
+reward of episode 0: 6.0
+
+
+
+
+
+
+2411it [00:33, 74.94it/s]
+reward of episode 1: 2.0
+
+
+
+
+
+
+
+
+3490it [00:49, 67.95it/s]
+reward of episode 2: 3.0
+
+
+
+
+
+
+
+4217it [01:06, 53.89it/s]
+reward of episode 3: 1.0
+
+
+
+
+
+
+5017it [01:18, 69.29it/s]
+reward of episode 4: 2.0
+
+
+
+
+
+
+5795it [01:30, 61.48it/s]
+reward of episode 5: 2.0
+
+
+
+
+
+
+6515it [01:42, 56.29it/s]
+reward of episode 6: 1.0
+
+
+
+
+
+
+
+
+7548it [01:58, 63.73it/s]
+reward of episode 7: 3.0
+
+
+
+
+8040it [02:06, 66.01it/s]
+reward of episode 8: 0.0
+
+
+
+8441it [02:12, 62.30it/s]
+reward of episode 9: 0.0
+
+
+
+
+
+
+
+
+
+
+9554it [02:32, 62.48it/s]
+reward of episode 10: 3.0
+
+
+
+
+9981it [02:40, 51.32it/s]
+reward of episode 11: 0.0
+
+
+
+
+
+
+
+
+10960it [02:56, 64.78it/s]
+reward of episode 12: 2.0
+
+
+
+
+
+
+11626it [03:08, 59.95it/s]
+reward of episode 13: 1.0
+
+
+
+
+
+
+
+12460it [03:22, 57.13it/s]
+reward of episode 14: 2.0
+
+
+
+
+
+13042it [03:32, 61.93it/s]
+reward of episode 15: 1.0
+
+
+
+
+13501it [03:40, 67.67it/s]
+reward of episode 16: 0.0
+
+
+
+
+
+
+
+14337it [03:54, 58.43it/s]
+reward of episode 17: 2.0
+
+
+
+
+14780it [04:02, 57.29it/s]
+reward of episode 18: 0.0
+
+
+
+
+
+15349it [04:12, 60.43it/s]
+reward of episode 19: 0.0
+
+
+
+15741it [04:19, 54.85it/s]Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 104, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 67, in main
+    action = agent.choose_action(observation)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 68, in choose_action
+    state = torch.tensor([observation], dtype=torch.float32).to(
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 104, in <module>
+    main()
+  File "/Users/ming/Courses/5180/project/dqn-breakout/main.py", line 67, in main
+    action = agent.choose_action(observation)
+  File "/Users/ming/Courses/5180/project/dqn-breakout/agent.py", line 68, in choose_action
+    state = torch.tensor([observation], dtype=torch.float32).to(
+KeyboardInterrupt
