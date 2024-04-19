@@ -1,10 +1,10 @@
 numpy
 matplotlib
-gymnasium
+gym<0.26.0
 tqdm
 ipdb
 wandb
 opencv-python
 moviepy
 imageio
-gymnasium[atari]
+gym[atari]

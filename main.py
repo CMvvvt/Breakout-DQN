@@ -4,7 +4,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 import ipdb
 import os
-import gymnasium as gym
+import gym
 from random import sample, random
 from tqdm import tqdm
 import wandb
@@ -12,48 +12,48 @@ from collections import deque
 import numpy as np
 import time
 from ConvDQN import ConvDQN
-from utils import FrameStackingAndResizingEnv, ExponentialSchedule, Environment
+from utils import FrameStackingAndResizingEnv, ExponentialSchedule, reshape_CHW
 from agent import DQNAgent
 from tqdm import tqdm
+from atari_wrappers import wrap_deepmind, make_atari
 
 
-render = False
-to_save = False
 to_load = False
-
-print("Render: ", render)
-print("Save: ", to_save)
-print("Load: ", to_load)
 
 # Parameters:
 MEM_SIZE = 1_000_000
-REPLAY_START_SIZE = 100_000
+REPLAY_START_SIZE = 50_000
 BATCH_SIZE = 32
 EPS_MIN = 0.1
 EPS_MAX = 1
 EXPLORATION_STEPS = 1_000_000
 GAMMA = 0.99
-LEARNING_RATE = 0.001
-REPLACE_TARGET_STEPS = 10_000
-SAVE_MODEL_STEPS = 100_000
-RENDER_STEPS = 10000
-TRAINING_NAME = "DQN-Breakout-video-log"
-ENV_NAME = "Breakout-v0"
+LEARNING_RATE = 0.00025
+TARGET_UPDATE = 10_000
+RENDER_STEPS = 100_000
+MAX_STEPS = 20000000
+SAVE_MODEL_STEPS = 200_000
+EVALUATION_STEPS = 100_000
+
+ENV_NAME = "SpaceInvaders"
+# ENV_NAME = "Breakout"
+METHOD = "DQN"
 
 
 def main():
     wandb.init(
         project="dqn-tutorial",
-        name=f"{TRAINING_NAME} lr_{LEARNING_RATE} | eps_{EPS_MAX}-{EPS_MIN}-1m",
+        name=f"{ENV_NAME}-{METHOD} lr_{LEARNING_RATE} | eps_{EPS_MAX}-{EPS_MIN}-1m",
     )
-    env = gym.make(ENV_NAME)
-    env = FrameStackingAndResizingEnv(env, h=84, w=84, num_stack=4)
-    # env = Environment(ENV_NAME)
+    env_raw = make_atari(f"{ENV_NAME}NoFrameskip-v4")
+    env = wrap_deepmind(
+        env_raw, frame_stack=False, episode_life=True, clip_rewards=True
+    )
+    C, H, W = reshape_CHW(env.reset()).shape
 
-    best_score = -np.inf
     agent = DQNAgent(
         env=env,
-        input_dims=env.observation_space.shape,
+        input_dims=(5, H, W),
         n_actions=env.action_space.n,
         mem_size=MEM_SIZE,
         replay_start_size=REPLAY_START_SIZE,
@@ -63,75 +63,58 @@ def main():
         exploration_steps=EXPLORATION_STEPS,
         gamma=GAMMA,
         lr=LEARNING_RATE,
-        replace_target_steps=REPLACE_TARGET_STEPS,
-        save_model_steps=SAVE_MODEL_STEPS,
-        training_name=TRAINING_NAME,
     )
 
     if os.path.isfile("models/local.pt") and to_load:
         agent.load_agent()
 
-    epochs = 10000
-    episode_rewards = []
-    last_log_video_step = 0
-
+    queue = deque(maxlen=5)
     tq = tqdm()
-    last_step = 0
-    for i in range(epochs):
-        done = False
-        # observation.shape = [4, 84, 84]
-        observation = env.reset()
-        total_reward = 0
+    done = True
+    progress = tqdm(range(MAX_STEPS), total=MAX_STEPS, ncols=50, leave=False, unit="b")
 
-        while not done:
-            if render:
-                env.render()
-            tq.update(1)
-            action = agent.choose_action(observation)
+    for step in progress:
+        if done:
+            env.reset()
+            env.step(1)  # Fire the ball
+            for i in range(10):  # fill the queue with noop action
+                obs, _, _, _ = env.step(0)
+                obs = reshape_CHW(obs)
+                queue.append(obs)
 
-            # next_observation.shape = [4, 84, 84]
-            next_observation, reward, done, info = env.step(action)
+        train = agent.buffer.size > 50000
 
-            total_reward += reward
+        state = torch.cat(list(queue))[1:].unsqueeze(0)
+        # state(1,4,84,84)
 
-            agent.insert_buffer(observation, action, reward, next_observation, done)
+        action = agent.choose_action(state, step)
+
+        obs, reward, done, info = env.step(action)
+        obs = reshape_CHW(obs)
+
+        # Insert to buffer
+        queue.append(obs)
+        agent.insert_buffer(torch.cat(list(queue)).unsqueeze(0), action, reward, done)
+
+        if step % 4 == 0:
             loss = agent.learn()
+            wandb.log({"loss": loss}, step)
 
-            observation = next_observation
+        if step % SAVE_MODEL_STEPS == 0:
+            agent.save_agent("DQN-Breakout", step)
 
-        episode_rewards.append(total_reward)
-        print(
-            f"reward of episode {i}: {total_reward}, steps of episode: {agent.steps - last_step}"
-        )
-        last_step = agent.steps
+        if step % TARGET_UPDATE == 0:
+            agent.replace_target_model()
 
-        wandb.log(
-            {
-                "loss": loss.detach().item(),
-                "eps": agent.exploration.value(agent.steps),
-                "episode_reward": total_reward,
-            },
-            step=agent.steps,
-        )
-
-        # plot video
-        if (
-            agent.steps > 0
-            and last_log_video_step == 0
-            or (agent.steps > last_log_video_step + 100000)
-        ):
-            rew, frames = agent.run_episode()
-            #  frames.shape == (T, H, W, C)
+        if step % EVALUATION_STEPS == 0:
+            frames, avg_reward = agent.evaluate(env_raw, step, episodes=15)
             wandb.log(
                 {
-                    "reward": rew,
-                    "video": wandb.Video(
-                        frames.transpose(0, 3, 1, 2), str(rew), fps=25
-                    ),
-                }
+                    "evaluate_video": wandb.Video(frames.transpose(0, 3, 1, 2), fps=25),
+                    "avg_reward": avg_reward,
+                },
+                step,
             )
-
-            last_log_video_step = agent.steps
 
     env.close()
 

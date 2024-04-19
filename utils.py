@@ -5,15 +5,29 @@ import numpy as np
 import cv2
 from gymnasium.spaces import Box
 import gymnasium as gym
-from atari_wrapper import make_wrap_atari
+import torch
+
 from random import randint
 
 
+def reshape_CHW(obs):
+    """
+    Change to shape tp (channel, height, weight)
+    """
+    obs = torch.from_numpy(obs)
+    h, w = obs.shape[:2]
+    return obs.view(1, h, w)
+
+
 class ExponentialSchedule:
+    """
+    Copied from the implementation of my assignment 8
+    """
+
     def __init__(self, value_from, value_to, num_steps):
         """Exponential schedule from `value_from` to `value_to` in `num_steps` steps.
 
-        $value(t) = a \exp (b t)$
+        $value(t) = a exp (b t)$
 
         :param value_from: Initial value
         :param value_to: Final value
@@ -95,71 +109,71 @@ class FrameStackingAndResizingEnv:
         super(FrameStackingAndResizingEnv, self).render(mode)
 
 
-class Environment:
-    def __init__(self, env_name):
-        self.env = make_wrap_atari(env_name)
+# class Environment:
+#     def __init__(self, env_name):
+#         self.env = make_wrap_atari(env_name)
 
-        # self.action_space = self.env.action_space
-        # self.observation_space = self.env.observation_space
+#         # self.action_space = self.env.action_space
+#         # self.observation_space = self.env.observation_space
 
-    def seed(self, seed):
-        """
-        Control the randomness of the environment
-        """
-        self.env.seed(seed)
+#     def seed(self, seed):
+#         """
+#         Control the randomness of the environment
+#         """
+#         self.env.seed(seed)
 
-    def reset(self):
-        """
-        When running dqn:
-            observation: np.array
-                stack 4 last frames, shape: (84, 84, 4)
+#     def reset(self):
+#         """
+#         When running dqn:
+#             observation: np.array
+#                 stack 4 last frames, shape: (84, 84, 4)
 
-        When running pg:
-            observation: np.array
-                current RGB screen of game, shape: (210, 160, 3)
-        """
-        observation = self.env.reset()
+#         When running pg:
+#             observation: np.array
+#                 current RGB screen of game, shape: (210, 160, 3)
+#         """
+#         observation = self.env.reset()
 
-        return np.array(observation)
+#         return np.array(observation)
 
-    def step(self, action):
-        """
-        When running dqn:
-            observation: np.array
-                stack 4 last preprocessed frames, shape: (84, 84, 4)
-            reward: int
-                wrapper clips the reward to {-1, 0, 1} by its sign
-                we don't clip the reward when testing
-            done: bool
-                whether reach the end of the episode?
+#     def step(self, action):
+#         """
+#         When running dqn:
+#             observation: np.array
+#                 stack 4 last preprocessed frames, shape: (84, 84, 4)
+#             reward: int
+#                 wrapper clips the reward to {-1, 0, 1} by its sign
+#                 we don't clip the reward when testing
+#             done: bool
+#                 whether reach the end of the episode?
 
-        When running pg:
-            observation: np.array
-                current RGB screen of game, shape: (210, 160, 3)
-            reward: int
-                if opponent wins, reward = +1 else -1
-            done: bool
-                whether reach the end of the episode?
-        """
-        if not self.env.action_space.contains(action):
-            raise ValueError("Ivalid action!!")
+#         When running pg:
+#             observation: np.array
+#                 current RGB screen of game, shape: (210, 160, 3)
+#             reward: int
+#                 if opponent wins, reward = +1 else -1
+#             done: bool
+#                 whether reach the end of the episode?
+#         """
+#         if not self.env.action_space.contains(action):
+#             raise ValueError("Ivalid action!!")
 
-        observation, reward, done, info = self.env.step(action)
+#         observation, reward, done, info = self.env.step(action)
 
-        return np.array(observation), reward, done, info
+#         return np.array(observation), reward, done, info
 
-    @property
-    def action_space(self):
-        print("self.env.action_space, should be 4:", self.env.action_space)
-        return self.env.action_space
+#     @property
+#     def action_space(self):
+#         print("self.env.action_space, should be 4:", self.env.action_space)
+#         return self.env.action_space
 
-    @property
-    def observation_space(self):
-        print(
-            "self.env.observation_space, should be (4, 84, 84)",
-            self.env.observation_space,
-        )
-        return self.env.observation_space
+#     @property
+#     def observation_space(self):
+#         print(
+#             "self.env.observation_space, should be (4, 84, 84)",
+#             self.env.observation_space,
+#         )
+#         return self.env.observation_space
 
 
 if __name__ == "__main__":
