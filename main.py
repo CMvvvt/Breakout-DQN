@@ -12,7 +12,7 @@ from collections import deque
 import numpy as np
 import time
 from ConvDQN import ConvDQN
-from utils import FrameStackingAndResizingEnv, ExponentialSchedule, reshape_CHW
+from utils import FrameStackingEnv, ExponentialSchedule, reshape_CHW
 from agent import DQNAgent
 from tqdm import tqdm
 from atari_wrappers import wrap_deepmind, make_atari
@@ -28,14 +28,15 @@ EPS_MIN = 0.1
 EPS_MAX = 1
 EXPLORATION_STEPS = 1_000_000
 GAMMA = 0.99
-LEARNING_RATE = 0.00025
+LEARNING_RATE = 0.0001
 TARGET_UPDATE = 10_000
 RENDER_STEPS = 100_000
 MAX_STEPS = 20000000
 SAVE_MODEL_STEPS = 200_000
 EVALUATION_STEPS = 100_000
 
-ENV_NAME = "SpaceInvaders"
+# ENV_NAME = "SpaceInvaders"
+ENV_NAME = "Pong"
 # ENV_NAME = "Breakout"
 METHOD = "DQN"
 
@@ -43,11 +44,11 @@ METHOD = "DQN"
 def main():
     wandb.init(
         project="dqn-tutorial",
-        name=f"{ENV_NAME}-{METHOD} lr_{LEARNING_RATE} | eps_{EPS_MAX}-{EPS_MIN}-1m",
+        name=f"{ENV_NAME}-{METHOD} lr_{LEARNING_RATE}",
     )
-    env_raw = make_atari(f"{ENV_NAME}NoFrameskip-v4")
+    env_without_wrapping = make_atari(f"{ENV_NAME}NoFrameskip-v4")
     env = wrap_deepmind(
-        env_raw, frame_stack=False, episode_life=True, clip_rewards=True
+        env_without_wrapping, frame_stack=False, episode_life=True, clip_rewards=True
     )
     C, H, W = reshape_CHW(env.reset()).shape
 
@@ -107,7 +108,9 @@ def main():
             agent.replace_target_model()
 
         if step % EVALUATION_STEPS == 0:
-            frames, avg_reward = agent.evaluate(env_raw, step, episodes=15)
+            frames, avg_reward = agent.evaluate_performance(
+                env_without_wrapping, step, episodes=15
+            )
             wandb.log(
                 {
                     "evaluate_video": wandb.Video(frames.transpose(0, 3, 1, 2), fps=25),

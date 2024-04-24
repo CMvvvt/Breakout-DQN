@@ -25,13 +25,6 @@ class ConvDQN(nn.Module):
             nn.ReLU(),
         )
 
-        # self.conv1 = nn.Conv2d(4, 32, kernel_size=8, stride=4, bias=False)
-        # self.conv2 = nn.Conv2d(32, 64, kernel_size=4, stride=2, bias=False)
-        # self.conv3 = nn.Conv2d(64, 64, kernel_size=3, stride=1, bias=False)
-        # self.fc1 = nn.Linear(64 * 7 * 7, 512)
-        # self.fc2 = nn.Linear(512, outputs)
-        # self.device = device
-
         # Setup the fc layer
         self.fc_net = nn.Sequential(
             nn.Linear(64 * 7 * 7, 512),
@@ -51,11 +44,9 @@ class ConvDQN(nn.Module):
 
         if type(m) == nn.Conv2d:
             torch.nn.init.kaiming_normal_(m.weight, nonlinearity="relu")
-            # m.bias.data.fill_(0.1)
 
     # Ensure x is correctly formatted (i.e., [batch_size, channels, height, width]).
     def forward(self, x):
-        # x.shape is = (32, 1, 84, 84)??
         x = x.to(self.device).float() / 255.0
 
         # print("X's shape:", x.shape)

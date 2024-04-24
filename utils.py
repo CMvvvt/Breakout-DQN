@@ -64,14 +64,14 @@ class ExponentialSchedule:
             return self.a * math.exp(self.b * step)
 
 
-class FrameStackingAndResizingEnv:
-    def __init__(self, env, h, w, num_stack=4):
+class FrameStackingEnv:
+    def __init__(self, env, h=84, w=84, stacks=4):
         self.env = env
-        self.n = num_stack
+        self.n = stacks
         self.w = w
         self.h = h
 
-        self.buffer = np.zeros((num_stack, h, w), "uint8")
+        self.buffer = np.zeros((stacks, h, w), "uint8")
         self.frame = None
 
     def _preprocess_frame(self, frame):
@@ -79,124 +79,18 @@ class FrameStackingAndResizingEnv:
         image = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
         return image
 
-    @property
-    def observation_space(self):
-        return Box(low=0, high=255, shape=(self.n, self.h, self.w), dtype=np.uint8)
-
-    @property
-    def action_space(self):
-        return self.env.action_space
-
     def step(self, action):
-        im, reward, done, info, _ = self.env.step(action)
-        self.frame = im.copy()
-        im = self._preprocess_frame(im)
+        obs, reward, done, info, _ = self.env.step(action)
+        self.frame = obs.copy()
+        obs = self._preprocess_frame(obs)
         self.buffer[1 : self.n, :, :] = self.buffer[0 : self.n - 1, :, :]
-        self.buffer[0, :, :] = im
+        self.buffer[0, :, :] = obs
 
         return (self.buffer.copy(), reward, done, info)
 
     def reset(self):
-        im, _ = self.env.reset()
-        self.frame = im.copy()
-        im = self._preprocess_frame(im)
-        self.buffer = np.stack([im] * self.n, 0)
+        obs, _ = self.env.reset()
+        self.frame = obs.copy()
+        obs = self._preprocess_frame(obs)
+        self.buffer = np.stack([obs] * self.n, 0)
         return self.buffer.copy()
-
-    def render(self, mode):
-        if mode == "rgb_array":
-            return self.frame
-        super(FrameStackingAndResizingEnv, self).render(mode)
-
-
-# class Environment:
-#     def __init__(self, env_name):
-#         self.env = make_wrap_atari(env_name)
-
-#         # self.action_space = self.env.action_space
-#         # self.observation_space = self.env.observation_space
-
-#     def seed(self, seed):
-#         """
-#         Control the randomness of the environment
-#         """
-#         self.env.seed(seed)
-
-#     def reset(self):
-#         """
-#         When running dqn:
-#             observation: np.array
-#                 stack 4 last frames, shape: (84, 84, 4)
-
-#         When running pg:
-#             observation: np.array
-#                 current RGB screen of game, shape: (210, 160, 3)
-#         """
-#         observation = self.env.reset()
-
-#         return np.array(observation)
-
-#     def step(self, action):
-#         """
-#         When running dqn:
-#             observation: np.array
-#                 stack 4 last preprocessed frames, shape: (84, 84, 4)
-#             reward: int
-#                 wrapper clips the reward to {-1, 0, 1} by its sign
-#                 we don't clip the reward when testing
-#             done: bool
-#                 whether reach the end of the episode?
-
-#         When running pg:
-#             observation: np.array
-#                 current RGB screen of game, shape: (210, 160, 3)
-#             reward: int
-#                 if opponent wins, reward = +1 else -1
-#             done: bool
-#                 whether reach the end of the episode?
-#         """
-#         if not self.env.action_space.contains(action):
-#             raise ValueError("Ivalid action!!")
-
-#         observation, reward, done, info = self.env.step(action)
-
-#         return np.array(observation), reward, done, info
-
-#     @property
-#     def action_space(self):
-#         print("self.env.action_space, should be 4:", self.env.action_space)
-#         return self.env.action_space
-
-#     @property
-#     def observation_space(self):
-#         print(
-#             "self.env.observation_space, should be (4, 84, 84)",
-#             self.env.observation_space,
-#         )
-#         return self.env.observation_space
-
-
-if __name__ == "__main__":
-    env = gym.make("Breakout-v0", render_mode="rbg_array")
-    env = FrameStackingAndResizingEnv(env, 480, 640)
-
-    # print(env.observation_space.shape)
-    # print(env.action_space)
-
-    im = env.reset()
-    idx = 0
-    ims = []
-    for i in range(im.shape[-1]):
-        ims.append(im[:, :, i])
-    cv2.imwrite(f"/tmp/{idx}.jpg", np.hstack(ims))
-
-    env.step(1)
-
-    for _ in range(10):
-        idx += 1
-        im, _, _, _ = env.step(randint(0, 3))
-        for i in range(im.shape[-1]):
-            ims.append(im[:, :, i])
-
-        cv2.imwrite(f"tmp/{idx}.jpg", np.hstack(ims))
-        ims = []

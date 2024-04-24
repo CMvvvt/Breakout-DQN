@@ -93,13 +93,7 @@ class DQNAgent:
     def replace_target_model(self):
         self.target.load_state_dict(self.model.state_dict())
 
-    def save_agent(self, name, step):
-        self.model.save_model("training", name, step)
-
-    def load_agent(self, name, step):
-        self.model.load_model("training", name, step)
-
-    def evaluate(self, env, step, episodes=10):
+    def evaluate_performance(self, env, step, episodes=10):
         env = wrap_deepmind(env)
         episode_rewards = []
         queue = deque(maxlen=5)
@@ -131,3 +125,9 @@ class DQNAgent:
         avg_reward = float(sum(episode_rewards)) / float(episodes)
 
         return frames, avg_reward
+
+    def save_agent(self, name, step):
+        self.model.save_model("training", name, step)
+
+    def load_agent(self, name, step):
+        self.model.load_model("training", name, step)

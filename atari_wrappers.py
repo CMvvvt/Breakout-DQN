@@ -239,45 +239,6 @@ class LazyFrames(object):
         return self._force()[i]
 
 
-class RenderEnv:
-    def __init__(self, env, h, w, num_stack=4):
-        self.frame = None
-
-    def _preprocess_frame(self, frame):
-        image = cv2.resize(frame, (self.w, self.h))
-        image = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
-        return image
-
-    @property
-    def observation_space(self):
-        return Box(low=0, high=255, shape=(self.n, self.h, self.w), dtype=np.uint8)
-
-    @property
-    def action_space(self):
-        return self.env.action_space
-
-    def step(self, action):
-        im, reward, done, info, _ = self.env.step(action)
-        self.frame = im.copy()
-        im = self._preprocess_frame(im)
-        self.buffer[1 : self.n, :, :] = self.buffer[0 : self.n - 1, :, :]
-        self.buffer[0, :, :] = im
-
-        return (self.buffer.copy(), reward, done, info)
-
-    def reset(self):
-        im, _ = self.env.reset()
-        self.frame = im.copy()
-        im = self._preprocess_frame(im)
-        self.buffer = np.stack([im] * self.n, 0)
-        return self.buffer.copy()
-
-    def render(self, mode):
-        if mode == "rgb_array":
-            return self.frame
-        super(FrameStackingAndResizingEnv, self).render(mode)
-
-
 def make_atari(env_id, max_episode_steps=400000):
     env = gym.make(env_id)
     env._max_episode_steps = max_episode_steps
